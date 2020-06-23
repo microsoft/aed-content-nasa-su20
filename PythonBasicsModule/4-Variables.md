@@ -16,7 +16,7 @@ Try copying the code below to make some of your own variables:
 numberOfRocks = 5
 
 # Float Variable
-tempInSpace = -50.9
+tempInSpace = -457.87
 
 # String Variable
 stringVar = "Artemis Rover"

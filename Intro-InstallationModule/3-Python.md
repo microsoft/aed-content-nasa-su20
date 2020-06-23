@@ -4,7 +4,7 @@ This unit will introduce you to Python, one of the many programming languages.
 
 ## A little bit about Python
 
-Python was created in 1991 by Guido van Rossum and is named after the television show Monty Python. Python is a high level programming language that means as a programmer the code is easier to write and Python does more heavy lifting behind the scenes. Finally, Python makes use of spaces and tabs for a lot of its syntax, which you will see later.
+Python was created in 1991 by Guido van Rossum and is named after the television show Monty Python. Python is a high level programming language that means, from the programmer's point of view, the code is easier to write and Python does more heavy lifting behind the scenes. Finally, Python makes use of spaces and tabs for a lot of its syntax, which you will see later.
 
 ## Why Python
 
@@ -12,7 +12,7 @@ Out of all the programming languages out there, you may be asking why we choose 
 
 ## Real World Examples of Python at Work
 
-Examples of software written in Python include YouTube, Dropbox, parts of Google, and many more. NASA even has a page of open sourced projects, many of which are programmed in Python.
+Examples of software that include Python code are YouTube, Dropbox, Google, and many more. NASA even has a page of open sourced projects, many of which are programmed in Python.
 
 ## Jupyter Notebooks and Python
 

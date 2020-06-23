@@ -6,7 +6,7 @@ Now that you have learned a little bit about what code is, in this section you w
 
 Visual Studio Code (also referred to as VS Code) is a free, open-sourced, code editor. We can break this description down a little farther to get a better understanding:
 
-- **code editor**: a text editor that is made specifically for writing, running and debugging code. Comparable to an application like Microsoft Word, but with added functionally for writing code like autocomplete and ability to run code.
+- **code editor**: a text editor that is made specifically for writing, running and debugging code. They are comparable to an application like Microsoft Word, but with added functionally for writing code like autocomplete and ability to run code.
 
 - **open-sourced**: software with code that anyone can look at, modify and enhance. The main takeaway from this is that if there is a feature not in the software, someone (or even you) has the ability to create it and add it to VS Code.
 
