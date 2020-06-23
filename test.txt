@@ -1,7 +1,0 @@
-brown
-grey
-black
-unknown
-black
-unknown
-brown
