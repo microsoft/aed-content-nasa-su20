@@ -1,10 +1,10 @@
 # Installing Visual Studio Code
 
-While it was great reading about VS Code, a much more fun way to learn about it is to install it and begin playing around. This unit will teach you how to do exactly that.
+While it was great reading about VS Code, a much more exciting way to learn about it is to install it and begin playing around. This unit will teach you how to do exactly that.
 
 ## Installing VS Code
 
-As mentioned before, VS Code is free and available [here](https://code.visualstudio.com/Download). Simply click on the download box according to what OS you are running, then click on the grey box at the bottom left of the screen once it is done downloading.
+As mentioned before, VS Code is free and available [here](https://code.visualstudio.com/Download). Simply click on the download box according to what OS you are running, then click on the executable file (the grey box at the bottom left of the screen) once it is done downloading to initiate the installation.
 
 > [!NOTE]
 > The picture below depicts a user using a Windows computer, but you should choose the box that represents your system.

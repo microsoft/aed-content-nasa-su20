@@ -6,6 +6,4 @@ Now that we have the function made, we will need to include a call to it so it w
 countMoonRocks(line)
 ```
 
-:::image type="content" source="Media\AddCallToFunction.png" alt-text="test":::
-
-This will call the function that we have created every time that we discover a new rock. The function will then add up each type of rock to its respective variable. Now that we have all of the rock counts in their variables, we can use some additional code to write summaries about them.
+This will call the function that we have created every time that we discover a new rock. The function will then count each type of rock and store this number in the respective variable. Now that we have all of the rock counts in their variables, we can use some additional code to write summaries about them.

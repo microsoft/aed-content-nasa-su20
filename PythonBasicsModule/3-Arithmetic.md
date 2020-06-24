@@ -1,5 +1,9 @@
 # Arithmetic
 
+Math is used frequently in computer science and the concepts will be great tools for your coding arsenal. Python has many features that allow you to perform computations on numbers.
+
+## Simple Calculations
+
 Similar to a calculator you, can use the operators + , - , * , and / in Python.
 
 For example, write the following in the editor and then click the run button to see the output.
@@ -16,22 +20,25 @@ For example, write the following in the editor and then click the run button to 
 
 ```python
 # Finding how far a rocket has gone by multiplying speed by time travelling
-1000 * 2
+17000 * 2
 ```
 
 ```python
-# Separating 10 space rocks in 4 piles
+# Number of rocks per pile if we separate 10 space rocks in 4 piles
 10 / 4
 ```
 
 Furthermore, just like on calculators, the order of operations is in play and you can use parenthesis to combat this.
 Try copying the code below into a Jupyter notebook cell and running it. Notice how you get two different numbers.
-This is because the order of operations computes multiplication and division before addition and subtraction.
 
 ```python
  2 + 5 * 3
 (2 + 5) * 3
 ```
+
+This is because the order of operations computes multiplication and division before addition and subtraction.
+
+## More Advanced Math
 
 There are also more advanced calculations that Python can compute listed below:
 
@@ -55,5 +62,3 @@ There are also more advanced calculations that Python can compute listed below:
 # How many even piles of 2 we can make with 5 rocks
 5 // 2
 ```
-
-Math is used frequently in computer science and these concepts will be great tools for your coding arsenal.

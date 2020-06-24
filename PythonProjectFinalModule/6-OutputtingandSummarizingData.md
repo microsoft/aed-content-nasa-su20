@@ -15,8 +15,8 @@ Next, let's provide some more general data like the type of rock that was the mo
 Try to figure this out and if you get stuck, read below for the answer:
 
 ```python
-print("The rock that was found the most was: ", max(basalt, ))
-print("The rock that was found the least was: ", min(basalt, ))
+print("The max number of one type of rock found was: ", max(basalt, ))
+print("The minimum number of one type of rock found was: ", min(basalt, ))
 ```
 
 Congratulations, you have now successfully programmed Artemis to give a summary about the different types of rock data that it found.

@@ -9,7 +9,7 @@ There are four main variable types:
 - String: These are chains of characters which are surrounded by single or double quotes like "hi", "NASA", "Space Rocks"
 - Boolean: Represents either True or False
 
-Try copying the code below to make some of your own variables:
+Try copying the code below and clicking the run button to make some of your own variables:
 
 ```python
 # Integer Variable

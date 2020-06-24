@@ -1,6 +1,6 @@
 # Understanding Visual Studio Code
 
-Now that you have learned a little bit about what code is, in this section you will learn about tools developers use to assist them in writing it. Specifically, in this unit, you will learn about code editors and Visual Studio Code.
+Now that you have been informed a little bit about what code is, you can move on to learning about tools developers use to assist them in writing it. Specifically, in this unit, you will learn about code editors and Visual Studio Code.
 
 ## What is Visual Studio Code
 

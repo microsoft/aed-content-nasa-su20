@@ -4,13 +4,13 @@ Now that we have installed everything that we need, we can create our own Jupyte
 
 ## Creating a Jupyter Notebook File
 
-To create a Jupyter Notebook file that will run our Python code go to VS Code and locate the "file" tab at the top of the screen. Click on this to view a drop down menu and click on "new file". You will then be taken to a blank file. Now we are going to make this into a Jupyter file, so click file and save or ctrl s. An optional step is to make a folder to easily organize all of the Jupyter files you will create. Name your file anything you please and pick a location you want to save the file and change the file type to "Jupyter" from the drop down menu. This will save your file to your computer and change the type of document to a Jupyter Notebook file that we can code in.
+To create a Jupyter Notebook file that will run our Python code go to VS Code and locate the "file" tab at the top of the screen. Click on this to view a drop down menu and click on "new file". You will then be taken to a blank file. Now we are going to make this into a Jupyter file, so click file and save or ctrl s. An optional step is to make a folder to easily organize all of the Jupyter files you will create. Name your file anything you please, pick a location you want to save the file, and change the file type to "Jupyter" from the drop down menu. This will save the file to your computer and change the type of document to a Jupyter Notebook file that we can code in. You will know it worked if in the top left of the screen you see the name you gave to the file followed by ".ipynb".
 
 :::image type="content" source="Media\MakeJupyter.png" alt-text="Set Python environment":::
 
 ## Configuring Python Environment
 
-Once the file changes to Jupyter Notebook, on the bottom left of the window, you will need to choose which Python environment you are using. Simply click the box and select the version of Python that you installed. You will need to do this at the top right of the window as well. Choosing the environment tells VS Code what version of Python you installed and where to find it.
+Once the file changes to Jupyter Notebook, on the bottom left of the window, you will need to choose which Python environment you are using. Simply click the box and select the version of Python that you installed. You will need to do this at the top right of the window as well. Choosing the environment tells VS Code what version of Python you installed and where VS Code can find it.
 
 :::image type="content" source="Media\JupyterEnvironment.png" alt-text="Set Python environment":::
 
