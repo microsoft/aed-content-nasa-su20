@@ -4,13 +4,18 @@ The next step in our application is to add a function that will look at a line o
 
 ```python
 def countMoonRocks(s):
-
-  if("basalt" in s):
-    print("found a basalt\n")
     global basalt
-    basalt += 1
-    
-  return
+    global breccia
+    global highland
+    global regolith
+
+    if("basalt" in s):
+        print("found a basalt\n")
+        basalt += 1
+
+    #TODO Add if statements for breccia, highland and regolith
+
+    return
 ```
 
 As you recall, these lines will create a function that has a parameter of a string variable "s" and does not return anything. We will be calling the function and passing in a rock name that will have one of four: Basalt, Breccia, Highland, or Regolith. To ensure that the variables will remember how many rocks they have counted, we will need to make each rock type a global variable. To increment the correct variable based upon the types of rocks that Artemis encountered, we will use if statements.

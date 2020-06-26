@@ -9,7 +9,7 @@ In this module, you will build a simple Python/Jupyter Notebooks program to comp
 In the units following, you will learn many computer science topics and use them to create an end-to-end solution. Along the way, you will learn:
 
 - How to write variables in the context of a program
-- How to use prebuilt functions to read data from a text file
+- How to use prebuilt  functions to read data from a text file
 - How to create a function and call it in the context of a program
 - How to write conditionals and loops in the context of a program
 
@@ -17,5 +17,5 @@ In the units following, you will learn many computer science topics and use them
 
 - Visual Studio Code installed
 - Python Extension installed in VS Code
-- Python installed
+- Python and Jupyter Notebooks installed
 - Knowledge about introductory Python topics

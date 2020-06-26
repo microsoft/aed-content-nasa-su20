@@ -3,7 +3,8 @@
 Let's start by printing the number of each type of rock we found. For example, to do this for Basalt rocks, paste in the following code:
 
 ```python
-print("Number of Basalt: ", Basalt)
+# TODO Add a print statement for the other types of rocks: breccia, highland and regolith
+print("Number of Basalt:", basalt)
 ```
 
 As you can see, we first output a string telling the user what they are going to be seeing and then we concatenate on the variable name which includes the number of how many Basalt rocks we found.
@@ -15,8 +16,9 @@ Next, let's provide some more general data like the type of rock that was the mo
 Try to figure this out and if you get stuck, read below for the answer:
 
 ```python
-print("The max number of one type of rock found was: ", max(basalt, ))
-print("The minimum number of one type of rock found was: ", min(basalt, ))
+# TODO Add other rock types to the "max" and "min" function calls
+print("The max number of one type of rock found was:", max(basalt, ))
+print("The minimum number of one type of rock found was:", min(basalt, ))
 ```
 
 Congratulations, you have now successfully programmed Artemis to give a summary about the different types of rock data that it found.

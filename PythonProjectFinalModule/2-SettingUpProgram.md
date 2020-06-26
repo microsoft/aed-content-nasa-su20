@@ -1,6 +1,6 @@
 # Setting up program and variables
 
-To start creating this program make a folder somewhere on your computer that you will be able to easily access. You can call is something like SpaceRockProject. After this is created, save the rocks.txt file in this folder. This file has all of the data about that rocks that we are going to be reading in Python.
+To start creating this program make a folder somewhere on your computer that you will be able to easily access. You can call is something like SpaceRockProject. After this is created, save this [rock.txt](Media/rocks.txt) file in this folder. Use the file -> save as to save a copy in your folder. This file has all of the data about that rocks that we are going to be reading in Python.
 
 Next, open Visual Studio code and click file then new file. Once the blank file is open, click ctrl s to save it. Navigate to the folder you just created, name the file something informative like ArtemisRockClassifier and change the file type to Jupyter from the drop down menu. Now that we have everything created, we can start coding!
 
@@ -10,11 +10,14 @@ To start our program, we will want to let the user know that the program is begi
 print("Artemis Rover Rock Scanner Starting")
 ```
 
-Next, we are going to want to create some variables which are going to represent the different types of rocks that Artemis encountered on the Moon. The specific rocks that we are looking for are: Basalt: The Mare Rock, Breccia: Shocked Rock, Highland Rock: Anorthosite, and Regolith Soil/Surface Layer. These are the four main types of rocks found on the moon. Let's make some variables with names of "basalt", "breccia", "highland", and "regolith". We can also set these variables to 0 since we have not counted any rocks yet.
+>Artemis Rover Rock Scanner Starting
+
+Next, we are going to want to create some variables which are going to represent the different types of rocks that Artemis encountered on the Moon. The specific rocks that we are looking for are: Basalt: The Mare Rock, Breccia: Shocked Rock, Highland Rock: Anorthosite, and Regolith Soil/Surface Layer. These are the four main types of rocks found on the moon. Let's make some variables with names of "basalt", "breccia", "highland", and "regolith". We can also set these variables to 0 since we have not counted any rocks yet. Finally, make a list called rockList that will store every rock the rover finds. We can make this an empty list setting it equal to brackets with nothing inside of them.
 
 ```python
 basalt = 0
 breccia = 0
 highland = 0
 regolith = 0
+rockList = []
 ```

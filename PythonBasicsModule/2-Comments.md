@@ -21,6 +21,8 @@ As noted previously, comments are not run by the computer. If you look at the co
 2 + 3
 ```
 
+>5
+
 > [!NOTE]
 > You are not expected to know what the code below does, it is used solely for the purpose to show comments
 
@@ -42,6 +44,7 @@ Block comments are many lines of comments strung together. They can be useful wh
 # text and then see what type of space rock it is.
 # If the rock matches a certain type of rock
 # it will increase the count of that rock type by 1.
+# Basalt is a common type of rock found on the moon.
 
 def countRocks(rockText):
     if(rockText == "Basalt"):
@@ -56,3 +59,5 @@ Inline comments are written on the same line as written code. Use them sparingly
 ```python
 rocketSpeed = 17000 # rocket speed needed to reach orbit
 ```
+
+Now that yoy have learned about comments, we can continue on to learning about how to leverage math in Python.

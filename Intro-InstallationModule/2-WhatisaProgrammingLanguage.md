@@ -4,7 +4,7 @@ In the previous unit, we talked about how learning to code is a great skill. How
 
 ## What is Code
 
-Lines of code are instructions that we (humans) give to computers to make them do things. While you may hear about how smart and amazing computers are, on their own, they are fairly stupid. Code is how we tell the moon rovers where to go and rockets how to fly. Without code, computers would be nothing more than a heap of metal, but with code, we can instruct them how to perform actions beyond the reach of humans.
+Lines of code are instructions that we (humans) give to computers to make them do things. While you may hear about how smart and amazing computers are, on their own, they are fairly stupid. Code is how we tell the moon rovers where to go and rockets how to fly. Without code, computers would be nothing more than a heap of metal, but with code, we can instruct them on how to perform actions beyond the reach of humans.
 
 ## How do we Code
 

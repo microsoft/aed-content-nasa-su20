@@ -1,6 +1,6 @@
 # Iterations
 
-Iterations in programming is repeating over a set of instructions until a conditions is met. Another way to think is that you are stuck in a loop that will continue to loop around until something tells you to break out.
+Iterations, in programming, are repeating over a set of instructions until a condition is met. Another way to think is that you are stuck in a loop that will continue to go around until something tells you to break out.
 
 ## While Loop
 
@@ -16,6 +16,13 @@ while countdown >= 0:
     countdown = countdown - 1  
 ```
 
+>5  
+>4  
+>3  
+>2  
+>1  
+>0
+
 Below is an example in which the condition is never met and the loop will continue forever (if we don't stop it). In this code, the developer forgot to decrease the timer variable, so the condition is always true.
 
 ```python
@@ -25,13 +32,30 @@ while  timer > 0:
     print("Hello, I am from Earth")
 ```
 
+>Output was trimmed for performance reasons.
+To see the full output set the setting "python.dataScience.textOutputLimit" to 0.
+...  
+Hello, I am from Earth  
+Hello, I am from Earth  
+Hello, I am from Earth  
+Hello, I am from Earth  
+...
+
+This is an infinite loop and you must either wait for Python to terminate it or click the stop button at the top of the window. It's best to avoid these, if it wasn't already apparent.
+
 ## For Loop
 
-For loops essentially perform the same task as while loops, they just have different formatting. For loops are great when you have a set number of loops that you want to go through.
+For loops essentially perform the same task as while loops, they just have different formatting. For loops are great when you want to go through a list and look at every single element. In the code below, we make a list and then go through all of the elements and print them out.
 
 ```python
-i = 0
-for i < 10:
-    print(i)
-    i = i + 1
+planets = "Mars","Saturn", "Jupiter"
+
+for planet in planets:
+    print(planet)
 ```
+
+>Mars  
+Saturn  
+Jupiter  
+
+While in this example all we are doing is printing out every value in a list, you could also change every item or do more advanced things with them.
