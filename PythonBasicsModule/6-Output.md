@@ -1,6 +1,6 @@
 # Output
 
-Now that we have made some variables and have given them some values we will learn of some other ways to view them. To do this we will use a function called print(). Jupyter Notebooks is very nice because it does not require us to type to print command to see an output, but in normal Python files, you must add print. Additionally, if you do not use the print function, Jupyter notebooks will only print out the final code. For example only 8 (5 + 3) is printed out:
+Now that we have created some variables and have given them some values, we can learn of some other ways to view them. To do this, we will use a function called print(). Jupyter Notebook can be very useful because it does not require us to type the print command to see an output, like we would normally have to do when using Python. Additionally, if you do not use the print function, Jupyter Notebook will only print the final code you have written. For example only 8 (5 + 3) is printed out:
 
 ```python
 2 + 2
@@ -9,7 +9,7 @@ Now that we have made some variables and have given them some values we will lea
 
 >8
 
-The print function, like the functions we called for the strings, is code others have wrote that we can use. The print() function will make the computer write the values in you variables to the screen.
+The print function, like the functions we have called earlier when using strings, is code written by others that we can use. The print() function will make the computer write the values within the variable you have given.
 
 Try to print some values to the console by using the code below:
 

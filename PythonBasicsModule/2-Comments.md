@@ -4,17 +4,17 @@ Over the course of this module, we will be using comments in our code. Learning 
 
 ## What comments are
 
-In programming, comments are words in code that the computer will not read when running. This means their sole purpose is to help out developers who are reading and writing code. They are great for explaining complex code to others, helping you remember what a certain part of your code does, and reminding you of what needs to be added to your code.
+In programming, comments are words in code that the computer will not read when running the code. This means that their sole purpose is to help out developers who are reading and writing code. They are great for explaining complex code to others, helping you remember what a certain part of your code does, and reminding you of what needs to be added to your code.
 
 ## How to use comments
 
-In Python, comments are as simple as including a # before the code you type.
+In Python, comments are as simple as including a # before the comment that you would like to add.
 
 ```python
 # This is a comment
 ```
 
-As noted previously, comments are not run by the computer. If you look at the code below 2 + 2 is commented out so the computer will only computer 2 + 3. Try to copy this code into a cell and click the play button.
+As noted previously, comments are not run by the computer. If you look at the code below, 2 + 2 is commented out so the computer will only recognize and compute 2 + 3. Try to copy this code into a cell and click the play button.
 
 ```python
 # 2 + 2
@@ -24,9 +24,9 @@ As noted previously, comments are not run by the computer. If you look at the co
 >5
 
 > [!NOTE]
-> You are not expected to know what the code below does, it is used solely for the purpose to show comments
+> You are not expected to know what the code below does, it is used solely for the purpose of showing comments.
 
-Another great use of comments is to add TODOs to let you know what still needs to be done. In this example the comment is reminding a developer to finish a piece of code at a later time.
+Another great use of comments is to add TODO's to let you know what still needs to be done. In this example the comment is reminding a developer to finish a piece of code at a later time.
 
 ```python
 # TODO Finish analyze space rock function
@@ -37,7 +37,7 @@ def analyzeSpaceRock():
 
 ## Block Comments
 
-Block comments are many lines of comments strung together. They can be useful when explaining code to a user that might be unfamiliar with the concepts you use or to describe what a whole program does.
+Block comments are many lines of comments strung together. They can be useful when explaining code to a user that might be unfamiliar with the concepts you are useing or to describe what an entire program does.
 
 ```python
 # This code is a function that will take in
@@ -60,4 +60,4 @@ Inline comments are written on the same line as written code. Use them sparingly
 rocketSpeed = 17000 # rocket speed needed to reach orbit
 ```
 
-Now that yoy have learned about comments, we can continue on to learning about how to leverage math in Python.
+Now that you have learned about comments, we can continue on to learning about how to leverage math in Python.

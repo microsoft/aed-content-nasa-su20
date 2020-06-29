@@ -1,6 +1,6 @@
 # Introduction
 
-In this module, you will learn about some basic concepts of the Python Programming Language and use a NASA context to apply them. Actual engineers working at NASA use these ideas when working on projects.
+In this module, you will learn about some basic concepts of the Python Programming Language, using NASA as context to apply them. Actual engineers working at NASA use these ideas everyday when working on projects.
 
 ## Learning objectives
 

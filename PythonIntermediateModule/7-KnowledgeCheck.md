@@ -2,6 +2,24 @@
 
 What is the purpose of functions?
 
-What are the two ways to change variables in functions?
+-To make your code less redundant and cleaner
+-To make it harder for others to read your code
+-To write all of your code in
+
+The two ways to change variables not made in functions are to make them global or pass them in as parameters?
+
+True
 
 What is the proper code for an if-statement?
+
+if(condition):
+    do something
+
+if(condition);
+    do something
+
+if(condition):
+do something
+
+if(condition);
+do something
