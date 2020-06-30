@@ -5,9 +5,9 @@ How do humans communicate with computers
 - Programming Languages
 - English
 - Technology Language
-- Computer Language
+- Numbers
 
-Open Sourced Means
+When software is open source it means
 
 - Anyone can develop and add content to it
 - You need a friend to give you access to it
