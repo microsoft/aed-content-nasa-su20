@@ -20,7 +20,7 @@
 | | Final Python Project | | | | | |
 
 ## Existing Learn Content
-Module, not learning path. 
+Please link existing Microsoft Learn modules, less on the learning paths
 
 | Module Title | Topic | Link | NASA Module | How they relate | 
 |--------------|-------|------|-------------|-----------------|
