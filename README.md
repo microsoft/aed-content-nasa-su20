@@ -5,6 +5,7 @@ Module, not learning path.
 
 | Module Title | Topic | Link | NASA Module | How they relate | 
 |--------------|-------|------|-------------|-----------------|
+|Track Wild Polar Bears with AI | AI | https://docs.microsoft.com/en-us/learn/modules/build-ml-model-with-azure-stream-analytics/ | All of them | They all teach students a new technology and apply it with a real world context | 
 
 
 ## Contributing
