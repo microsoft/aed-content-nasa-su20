@@ -2,22 +2,22 @@
 
 ## Learn Module Outlines
 ### Learning Path 1: Introduction to Python with NASA context
-| Module # | Module Name | Duration | Unit # | Units | Duration | Topic |
-|----------|-------------|----------|--------|-------|----------|-------|
-| 1 | Installation | | | | | |
-|  |  | | 1 | Introduction | | |
-|  |  | | 2 | What is a Programming Language | | |
-|  |  | | 3 | Visual Studio Code | | |
-|  |  | | 4 | Python | | |
-|  |  | | 5 | Install VSCode | | |
-|  |  | | 6 | Install VSCode Online | | |
-|  |  | | 7 | Install Python | | |
-|  |  | | 8 | Install Extensions | | |
-|  |  | | 9 | Create Jupyter File | | |
-|  |  | | 10 | Knowledge Check | | |
-| | Python Basics | | | | | |
-| | Python Intermediate | | | | | |
-| | Final Python Project | | | | | |
+| Module # | Module Name | Duration | Unit # | Units | Duration | Link to file | Status |
+|----------|-------------|----------|--------|-------|----------|--------------|--------|
+| 1 | Installation | | | | | | In Review |
+|  |  | | 1 | Introduction | | | In Review |
+|  |  | | 2 | What is a Programming Language | | | In Review |
+|  |  | | 3 | Visual Studio Code | | | In Review |
+|  |  | | 4 | Python | | | In Review |
+|  |  | | 5 | Install VSCode | | | In Review |
+|  |  | | 6 | Install VSCode Online | | | In Review |
+|  |  | | 7 | Install Python | | | In Review |
+|  |  | | 8 | Install Extensions | | | In Review |
+|  |  | | 9 | Create Jupyter File | | | In Review |
+|  |  | | 10 | Knowledge Check | | | In Review |
+| | Python Basics | | | | | | In Review |
+| | Python Intermediate | | | | | | In Review |
+| | Final Python Project | | | | | | In Review |
 
 ## Existing Learn Content
 Please link existing Microsoft Learn modules, less on the learning paths
