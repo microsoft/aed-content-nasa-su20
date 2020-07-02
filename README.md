@@ -1,5 +1,24 @@
 # NASA Learning Paths
 
+## Learn Module Outlines
+### Learning Path 1: Introduction to Python with NASA context
+| Module # | Module Name | Duration | Unit # | Units | Duration | Topic |
+|----------|-------------|----------|--------|-------|----------|-------|
+| 1 | Installation | | | | | |
+|  |  | | 1 | Introduction | | |
+|  |  | | 2 | What is a Programming Language | | |
+|  |  | | 3 | Visual Studio Code | | |
+|  |  | | 4 | Python | | |
+|  |  | | 5 | Install VSCode | | |
+|  |  | | 6 | Install VSCode Online | | |
+|  |  | | 7 | Install Python | | |
+|  |  | | 8 | Install Extensions | | |
+|  |  | | 9 | Create Jupyter File | | |
+|  |  | | 10 | Knowledge Check | | |
+| | Python Basics | | | | | |
+| | Python Intermediate | | | | | |
+| | Final Python Project | | | | | |
+
 ## Existing Learn Content
 Module, not learning path. 
 
