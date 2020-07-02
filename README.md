@@ -24,7 +24,8 @@ Module, not learning path.
 
 | Module Title | Topic | Link | NASA Module | How they relate | 
 |--------------|-------|------|-------------|-----------------|
-|Track Wild Polar Bears with AI | AI | https://docs.microsoft.com/en-us/learn/modules/build-ml-model-with-azure-stream-analytics/ | All of them | They all teach students a new technology and apply it with a real world context | 
+|Track Wild Polar Bears with AI | AI | https://docs.microsoft.com/en-us/learn/modules/build-ml-model-with-azure-stream-analytics/ | LP1, LP2, LP3 | They all teach students a new technology and apply it with a real world context | 
+| Explore and analyze data with Python | Data Science | https://docs.microsoft.com/en-us/learn/modules/explore-analyze-data-with-python/ | LP1 | Data exploration and analysis is at the core of data science. Data scientists require skills in languages like Python to explore, visualize, and manipulate data. |
 
 
 ## Contributing
