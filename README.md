@@ -24,8 +24,8 @@ Please link existing Microsoft Learn modules, less on the learning paths
 
 | Module Title | Topic | Link | NASA Module | How they relate | 
 |--------------|-------|------|-------------|-----------------|
-|Track Wild Polar Bears with AI | AI | https://docs.microsoft.com/en-us/learn/modules/build-ml-model-with-azure-stream-analytics/ | LP1, LP2, LP3 | They all teach students a new technology and apply it with a real world context | 
-| Explore and analyze data with Python | Data Science | https://docs.microsoft.com/en-us/learn/modules/explore-analyze-data-with-python/ | LP1 | Data exploration and analysis is at the core of data science. Data scientists require skills in languages like Python to explore, visualize, and manipulate data. |
+|Track Wild Polar Bears with AI | AI | https://docs.microsoft.com/en-us/learn/modules/build-ml-model-with-azure-stream-analytics/ | LP1, LP2, LP3 | Contextualized module that uses images to learn something - similar to our learning something from images of rocks. | 
+| Explore and analyze data with Python | Data Science | https://docs.microsoft.com/en-us/learn/modules/explore-analyze-data-with-python/ | LP1 | The basics of numpy, pandas, and matplotlib - which will be used in LP2 and LP3 and is a good "next step" for LP1. |
 
 
 ## Contributing
