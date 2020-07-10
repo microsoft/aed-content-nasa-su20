@@ -11,12 +11,12 @@ As mentioned before, Visual Studio Code is free. You can download it [on the Vis
 
 :::image type="content" source="Media\DownloadVSCode.png" alt-text="test":::
 
-After clicking on the box, you will be asked to accept the license agreement, fill out preferences for the application and be asked where to install. Read over the license agreement and then click agree. 
+After clicking on the box, you will be asked to accept the license agreement, fill out preferences for the application and be asked where to install. Read over the license agreement and then click agree.
 
 :::image type="content" source="Media\VSLiscense.png" alt-text="test":::
 
 > [!NOTE]
-> On the preferences window, be sure to click the "Add to Path" box. 
+> On the preferences window, be sure to click the "Add to Path" box.
 
 :::image type="content" source="Media\VSCodePreferences.png" alt-text="test":::
 

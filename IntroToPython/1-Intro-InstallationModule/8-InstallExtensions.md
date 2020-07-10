@@ -4,9 +4,9 @@ In this unit, you will learn about the extension tab in Visual Studio Code and h
 
 ## Installing Python Extension
 
-To access all of the Python open-sourced tools that will be helful for this learning path, click on the extension tab in Visual Studio Code. It looks like three blocks in the shape of an "L" and another block floating to the right. 
+To access all of the Python open-sourced tools that will be helpful for this learning path, click on the extension tab in Visual Studio Code. It looks like three blocks in the shape of an "L" and another block floating to the right.
 
-You can explore the extensions marketplace and install any extensions you would like, but for this tutorial, we will be installing the Python extension. After you are inside of the extension marketplace, go to the search bar and type in "Python". You are looking for the extension named solely Python and published by Microsote (it should be the first result). Click on the extension and then click "install".
+You can explore the extensions marketplace and install any extensions you would like, but for this tutorial, we will be installing the Python extension. After you are inside of the extension marketplace, go to the search bar and type in "Python". You are looking for the extension named solely Python and published by Microsoft (it should be the first result). Click on the extension and then click "install".
 
 :::image type="content" source="Media\InstallPython.png" alt-text="test":::
 

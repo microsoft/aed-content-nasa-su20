@@ -1,6 +1,6 @@
 # Installing Python
 
-With Visual Studio Code installed, you will need to download Python so our computer knows how to run and interpret the code we write.
+With Visual Studio Code installed, you will need to download Python so your computer knows how to run and interpret the code we write.
 
 > [!NOTE]
 > Most Mac and Linux computers will come with Python pre-installed, however it might not be up to date.

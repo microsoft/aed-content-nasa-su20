@@ -16,4 +16,4 @@ Examples of software that include Python code are YouTube, Dropbox and Google. [
 
 ## Jupyter Notebooks and Python
 
-To learn Python, we will be using a type of file called [Jupyter Notebooks](https://jupyter.org/). Jupyter Notebooks support Python in a read-eval-print loop (REPL) style, meaning users can write a few lines of code in one file, execute them *within* the file, and then write more code and continue executing. Jupyter Notebooks also support being able to re-run "cells" (chunks of code). This kind of coding environment creates a great learning experience when learning a new programming language. 
+To learn Python, we will be using a type of file called [Jupyter Notebooks](https://jupyter.org/). Jupyter Notebooks support Python in a read-eval-print loop (REPL) style, meaning users can write a few lines of code in one file, execute them *within* the file, and then write more code and continue executing. Jupyter Notebooks also support being able to re-run "cells" (chunks of code). This kind of coding environment creates a great learning experience when learning a new programming language.
