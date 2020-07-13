@@ -30,7 +30,10 @@ Once Visual Studio Code is installed, you may have the option to have it open on
 
 - Explorer: Shows what file(s) you have open and shows the contents of the folder you are in, if you are in one.
 - Search: Allows you to look for a certain word or collection of words in your file.
+- Source Control: Assists you write/share code with others
 - Run: This button will run the code you have written.
 - Extensions: This is where you can see all of the additions that people from across the globe have added. There are different color themes, programming languages, and much more. You can install and customize VS Code to however you please.
+- Azure: Optional extension that helps integrate Microsoft Azure into Visual Studio Code.
+- Docker: Beyond the scope of this lesson.
 
 **From Sarah:** We should make sure we have these labeled in the image and that we have one for every icon.

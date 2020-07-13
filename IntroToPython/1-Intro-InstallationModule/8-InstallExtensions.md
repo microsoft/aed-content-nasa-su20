@@ -14,4 +14,6 @@ After installation, you should close out of Visual Studio Code and open it again
 
 The Python extension is now installed. This extension lets you create Python and Jupyter Notebook files that can help you write correctly formatted code, fix typos, and allow you to run the code that you write.
 
-**From Sarah:** Should we have them install intellisense?
+## Installing Intellisense Extension
+
+While in the extensions tab, go back to the search bar and type in "intellisense". Click on the specified box and click install. Intellisense will help you auto-complete code you write.

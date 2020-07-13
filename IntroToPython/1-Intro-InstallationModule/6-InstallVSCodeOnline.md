@@ -27,7 +27,11 @@ Once you are connected to Visual Studio Codespaces, you will be greeted with a w
 
 - Explorer: Shows what file(s) you have open and shows the contents of the folder you are in, if you are in one.
 - Search: Allows you to look for a certain word or collection of words in your file.
+- Source Control: Assists you store/share code with others
 - Run: This button will run the code you have written.
-- Extensions: This is where you can see all of the additions people from across the globe have added. There are different color themes, programming languages, and much more you can install and customize VS Code to however you please.
+- Extensions: This is where you can see all of the additions that people from across the globe have added. There are different color themes, programming languages, and much more. You can install and customize VS Code to however you please.
+- Remote Explorer: Beyond scope of lesson.
+- Github: Type of source control. Links Visual Studio Code with Github.
+- Live Share: Have others view your screen while you work.
 
 **From Sarah:** Same as the comment in installing VSCode.

@@ -4,11 +4,11 @@ Now that we have installed everything that we need, we can create our own Jupyte
 
 ## Creating a Jupyter Notebook File
 
-**From Sarah:** You had `An optional step is to make a folder to easily organize all of the Jupyter files you will create. ` - I think we should add this at the beginning.
+To start, you should make a folder to easily organize all of the Jupyter files you will create. Pick a location on your computer that is easily accessible (documents or desktop are good choices) and create a folder named something like `Jupyter Files` or `Python`.
 
 To create a Jupyter Notebook file that will run our Python code, first go to Visual Studio Code and locate the "file" tab at the top left of the screen. Click on this to view a drop down menu and click on "new file". You will then be taken to a blank file. Now we are going to save this as a Jupyter file: click file and then save or `ctrl-s`.
 
-Name your file anything you want, pick a location where you want to save the file, and then change the file type to "Jupyter" from the drop down menu. Alternatively, you can add the file extension `.ipynb`, which will automatically change the file type to "Jupyter".
+Name your file anything you want, choose the save location to be the folder you just created, and then change the file type to "Jupyter" from the drop down menu. Alternatively, you can add the file extension `.ipynb`, which will automatically change the file type to "Jupyter".
 
 You will know that it worked if in the top left of the screen you see the name you gave to the file followed by ".ipynb" and if your file reloads inside of Visual Studio Code to have cells instead of one solid editor view.
 

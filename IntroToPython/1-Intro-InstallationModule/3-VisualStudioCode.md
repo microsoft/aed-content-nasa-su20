@@ -10,7 +10,7 @@ With a brief introduction to code, you can move on to learning about tools devel
 
 - **Open-source**: Open Source Software (OSS) has it's code available for anyone to explore, modify, and enhance. The main takeaway from this is that if there is a missing feature in software like Visual Studio Code, someone (even you) can build that feature and contribute it back to the source code so that everyone can have access to that feature. You can find the [open-source Visual Studio project on GitHub](https://github.com/microsoft/vscode)
 
-- **Extensible**: To be able to be extended and expanded. In the context of Visual Studio code, being extensible means that you will be able to download add ons to make Visual Studio code perform the way you want to use it. If the color scheme is hurting your eyes and an obscure programming language isn't supported, you can customize Visual Studio code to add new colors and the language.
+- **Extensible**: To be able to be extended and expanded. In the context of Visual Studio code, being extensible means that you will be able to download add ons to make Visual Studio code perform the way you want to use it. If the color scheme is hurting your eyes or an obscure programming language isn't supported, you can customize Visual Studio code to add new colors and support for the language.
 
 **From Sarah:** Add in a paragraph here about the VS Code extensions. https://marketplace.visualstudio.com/VSCode https://code.visualstudio.com/api https://github.com/Microsoft/vscode/tree/master/extensions
 
