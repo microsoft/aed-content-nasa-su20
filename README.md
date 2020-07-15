@@ -40,7 +40,6 @@
 ### Learning Path 2: Classifying Space Rocks with Artificial Intelligence
 | Module # | Module Name | Duration | Unit # | Units | Duration | Link to file | Status |
 |----------|-------------|----------|--------|-------|----------|--------------|--------|
-| 1 | Introduction to Artificial Intelligence | | | | | | In Review |
 | 1 | Introduction to Artificial Intelligence | | 1 | Introduction | | | In Review |
 | 1 | Introduction to Artificial Intelligence | | 2 | What is Artificial Intelligence | | | In Review |
 | 1 | Introduction to Artificial Intelligence | | 3 | Space Rock Information | | | In Review |
@@ -87,6 +86,15 @@ Please link existing Microsoft Learn modules, less on the learning paths
 | Monitor models with Azure Machine Learning | Machine Learning | https://docs.microsoft.com/en-us/learn/modules/monitor-models-with-azure-machine-learning/ | LP2, LP3 | Teaches student what to do after they deploy a machine learning model - builds on LP2 and LP3 information |
 | Create a web API with ASP.NET Core | Web Development | https://docs.microsoft.com/en-us/learn/modules/build-web-api-net-core/ | LP1, LP2, LP3 | Module that uses web development to teach students - if students want to experiement with frontend development |
 | Create a language model with LUIS | AI | https://docs.microsoft.com/en-us/learn/modules/create-language-model-with-luis/| LP2, LP3 | Applying a different AI context to information learned in LP2 and LP3 |
+| Train and evaluate regression models | Data Science | https://docs.microsoft.com/en-us/learn/modules/train-evaluate-regression-models/| LP2, LP3 | Learning a different way to train ML and AI models. Similar to LP2 and LP3 |
+| Train and evaluate deep learning models | Data Science | https://docs.microsoft.com/en-us/learn/modules/train-evaluate-deep-learn-models/| LP2, LP3 | Learning a different way to train ML and AI models. Similar to LP2 and LP3 |
+| Train and evaluate clustering models | Data Science |https://docs.microsoft.com/en-us/learn/modules/train-evaluate-cluster-models/| LP2, LP3 | Learning a different way to train ML and AI models. Similar to LP2 and LP3 |
+| Test hypothesis by simulating statistics | Data Science |https://docs.microsoft.com/en-us/learn/modules/test-hypothesis-by-simulating-statistics/| LP1, LP2, LP3 | Contextualized module that introduces student to statistics. Good to bridge gap between LP1 to LP2 and LP3 or for extra info after LP2 and LP3 |
+| Simulate and generate empirical distributions in Python | Data Science |https://docs.microsoft.com/en-us/learn/modules/simulate-generate-empirical-distributions-python/| LP2, LP3 | Contextualized module that introduces students to statistics|
+| Introduction to blockchain on Azure | Azure |https://docs.microsoft.com/en-us/learn/modules/intro-to-blockchain/| LP1, LP2, LP3 | Model that applies computer science to other principles than data science|
+
+
+
 
 
 
