@@ -38,6 +38,34 @@
 | 4 | Final Python Project | | 6 | Outputting and Summarizing Data | | | In Review |
 | 4 | Final Python Project | | 7 | Knowledge Check | | | In Review |
 
+### Learning Path 2: Classifying Space Rocks with Artificial Intelligence
+| Module # | Module Name | Duration | Unit # | Units | Duration | Link to file | Status |
+|----------|-------------|----------|--------|-------|----------|--------------|--------|
+| 1 | Introduction to Artificial Intelligence | | | | | | In Review |
+| 1 |  | | 1 | Introduction | | | In Review |
+| 1 |  | | 2 | What is Artificial Intelligence | | | In Review |
+| 1 |  | | 3 | Space Rock Information | | | In Review |
+| 1 |  | | 4 | How Humans Classify | | | In Review |
+| 1 |  | | 5 | How to Teach Machines | | | In Review |
+| 1 |  | | 6 | Common AI Libraries | | | In Review |
+| 1 |  | | 7 | How to Install AI Libraries | | | In Review |
+| 1 |  | | 8 | Knowledge Check | | | In Review |
+| 2 | Read and Train Data | | 1 | Introduction | | | In Review |
+| 2 |  | | 2 | Importing AI Libraries | | | In Review |
+| 2 |  | | 3 | Why Clean and Separate Data | | | In Review |
+| 2 |  | | 4 | Import and Clean Data | | | In Review |
+| 2 |  | | 5 | How Computers Read Images | | | In Review |
+| 2 |  | | 6 | Show Imported Images | | | In Review |
+| 2 |  | | 7 | Knowledge Check | | | In Review |
+| 3 | Test AI Program | | 1 | Introduction | | | In Review |
+| 3 |  | | 2 | Extracting Features | | | In Review |
+| 3 |  | | 3 | Build Neural Network | | | In Review |
+| 3 |  | | 4 | Train Program | | | In Review |
+| 3 |  | | 5 | Accuracy | | | In Review |
+| 3 |  | | 6 | Predict Rock Types | | | In Review |
+| 3 |  | | 7 | Analyze Predictions | | | In Review |
+| 3 |  | | 8 | Knowledge Check | | | In Review |
+
 ## Existing Learn Content
 Please link existing Microsoft Learn modules, less on the learning paths
 
