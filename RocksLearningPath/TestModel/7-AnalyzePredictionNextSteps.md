@@ -8,6 +8,7 @@ images, labels = get_random_images(5)
 ```
 
 ```python
+# code to visualize the new new images and add captions for image types
 to_pil = transforms.ToPILImage()
 images, labels = get_random_images(5)
 fig=plt.figure(figsize=(20,10))

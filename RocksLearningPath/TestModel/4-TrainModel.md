@@ -1,8 +1,11 @@
 # Training Artificial Intelligence Model
 
+Now that we have built a neural network and introduced the program to the different features of the rocks, we must now train the program. This will use our training data and make our program very accurate at classifying the rocks.
+
 ```python
-# how many times do you want to back propagate to find the best associations, initial setting 10 but can be changed 
-epochs = 10
+# how many times do you want to back propagate to find the best associations, initial setting 10 but can be changed
+## increasing epochs will increase the accuracy most of the time but will take more time to build the neural network
+epochs = 5
 steps = 0
 running_loss = 0
 print_every = 5
@@ -10,7 +13,7 @@ train_losses, test_losses = [], []
 
 for epoch in range(epochs):
     for inputs, labels in trainloader:
-        
+
         steps += 1
         print('Training step ', steps)
         inputs, labels = inputs.to(device), labels.to(device)

@@ -1,12 +1,13 @@
 # Building Neural Network
 
-Now Lets Build a neural network / deep network to learn the associations between features (curves, edges, texture, ...) and each rock type:
+Now lets Build a neural network / deep network to learn the associations between features (curves, edges, texture, ...) and each rock type.
+
+A neural network is a computer system that is modeled after the human brain and nervous system. This is how we will teach the computer to recognize different features.
 
 ```python
 # Determine if you are using a CPU or GPU for building the deep learning network
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = models.resnet50(pretrained=True)
-
 ```
 
 ```python
@@ -26,6 +27,6 @@ model.to(device)
 print('done')
 ```
 
-The Neural Network goes back and forth many times till it learns the best associations between features and rock types
+The Neural Network goes back and forth many times till it learns the best associations between features and rock types.
 
 <img src="Media/dl.gif" width="650" align="center">

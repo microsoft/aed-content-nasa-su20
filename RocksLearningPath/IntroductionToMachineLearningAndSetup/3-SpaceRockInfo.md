@@ -1,12 +1,13 @@
 # Introduction to Space Rocks
 
-Before we begin learning about how Artificial Intelligence can classify rocks, let's start by learning about the different types of rocks that we will be classifying and see how well you can do at classifying rocks.
+Before we begin learning about how Artificial Intelligence can classify rocks, let's start by learning about the different types of rocks that we will be classifying and see how well *you* can do at classifying rocks.
 
 ## Types of Rocks
 
 In this lesson we will be classifying rocks into one of two types: Basalt and Crustal.
 
-Note: These rock types are also found on the Earth, but for this lesson we are only looking at the lunar variants or rocks that are from the moon.
+> [!NOTE]
+> These rock types are also found on the Earth, but for this lesson we are only looking at the lunar variants or rocks that are from the moon.
 
 Basalt is the dark rock type that come from ancient volcanic eruptions on the moon. When you look up at the moon and see dark patches you are likely viewing Basalt.
 

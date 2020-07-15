@@ -2,25 +2,26 @@
 
 Now that we know about cleaning and separating the data, we can actually apply these principles to our rock classification project.
 
+Since the the rock images come in different sizes (small, medium, large), we will crop all images to transform them into the same size (224*224 pixels).
+
+Additionally, at the bottom of this code block you can see that are separating the data into a training variable and a testing variable.
+
 ```python
-# telling the machine what folder contains the image data 
+# telling the machine what folder contains the image data
 data_dir = './data'
 
+# function to read the data, crop and resize the images and then split it into test and train chunks
 def load_split_train_test(datadir, valid_size = .2):
-    train_transforms = transforms.Compose([#transforms.RandomRotation(30),  # data augmentations are great
-                                       transforms.RandomResizedCrop(224),  # but not in this case of map tiles
-                                       #transforms.RandomHorizontalFlip(),
+    # this line of code transforms the images
+    train_transforms = transforms.Compose([
+                                       transforms.RandomResizedCrop(224),
                                        transforms.Resize(224),
                                        transforms.ToTensor(),
-                                       #transforms.Normalize([0.485, 0.456, 0.406], # PyTorch recommends these but in this
-                                       #                     [0.229, 0.224, 0.225]) # case I didn't get good results
                                        ])
 
     test_transforms = transforms.Compose([transforms.RandomResizedCrop(224),
                                           transforms.Resize(224),
                                           transforms.ToTensor(),
-                                      #transforms.Normalize([0.485, 0.456, 0.406],
-                                      #                     [0.229, 0.224, 0.225])
                                       ])
 
     train_data = datasets.ImageFolder(datadir, transform=train_transforms)
@@ -38,6 +39,7 @@ def load_split_train_test(datadir, valid_size = .2):
     testloader = torch.utils.data.DataLoader(test_data, sampler=test_sampler, batch_size=16)
     return trainloader, testloader
 
+# Using 20% of data for testingS
 trainloader, testloader = load_split_train_test(data_dir, .2)
 print(trainloader.dataset.classes)
 ```

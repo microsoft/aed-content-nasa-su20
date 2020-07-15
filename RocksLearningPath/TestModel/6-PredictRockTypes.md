@@ -9,16 +9,6 @@ To predict the type of a new rock image, we need to the following:
 4. Predict its type using the associations we have learned in step 2.
 
 ```python
-#transform the new image into numbers and resize it
-test_transforms = transforms.Compose([transforms.RandomResizedCrop(224),
-                                      transforms.Resize(224),
-                                      transforms.ToTensor(),
-                                      #transforms.Normalize([0.485, 0.456, 0.406],
-                                      #                     [0.229, 0.224, 0.225])
-                                     ])
-```
-
-```python
 # Load the neural network we built in previous step
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model=torch.load('aerialmodel.pth')
@@ -26,7 +16,7 @@ model=torch.load('aerialmodel.pth')
 ```
 
 ```python
-# Predict the image type
+# function to predict the new image type
 def predict_image(image):
     image_tensor = test_transforms(image).float()
     image_tensor = image_tensor.unsqueeze_(0)
@@ -34,5 +24,5 @@ def predict_image(image):
     input = input.to(device)
     output = model(input)
     index = output.data.cpu().numpy().argmax()
-    return index  
+    return index
 ```
