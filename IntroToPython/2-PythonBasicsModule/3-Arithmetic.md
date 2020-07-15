@@ -37,6 +37,7 @@ For example, write the following comment and code in a cell and then click the r
 >25.0
 
 Furthermore, just like on calculators, the order of operations are in play when coding with Python. You can use parenthesis to combat this.
+
 Try copying the code below into a Jupyter Notebook cell and running it. Notice how you get two different numbers.
 
 ```python
@@ -57,7 +58,7 @@ This is because the order of operations computes multiplication and division bef
 
 There are also more advanced calculations that Python can compute listed below:
 
-- To calculate a remainder, use %
+- To calculate a remainder, use modulus (%)
 
 ```python
 # How many rocks will be left when we divide 10 rocks into 3 even piles
@@ -69,8 +70,8 @@ There are also more advanced calculations that Python can compute listed below:
 - To calculate exponents, use **
 
 ```python
-# How many miles away the moon is
-4 ** 9
+# The moon is just under 10^5.37 miles away
+10 ** 5.37
 ```
 
 >262144

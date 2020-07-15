@@ -1,8 +1,8 @@
 # Introduction
 
-Welcome to the first of many modules showing you real-life examples of how NASA might use Microsoft technologies to assist them in their space-related endeavors. A big part of why NASA is so successful is the powerful software they create. If you want to be part of NASA, knowing how to code would be an invaluable skill. Lucky for you, this module and learning path will take anyone with a desire to code and give them a great coding foundation. Throughout the various NASA-themed learning paths, you will see NASA-themed coding examples and even create a program to read and summarize data about space rocks.
+Welcome to the first of many modules showing you real-life examples of how NASA might use Microsoft technologies to assist them in their space-related endeavors. A big part of why NASA is so successful is the powerful software they create. If you want to be part of NASA and the exploration of space, knowing how to code would be an invaluable skill. Lucky for you, this learning path will take anyone with an interest in code and help them develop a foundation. Throughout the various [NASA-themed learning paths you will find on Microsoft Learn](Missing: NASA landing page on Learn), you will see NASA-themed coding examples that include using Python and machien learning to discover more about rocks from the moon and predict the best days for launching a rocket into space.
 
-In this module, you will be introduced to Visual Studio Code, Python, and Jupyter Notebooks. You will learn how to install all of the software and packages you will need to begin writing code and writing programs to explore NASA data.
+In this module, you will be introduced to Visual Studio Code, Python, and Jupyter Notebooks. You will learn how to install all of the software and packages you will need to begin writing code to explore NASA data.
 
 ## Learning Objectives
 
@@ -16,5 +16,5 @@ In this module, you will learn about and test software that assist developers, p
 
 ## Prerequisites
 
-- A Windows, Mac or Linux computer
-- Knowledge of how to download programs from the internet
+- A Windows, Mac, or Linux computer
+- Knowledge of how to download programs from the Internet

@@ -1,21 +1,21 @@
 # Strings
 
-Out of all of the variables, strings are one of the most unique. This is because they can take on pretty much any key from your keyboard. Along with this, Python has a lot of pre-made code (functions) that you can call to manipulate your strings in various ways.
+Out of all of the variables, strings are one of the most unique. This is because they can take on pretty much any key from your keyboard. Python also has a lot of pre-made code (functions) that you can call to manipulate your strings in various ways.
 
-Lets start by making a string variable in Jupyter Notebook. Copy the following line of code and click the run button:
+Lets start by making a string variable in your notebook. Copy the following line of code and click the run button:
 
 ```python
-astronaut = "Dennis Ocampo"
+astronaut = "Remy Morris"
 ```
 
-Say that we want to have this astronaut's name in all caps to print on his space suit. Instead of having to make a new variable, we can use the .upper() function to print his name in capital letters. To call a function, type the variable followed by a period, the name of the function, and then parenthesis. Calling this upper function will not change the astronaut variable. You must set a new variable or current variable equal to the function that you have just called.
+Say that we want to have this astronaut's name in all caps to print on their space suit. Instead of having to make a new variable, we can use the .upper() function to print the name in capital letters. To call a function, type the variable followed by a period, the name of the function, and then parenthesis. Calling this upper function will not change the astronaut variable, since we want to be able to have their name preserved with the correct capitalization. You must set a new variable or current variable equal to the function that you have just called.
 
 ```python
 upperCase = astronaut.upper()
 upperCase
 ```
 
->'DENNIS OCAMPO'
+>'REMY MORRIS'
 
 In a similar way, we can call astronaut.lower() to make the string lower case.
 
@@ -24,7 +24,7 @@ lowerCase = astronaut.lower()
 lowerCase
 ```
 
->'dennis ocampo'
+>'remy morris'
 
 Another cool string function we can use is called .capitalize(). This will make the first letter of a sentence capitalized and everything else lower-cased. Try copying the new variable below and calling the capitalize function.
 

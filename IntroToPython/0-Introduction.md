@@ -1,8 +1,10 @@
 # Learning Path Introduction
 
-Learning programming can be daunting and potentially boring if you don't know what you can do with. This learning path will add excitement to learning to code by adding a NASA twist and giving you real problems that NASA faces.
+The technological world around us thrives on innovation, passion, and persistance. When first learning to code, it is important that you identify all three along your journey. 
 
-In this learning path, you will:
+This learning path introduces you to the world of Python. But the goal is not to learn Python, the goal is to understand how Python plays a role in the innovative solutions that NASA creates. Through the lens of space discovery, this learning path could ignite a passion to persistently learn, discover, and create so that you too can one day help us all understand a little more about the world beyond our Earth.
+
+Through these ten modules, you will:
 
 - Learn about and install the tools needed to begin learning programming
 - Learn core programming concepts and apply them to real-life NASA problems

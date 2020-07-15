@@ -8,7 +8,7 @@ Python was created in 1991 by Guido van Rossum and is named after the television
 
 ## Why Python
 
-Out of all the programming languages out there, you may be asking why we choose Python. Over the past 15 years, Python has become increasingly more popular and it is often known as a great beginner programming language. Moreover, it is very versatile and can be applied to many more advanced computing topics such as data science and machine learning. Finally, Python has many packages and libraries (code written by others) that you can include in your own projects that cut down on the code you need to write.
+Out of all the programming languages out there, you may be asking why we choose Python. Over the past 15 years, [Python has become increasingly more popular](https://insights.stackoverflow.com/survey/2020#technology-programming-scripting-and-markup-languages) and it is often known as a great beginner programming language. Moreover, it is very versatile and can be applied to many more advanced computing topics such as data science and machine learning. Finally, Python has many packages and libraries (code written by others) that you can include in your own projects that cut down on the code you need to write.
 
 ## Real World Examples of Python at Work
 

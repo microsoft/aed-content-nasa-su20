@@ -1,6 +1,6 @@
 # Introduction
 
-In this module, you will learn about some basic concepts of the Python Programming Language, using NASA as context to apply them. Actual engineers working at NASA use these ideas everyday when working on projects.
+In this module, you will learn about some basic concepts of the Python programming language, using NASA as context to apply them. Actual engineers working at NASA use these ideas everyday when working on projects.
 
 ## Learning objectives
 
@@ -14,6 +14,6 @@ In the units following, you will learn many introductory computer science topics
 
 ## Prerequisites
 
-- VS Code installed
-- Python Installed
+- Visual Studio Code installed
+- Python installed
 - Python Extension installed

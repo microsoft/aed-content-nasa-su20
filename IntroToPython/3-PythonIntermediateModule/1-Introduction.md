@@ -14,7 +14,7 @@ In the units following, you will learn many intermediate computer science topics
 
 ## Prerequisites
 
-- VS Code installed
+- Visual Studio Code installed
 - Python Installed
 - Python Extension installed
 - Basic knowledge of Python

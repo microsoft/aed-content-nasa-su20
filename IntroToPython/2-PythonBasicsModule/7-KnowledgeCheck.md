@@ -11,7 +11,7 @@ Lists can store only one type of data. True or False?
 
 -False
 
-Which of the following is the correct way to print a variable and text?
+Which of the following is the correct way to print the value of a variable and text?
 
 -print("This is a variable", variable)
 -print("This is a variable"; variable)

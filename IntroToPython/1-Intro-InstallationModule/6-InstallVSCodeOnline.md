@@ -33,5 +33,3 @@ Once you are connected to Visual Studio Codespaces, you will be greeted with a w
 - Remote Explorer: Beyond scope of lesson.
 - Github: Type of source control. Links Visual Studio Code with Github.
 - Live Share: Have others view your screen while you work.
-
-**From Sarah:** Same as the comment in installing VSCode.
