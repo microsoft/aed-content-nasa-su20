@@ -15,17 +15,17 @@ print(rocketNumber)
 ```
 
 >Rocket will launch soon!  
-NameError: name 'rocketNumber' is not defined
+>NameError: name 'rocketNumber' is not defined
 
 Along with this, if you have variables created outside of a function, you can access them inside of a function, but you can not change them.
 
 ```python
+rocketText = "We will launch in"
 def OutputRocketText():
-    rocketText = rocketText + "two days"
+    rocketText = rocketText + " two days"
 
     return
 
-rocketText = "We will launch in"
 OutputRocketText()
 ```
 
@@ -41,13 +41,14 @@ To combat this we can do one of two thing:
 The easiest way to change the value of a variable inside of a function is to make is a global. A global variable means that everything in the program can modify it even if it modified inside of a function. To make something a global variable, you must make a variable before you call the function and then include a line in your function that says global variable name:
 
 ```python
+rocketText = "We will launch in"
+
 def OutputRocketText():
     global rocketText
     rocketText = rocketText + " two days"
 
     return
 
-rocketText = "We will launch in"
 OutputRocketText()
 print(rocketText)
 ```
@@ -57,11 +58,11 @@ print(rocketText)
 The next way to modify variables inside of a function is to use something called parameters. Parameters are when you give a function knowledge of a variable when you call it. To tell Python you want your functions to have parameters use the following code:
 
 ```python
-def OutputRocketText(text):
+def OutputRocketText(textInput):
 
-    text = text + " two days"
+    textInput = textInput + " two days"
 
-    return text
+    return textInput
 
 rocketText = "We will launch in"
 newRocketText = OutputRocketText(rocketText)
