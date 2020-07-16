@@ -21,7 +21,7 @@ print("Hello World")
 >6  
 >Hello World
 
-Along with only values, we can use the code below to print the balue of a variable:
+Along with only values, we can use the code below to print the value of a variable:
 
 ```python
 numRocks = 15

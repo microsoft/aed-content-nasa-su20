@@ -21,6 +21,16 @@ print("The max number of one type of rock found was:", max(basalt, ))
 print("The minimum number of one type of rock found was:", min(basalt, ))
 ```
 
-*From Sarah*: Add the solution code completed here as a hint
+Solution Code:
+
+```python
+print("Number of Basalt: ", basalt)
+print("Number of Breccia: ", breccia)
+print("Number of Highland: ", highland)
+print("Number of Regolith: ", regolith)
+
+print("The max number of one type of rock found was:", max(basalt, breccia, highland,regolith))
+print("The minimum number of one type of rock found was:", min(basalt, breccia, highland, regolith))
+```
 
 Congratulations, you have now successfully programmed Artemis to give a summary about the different types of rock data that it found.

@@ -18,7 +18,7 @@ if(conditionToTestIsTrue):
     doSomething
 ```
 
-It is crucial to include the colon at the end of the if statement and a tab on each subequent line that should only happen if the condition evaluates to True.
+It is crucial to include the colon at the end of the if statement and a tab on each subsequent line that should only happen if the condition evaluates to True.
 
 Below is an example of an if statement in Python. We first check if the count of Basalt rocks is 0 and if it is, both statements will print. If the count of rocks is not 0, the first print statement is skipped.
 

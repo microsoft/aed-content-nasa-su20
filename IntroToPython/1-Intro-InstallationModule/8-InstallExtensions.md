@@ -1,6 +1,6 @@
 # How to Install Extensions
 
-In this unit, you will learn about the extension tab in Visual Studio Code and how to install the Python extension.
+In this unit, you will learn about the extension tab in Visual Studio Code and how to install the Python and IntelliCode extension.
 
 ## Installing Python Extension
 

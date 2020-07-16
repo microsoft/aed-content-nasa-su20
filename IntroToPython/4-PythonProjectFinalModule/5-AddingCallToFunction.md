@@ -7,6 +7,6 @@ for rock in rockList:
     countMoonRocks(rock)
 ```
 
-This will call the function that we have created for each line of text (aka each rock) that was identified by the rover. The function will add to the count for the corresponding type of rock and store this number in the respective variable. 
+This will call the function that we have created for each line of text (aka each rock) that was identified by the rover. The function will add to the count for the corresponding type of rock and store this number in the respective variable.
 
 Now that we have all of the rock counts in their variables, we can use some additional code to write summaries about them.

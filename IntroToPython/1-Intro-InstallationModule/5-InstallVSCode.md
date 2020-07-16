@@ -35,4 +35,3 @@ Once Visual Studio Code is installed, you may have the option to have it open on
 - Extensions: This is where you can see all of the additions that people from across the globe have added. There are different color themes, programming languages, and much more. You can install and customize VS Code to however you please.
 - Azure: Optional extension that helps integrate Microsoft Azure into Visual Studio Code.
 - Docker: Beyond the scope of this lesson.
-

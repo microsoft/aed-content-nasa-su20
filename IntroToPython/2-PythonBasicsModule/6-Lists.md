@@ -1,6 +1,6 @@
 # Lists
 
-Lists are ways that you can store a lot of data in Python (similar to variables). They are a collection of values stored in the form of a list. Lists are very useful in Python because a lot of times you will need more than one piece of data. In data science, lists play a huge role because the goal of data science is to take large amounts of related data and analysze it. That's why the popular data science Python packages like Pandas and NumPy have additional data structures like dataframes and arrays, which are essentially lists with additional features.
+Lists are ways that you can store a lot of data in Python (similar to variables). They are a collection of values stored in the form of a list. Lists are very useful in Python because a lot of times you will need more than one piece of data. In data science, lists play a huge role because the goal of data science is to take large amounts of related data and analyze it. That's why the popular data science Python packages like Pandas and NumPy have additional data structures like dataframes and arrays, which are essentially lists with additional features.
 
 ## How to make a list
 
