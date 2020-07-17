@@ -1,21 +1,3 @@
-# Knowledge Check
+# Summary
 
-How do humans communicate with computers
-
-- Programming Languages
-- English
-- Technology Language
-- Numbers
-
-When software is open source it means
-
-- Anyone can develop and add content to it
-- You need a friend to give you access to it
-- If you pay, your features will be added
-- No one can see the code
-
-Visual Studio Code is all of the following except
-
-- Code Editor
-- Open Sourced
-- Priced at $50
+In this module, you learning about programming languages and how developers use specific tools, like Visual Studio code, to edit code in these programming languages. You also installed some necessary tools to start coding and even programmed a computer to print out words you told it to.
