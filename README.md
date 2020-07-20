@@ -1,5 +1,8 @@
 # NASA Learning Paths
 
+Link to data:
+https://portal.azure.com/#blade/Microsoft_Azure_Storage/ContainerMenuBlade/overview/storageAccountId/%2Fsubscriptions%2F4c3c2dd8-b391-4b47-9ba2-57f760bf278c%2FresourceGroups%2FNASA-Learn%2Fproviders%2FMicrosoft.Storage%2FstorageAccounts%2Fnasadata/path/nasarocks/etag/%220x8D817FE9313AD8B%22/defaultEncryptionScope/%24account-encryption-key/denyEncryptionScopeOverride//defaultId//publicAccessVal/Container
+
 ## Learn Module Outlines
 ### Learning Path 1: Introduction to Python with NASA context
 | Module # | Module Name | Duration | Unit # | Units | Duration | Link to file | Status |
