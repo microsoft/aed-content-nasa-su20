@@ -1,22 +1,20 @@
-# Introduction
+# The Role of Artificial Intelligence in Space Exploration
 
-You are a geologist working for NASA whose job is to let the astronauts know which rocks to pick up on their trip to the moon (You would go to the moon to pick them out yourself, but you have a fear of heights). Because the astronauts have many other things to learn, teaching them about different space rocks is not practical. Instead, you decide to create an artificial intelligence program that the astronauts can use to take a picture of a rock that will tell them what type of rock it is. This will ensure that you get enough samples of every type you need.
+As technology advances, many disciplines outside of Computer Science have found ways to introduce these technologies into their work. One newer piece of technology that is being applied to many tasks is Artificial Intelligence.
 
-In this Microsoft Learn module, you'll use Visual Studio Code, Python and Jupyter Notebooks to create an artificial intelligence model that can identify the type of a rock in an image.
+This is the second lesson of a series of Microsoft Learn modules that highlight how NASA might apply Artificial Intelligence in their projects. From teaching a computer to detect which rock an astronaut should pick up based on its type to predicting if a rocket will be able to launch on a certain day, these new technologies can be applied to lots of projects.
 
-The data is provided by NASA and you can even view their [sample collection](https://curator.jsc.nasa.gov/lunar/samplecatalog/index.cfm) to see more interesting pictures.
+Furthermore, others have already written a lot of code that we can leverage to use this technology in a way that we couldn't if we built it ourselves. For example, with the use of free tools and libraries, like PyTorch, you can start to build amazing projects and make discoveries that would have taken our ancestors decades.
+
+While some spend their whole life learning about Artificial Intelligence, this second learning path will set you up with the basic tools to get started and this module in particular will provide the context for why these problems are interesting in the first place.
 
 ## Learning Objectives
 
-In this module, you will:
+In this module, you will begin looking about a problem that could be solved with an Artificial Intelligence program. Along the way you will learn:
 
-- Get an introduction to artificial intelligence
-- Learn about and install popular artificial intelligence libraries to assist you
-- Build a custom artificial intelligence model
-- Access the accuracy of the model you build
-- Test out your model
+- What space rocks are and what we do with them
+- What are the upcoming space exploration missions
 
 ## Prerequisites
 
-- Ability to write and run introductory Python programs
-- Visual Studio Code, Python Extension, and Jupyter Notebooks installed
+- None
