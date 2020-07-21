@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: NEWIntroToPythonLearningPath.introduction-installation.1-introduction
+metadata:
+  title: 1-introduction
+  description: Introduction
+  ms.date: 07/17/2020
+  author: angevin17
+  ms.author: vincentangellotti
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 1-introduction
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

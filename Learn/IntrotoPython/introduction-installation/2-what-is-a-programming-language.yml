@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  NEWIntroToPythonLearningPath.introduction-installation.2-what-is-a-programming-language
+metadata:
+  title: 2-what-is-a-programming-language
+  description: Learn what a programming language is
+  ms.date: 07/17/2020
+  author: angevin17
+  ms.author: vincentangellotti
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 2-what-is-a-programming-language
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-what-is-a-programming-language.md)]

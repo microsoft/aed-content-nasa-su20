@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  NEWIntroToPythonLearningPath.introduction-installation.6-install-vs-code-online
+metadata:
+  title: 6-install-vs-code-online
+  description: ...
+  ms.date: ...
+  author: ...
+  ms.author: ...
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 6-install-vs-code-online
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-install-vs-code-online.md)]

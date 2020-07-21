@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  NEWIntroToPythonLearningPath.python-rock-project.6-outputting-and-summarizing-data
+metadata:
+  title: 6-outputting-and-summarizing-data
+  description: ...
+  ms.date: ...
+  author: ...
+  ms.author: ...
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 6-outputting-and-summarizing-data
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-outputting-and-summarizing-data.md)]
