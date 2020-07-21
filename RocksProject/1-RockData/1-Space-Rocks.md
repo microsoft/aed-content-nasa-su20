@@ -1,10 +1,10 @@
-# Space Rocks
+# The Importance of Rocks and Soil
 
-The application of Artificial Intelligence that we will be focusing on is having a computer classify space rocks. While you may be wondering why we are learning about something so insignificant as rocks, there are actually many amazing things that we can learn from and do with space rocks.
+The application of artificial intelligence that we will be focusing on in this learning path is having a computer classify Moon rocks. While you may be wondering why we are learning about something so commonplace as rocks, there are  many amazing things that we can learn from and do with Moon rocks.
 
 ## What are space rocks
 
-Before we jump in to why we are choosing space rocks, let's first classify what space rocks are and the different types of them. Space rocks are any rocks that do not come from our Earth. They come in many sizes ranging from tiny specs of soil found on the moon to planet sized boulders floating through space.
+Before we jump in to why we are choosing Moon rocks, let's first classify what space rocks are and the different types of them. Space rocks are any rocks that do not come from our Earth. They come in many sizes ranging from tiny specs of soil found on the moon to planet sized boulders floating through space.
 
 Along with this, they can be found in a few different forms: flying through space (known as meteors or asteroids) or just regular rocks found on the surface of other planets. Additionally, even though space rocks cannot be from Earth doesn't mean that they can't be found on Earth. Meteors that crash into something are called Meteorites. There are loads of space rocks found on Earth that come from meteors crashing through Earth's atmosphere and landing all over the world (we will talk more about space rocks on Earth in a later section).
 
