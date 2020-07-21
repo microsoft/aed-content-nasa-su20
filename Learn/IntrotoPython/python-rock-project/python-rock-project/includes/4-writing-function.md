@@ -15,7 +15,7 @@ def countMoonRocks(rockToID):
         print("Found a basalt\n")
         basalt += 1
 
-    #TODO Add if statements for breccia, highland and regolith
+    #TODO Add else if statements for breccia, highland and regolith
 
     return
 ```
@@ -34,13 +34,13 @@ def countMoonRocks(rockToID):
     if("basalt" in rockToID):
         print("Found a basalt\n")
         basalt += 1
-    if("breccia" in rockToID):
+    elif("breccia" in rockToID):
         print("Found a breccia\n")
         breccia += 1
-    if("highland" in rockToID):
+    elif("highland" in rockToID):
         print("Found a highland\n")
         highland += 1
-    if("regolith" in rockToID):
+    elif("regolith" in rockToID):
         print("Found a basalt\n")
         regolith += 1
 
