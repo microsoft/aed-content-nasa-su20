@@ -1,6 +1,6 @@
 # The struggles of collecting space rocks
 
-While you may think the hard part of collecting space rocks is over after you have flown a rocket 238,855 miles to the moon, you would be mistaken. Even after astronauts or a rover have made it to the moon, picking the correct rocks becomes a very large challenge. Not only do rockets not have much space for extra cargo, but there are so many types of space rock out there and choosing which ones to pick up and which ones to not is a very difficult process.
+While you may think the hard part of collecting space rocks is over after you have flown a rocket 238,855 miles to the moon, you would be mistaken. Even after astronauts or a rover have made it to the moon, picking the correct rocks becomes a very large challenge. Not only do rockets not have much space for cargo, but there are so many types of space rock out there and choosing which ones to pick up and which ones to not is a very difficult process.
 
 ## Teaching Astronauts
 
