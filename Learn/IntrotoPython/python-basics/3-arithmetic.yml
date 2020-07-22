@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: NEWIntroToPythonLearningPath.python-basics.3-arithmetic
 metadata:
-  title: 3-arithmetic
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Arithmetic
+  description: Arithmetic in programming
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 3-arithmetic
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Arithmetic
+durationInMinutes: 6
 content: |
   [!include[](includes/3-arithmetic.md)]

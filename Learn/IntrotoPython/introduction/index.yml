@@ -1,28 +1,31 @@
 ### YamlMime:Module
-uid: NEWIntroToPythonLearningPath.introduction
+uid: learn.student-evangelism.introduction
 metadata:
-  title: introduction
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
-title: introduction
-summary: ...
+  title: Introduction
+  description: Get an introduction to NASA topics used in the rest of the learning path. 
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Introduction
+summary: Get an introduction to NASA topics used in the rest of the learning path.
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels: 
+- beginner
+roles: 
+- student
+products: 
+- azure
 units:
-- NEWIntroToPythonLearningPath.introduction.1-introduction
-- NEWIntroToPythonLearningPath.introduction.2-artemis
-- NEWIntroToPythonLearningPath.introduction.3-artemis-continuation
-- NEWIntroToPythonLearningPath.introduction.4-nasa-stem
-- NEWIntroToPythonLearningPath.introduction.5-nasa-inspiration
-- NEWIntroToPythonLearningPath.introduction.6-why-coding
-- NEWIntroToPythonLearningPath.introduction.7-summary
+- learn.student-evangelism.introduction.1-introduction
+- learn.student-evangelism.introduction.2-artemis
+- learn.student-evangelism.introduction.3-artemis-continuation
+- learn.student-evangelism.introduction.4-nasa-stem
+- learn.student-evangelism.introduction.5-nasa-inspiration
+- learn.student-evangelism.introduction.6-why-coding
+- learn.student-evangelism.introduction.7-summary
 badge:
-  uid: NEWIntroToPythonLearningPath.introduction.badge
+  uid: learn.student-evangelism.introduction.badge

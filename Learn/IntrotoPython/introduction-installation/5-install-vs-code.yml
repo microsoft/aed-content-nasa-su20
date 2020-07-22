@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.introduction-installation.5-install-vs-code
+uid: learn.student-evangelism.introduction-installation.5-install-vs-code
 metadata:
-  title: 5-install-vs-code
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Exercise - Install Visual Studio Code
+  description: Install VS Code to code
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 5-install-vs-code
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Exercise - Install Visual Studio Code
+durationInMinutes: 6
 content: |
   [!include[](includes/5-install-vs-code.md)]

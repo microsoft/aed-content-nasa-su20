@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.python-rock-project.5-adding-call-to-function
+uid: learn.student-evangelism.python-rock-project.5-adding-call-to-function
 metadata:
-  title: 5-adding-call-to-function
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Adding call to function
+  description: Call the newly created function
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 5-adding-call-to-function
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Adding call to function
+durationInMinutes: 4
 content: |
   [!include[](includes/5-adding-call-to-function.md)]

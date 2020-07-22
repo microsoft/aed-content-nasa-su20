@@ -1,33 +1,36 @@
 ### YamlMime:Module
-uid: NEWIntroToPythonLearningPath.introduction-installation
+uid: learn.student-evangelism.introduction-installation
 metadata:
-  title: introduction-installation
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
+  title: Introduction Installation
+  description: Learn about what coding is and install tools to help code
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
 title: introduction-installation
-summary: ...
+summary: Learn about what coding is and install tools to help code
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles:
+- student
+products: 
+- vs-code
 units:
-- NEWIntroToPythonLearningPath.introduction-installation.1-introduction
+- learn.student-evangelism.introduction-installation.1-introduction
 - >-
-    NEWIntroToPythonLearningPath.introduction-installation.2-what-is-a-programming-language
-- NEWIntroToPythonLearningPath.introduction-installation.3-visual-studio-code
-- NEWIntroToPythonLearningPath.introduction-installation.4-python
-- NEWIntroToPythonLearningPath.introduction-installation.5-install-vs-code
+    learn.student-evangelism.introduction-installation.2-what-is-a-programming-language
+- learn.student-evangelism.introduction-installation.3-visual-studio-code
+- learn.student-evangelism.introduction-installation.4-python
+- learn.student-evangelism.introduction-installation.5-install-vs-code
 - >-
-    NEWIntroToPythonLearningPath.introduction-installation.6-install-vs-code-online
-- NEWIntroToPythonLearningPath.introduction-installation.7-install-python
-- NEWIntroToPythonLearningPath.introduction-installation.8-install-extensions
-- NEWIntroToPythonLearningPath.introduction-installation.9-create-jupyter-file
-- NEWIntroToPythonLearningPath.introduction-installation.10-summary
+    learn.student-evangelism.introduction-installation.6-install-vs-code-online
+- learn.student-evangelism.introduction-installation.7-install-python
+- learn.student-evangelism.introduction-installation.8-install-extensions
+- learn.student-evangelism.introduction-installation.9-create-jupyter-file
+- learn.student-evangelism.introduction-installation.10-summary
 badge:
-  uid: NEWIntroToPythonLearningPath.introduction-installation.badge
+  uid: learn.student-evangelism.introduction-installation.badge

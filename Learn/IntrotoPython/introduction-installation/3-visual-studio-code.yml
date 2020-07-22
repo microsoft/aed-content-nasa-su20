@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.introduction-installation.3-visual-studio-code
+uid: learn.student-evangelism.introduction-installation.3-visual-studio-code
 metadata:
-  title: 3-visual-studio-code
+  title: Visual Studio Code
   description: learn what visual studio code is
-  ms.date: 07/17/2020
+  ms.date: 07/20/2020
   author: angevin17
-  ms.author: vincentangellotti
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 3-visual-studio-code
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Visual Studio Code
+durationInMinutes: 3
 content: |
   [!include[](includes/3-visual-studio-code.md)]

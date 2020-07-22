@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.introduction-installation.1-introduction
+uid: learn.student-evangelism.introduction-installation.1-introduction
 metadata:
-  title: 1-introduction
+  title: Introduction
   description: Introduction
-  ms.date: 07/17/2020
+  ms.date: 07/22/2020
   author: angevin17
-  ms.author: vincentangellotti
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 1-introduction
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Introduction
+durationInMinutes: 2
 content: |
   [!include[](includes/1-introduction.md)]

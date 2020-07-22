@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.introduction.6-why-coding
+uid: learn.student-evangelism.introduction.6-why-coding
 metadata:
-  title: 6-why-coding
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Why Coding
+  description: Learn how coding can benefit you
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 6-why-coding
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Why Coding
+durationInMinutes: 3
 content: |
   [!include[](includes/6-why-coding.md)]

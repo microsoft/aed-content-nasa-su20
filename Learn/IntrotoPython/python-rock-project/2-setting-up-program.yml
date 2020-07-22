@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.python-rock-project.2-setting-up-program
+uid: learn.student-evangelism.python-rock-project.2-setting-up-program
 metadata:
-  title: 2-setting-up-program
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Setting up project
+  description: Set up the project
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 2-setting-up-program
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Setting up project
+durationInMinutes: 4
 content: |
   [!include[](includes/2-setting-up-program.md)]

@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.python-basics.7-output
+uid: learn.student-evangelism.python-basics.7-output
 metadata:
-  title: 7-output
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Output
+  description: Learn how to output to console in Python
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 7-output
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Output
+durationInMinutes: 5
 content: |
   [!include[](includes/7-output.md)]

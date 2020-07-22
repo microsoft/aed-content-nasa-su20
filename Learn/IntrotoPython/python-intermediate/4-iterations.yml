@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.python-intermediate.4-iterations
+uid: learn.student-evangelism.python-intermediate.4-iterations
 metadata:
-  title: 4-iterations
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Iterations
+  description: Learn about iterations in Python
+  ms.date: 7/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 4-iterations
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Iterations
+durationInMinutes: 5
 content: |
   [!include[](includes/4-iterations.md)]

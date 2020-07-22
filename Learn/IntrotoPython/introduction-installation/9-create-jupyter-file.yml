@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.introduction-installation.9-create-jupyter-file
+uid: learn.student-evangelism.introduction-installation.9-create-jupyter-file
 metadata:
-  title: 9-create-jupyter-file
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Exercise - Create Jupyter Notebooks file
+  description: Create a Jupyter Notebooks file to code
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 9-create-jupyter-file
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Exercise - Create Jupyter Notebooks file
+durationInMinutes: 7
 content: |
   [!include[](includes/9-create-jupyter-file.md)]

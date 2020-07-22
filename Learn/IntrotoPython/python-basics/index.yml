@@ -1,29 +1,33 @@
 ### YamlMime:Module
-uid: NEWIntroToPythonLearningPath.python-basics
+uid: learn.student-evangelism.python-basics
 metadata:
-  title: python-basics
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
-title: python-basics
-summary: ...
+  title: Python Basics
+  description: Learn the basics of Python
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Python Basics
+summary: Learn the basics of Python
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles:
+- student
+- developer
+products:
+- vs-code
 units:
-- NEWIntroToPythonLearningPath.python-basics.1-introduction
-- NEWIntroToPythonLearningPath.python-basics.2-comments
-- NEWIntroToPythonLearningPath.python-basics.3-arithmetic
-- NEWIntroToPythonLearningPath.python-basics.4-variables
-- NEWIntroToPythonLearningPath.python-basics.5-strings
-- NEWIntroToPythonLearningPath.python-basics.6-lists
-- NEWIntroToPythonLearningPath.python-basics.7-output
-- NEWIntroToPythonLearningPath.python-basics.8-summary
+- learn.student-evangelism.python-basics.1-introduction
+- learn.student-evangelism.python-basics.2-comments
+- learn.student-evangelism.python-basics.3-arithmetic
+- learn.student-evangelism.python-basics.4-variables
+- learn.student-evangelism.python-basics.5-strings
+- learn.student-evangelism.python-basics.6-lists
+- learn.student-evangelism.python-basics.7-output
+- learn.student-evangelism.python-basics.8-summary
 badge:
-  uid: NEWIntroToPythonLearningPath.python-basics.badge
+  uid: learn.student-evangelism.python-basics.badge

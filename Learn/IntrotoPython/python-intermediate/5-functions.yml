@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.python-intermediate.5-functions
+uid: learn.student-evangelism.python-intermediate.5-functions
 metadata:
-  title: 5-functions
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Functions
+  description: Learn about functions in Python
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 5-functions
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Functions
+durationInMinutes: 6
 content: |
   [!include[](includes/5-functions.md)]

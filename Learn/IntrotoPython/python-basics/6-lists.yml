@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.python-basics.6-lists
+uid: learn.student-evangelism.python-basics.6-lists
 metadata:
-  title: 6-lists
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Lists
+  description: Lists in Python
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 6-lists
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Lists
+durationInMinutes: 5
 content: |
   [!include[](includes/6-lists.md)]

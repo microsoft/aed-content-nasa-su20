@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.introduction-installation.7-install-python
+uid: learn.student-evangelism.introduction-installation.7-install-python
 metadata:
-  title: 7-install-python
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Exercise - Install Python
+  description: Learn how to install Python
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 7-install-python
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Exercise - Install Python
+durationInMinutes: 5
 content: |
   [!include[](includes/7-install-python.md)]

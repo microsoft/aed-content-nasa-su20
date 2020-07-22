@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.introduction.5-nasa-inspiration
+uid: learn.student-evangelism.introduction.5-nasa-inspiration
 metadata:
-  title: 5-NASA-inspiration
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: NASA Inspiration
+  description: Get inspired by reading about NASA
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 5-NASA-inspiration
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: NASA Inspiration
+durationInMinutes: 4
 content: |
   [!include[](includes/5-nasa-inspiration.md)]

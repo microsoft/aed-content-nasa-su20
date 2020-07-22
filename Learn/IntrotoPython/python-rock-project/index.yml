@@ -1,29 +1,33 @@
 ### YamlMime:Module
-uid: NEWIntroToPythonLearningPath.python-rock-project
+uid: learn.student-evangelism.python-rock-project
 metadata:
-  title: python-rock-project
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
+  title: Build a rock project with Python
+  description: Use Python and Visual Studio Code to make a simple program to read space rocks
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
 title: python-rock-project
-summary: ...
+summary: Use Python and Visual Studio Code to make a simple program to read space rocks
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles:
+- student
+- developer
+products:
+- vs-code
 units:
-- NEWIntroToPythonLearningPath.python-rock-project.1-introduction
-- NEWIntroToPythonLearningPath.python-rock-project.2-setting-up-program
-- NEWIntroToPythonLearningPath.python-rock-project.3-reading-text-file
-- NEWIntroToPythonLearningPath.python-rock-project.4-writing-function
-- NEWIntroToPythonLearningPath.python-rock-project.5-adding-call-to-function
+- learn.student-evangelism.python-rock-project.1-introduction
+- learn.student-evangelism.python-rock-project.2-setting-up-program
+- learn.student-evangelism.python-rock-project.3-reading-text-file
+- learn.student-evangelism.python-rock-project.4-writing-function
+- learn.student-evangelism.python-rock-project.5-adding-call-to-function
 - >-
-    NEWIntroToPythonLearningPath.python-rock-project.6-outputting-and-summarizing-data
-- NEWIntroToPythonLearningPath.python-rock-project.7-summary
+    learn.student-evangelism.python-rock-project.6-outputting-and-summarizing-data
+- learn.student-evangelism.python-rock-project.7-summary
 badge:
-  uid: NEWIntroToPythonLearningPath.python-rock-project.badge
+  uid: learn.student-evangelism.python-rock-project.badge

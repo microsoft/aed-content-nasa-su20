@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.introduction-installation.10-summary
+uid: learn.student-evangelism.introduction-installation.10-summary
 metadata:
-  title: 10-summary
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Summary
+  description: Summary 
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 10-summary
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Summary
+durationInMinutes: 4
 content: |
   [!include[](includes/10-summary.md)]
 quiz:

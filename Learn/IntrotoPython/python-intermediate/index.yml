@@ -1,29 +1,33 @@
 ### YamlMime:Module
-uid: NEWIntroToPythonLearningPath.python-intermediate
+uid: learn.student-evangelism.python-intermediate
 metadata:
-  title: python-intermediate
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
+  title: Python Intermediate
+  description: Learn more advanced topics of Python
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
 title: python-intermediate
-summary: ...
+summary: Learn more advanced topics of Python
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles:
+- student
+- developer
+products:
+- vs-code
 units:
-- NEWIntroToPythonLearningPath.python-intermediate.1-introduction
-- NEWIntroToPythonLearningPath.python-intermediate.2-conditions
-- NEWIntroToPythonLearningPath.python-intermediate.3-if-statements
-- NEWIntroToPythonLearningPath.python-intermediate.4-iterations
-- NEWIntroToPythonLearningPath.python-intermediate.5-functions
-- NEWIntroToPythonLearningPath.python-intermediate.6-reading-text-from-file
-- NEWIntroToPythonLearningPath.python-intermediate.7-parameters
-- NEWIntroToPythonLearningPath.python-intermediate.8-summary
+- learn.student-evangelism.python-intermediate.1-introduction
+- learn.student-evangelism.python-intermediate.2-conditions
+- learn.student-evangelism.python-intermediate.3-if-statements
+- learn.student-evangelism.python-intermediate.4-iterations
+- learn.student-evangelism.python-intermediate.5-functions
+- learn.student-evangelism.python-intermediate.6-reading-text-from-file
+- learn.student-evangelism.python-intermediate.7-parameters
+- learn.student-evangelism.python-intermediate.8-summary
 badge:
-  uid: NEWIntroToPythonLearningPath.python-intermediate.badge
+  uid: learn.student-evangelism.python-intermediate.badge

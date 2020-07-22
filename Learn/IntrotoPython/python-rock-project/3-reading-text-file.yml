@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: NEWIntroToPythonLearningPath.python-rock-project.3-reading-text-file
+uid: learn.student-evangelism.python-rock-project.3-reading-text-file
 metadata:
-  title: 3-reading-text-file
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Reading text file
+  description: Read the text from rocks.txt
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 3-reading-text-file
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Reading text file
+durationInMinutes: 7
 content: |
   [!include[](includes/3-reading-text-file.md)]
