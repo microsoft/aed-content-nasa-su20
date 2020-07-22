@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.6-common-ai-libraries
+metadata:
+  title: 6-common-AI-libraries
+  description: ...
+  ms.date: ...
+  author: ...
+  ms.author: ...
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 6-common-AI-libraries
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-common-ai-libraries.md)]

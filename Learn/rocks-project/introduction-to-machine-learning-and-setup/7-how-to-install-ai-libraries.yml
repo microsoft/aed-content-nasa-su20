@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.7-how-to-install-ai-libraries
+metadata:
+  title: 7-how-to-install-AI-libraries
+  description: ...
+  ms.date: ...
+  author: ...
+  ms.author: ...
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 7-how-to-install-AI-libraries
+durationInMinutes: 1
+content: |
+  [!include[](includes/7-how-to-install-ai-libraries.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.4-how-humans-classify
+metadata:
+  title: 4-how-humans-classify
+  description: ...
+  ms.date: ...
+  author: ...
+  ms.author: ...
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 4-how-humans-classify
+durationInMinutes: 1
+content: |
+  [!include[](includes/4-how-humans-classify.md)]

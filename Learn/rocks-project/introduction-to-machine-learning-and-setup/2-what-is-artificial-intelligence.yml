@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.2-what-is-artificial-intelligence
+metadata:
+  title: 2-what-is-artificial-intelligence
+  description: ...
+  ms.date: ...
+  author: ...
+  ms.author: ...
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 2-what-is-artificial-intelligence
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-what-is-artificial-intelligence.md)]

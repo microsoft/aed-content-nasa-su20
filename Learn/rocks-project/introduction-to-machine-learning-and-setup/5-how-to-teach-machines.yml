@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.5-how-to-teach-machines
+metadata:
+  title: 5-how-to-teach-machines
+  description: ...
+  ms.date: ...
+  author: ...
+  ms.author: ...
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 5-how-to-teach-machines
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-how-to-teach-machines.md)]

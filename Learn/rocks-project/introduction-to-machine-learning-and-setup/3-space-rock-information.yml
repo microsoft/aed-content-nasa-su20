@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: >-
+  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.3-space-rock-information
+metadata:
+  title: 3-space-rock-information
+  description: ...
+  ms.date: ...
+  author: ...
+  ms.author: ...
+  ms.topic: interactive-tutorial
+  ms.prod: ...
+  ROBOTS: NOINDEX
+title: 3-space-rock-information
+durationInMinutes: 1
+content: |
+  [!include[](includes/3-space-rock-information.md)]
