@@ -10,13 +10,13 @@ The data is provided by NASA and you can even view their [sample collection](htt
 
 In this module, you will:
 
-- Get an introduction to artificial intelligence
-- Learn about and install popular artificial intelligence libraries to assist you
-- Build a custom artificial intelligence model
-- Access the accuracy of the model you build
-- Test out your model
+- Import artificial libraries
+- Learn how to import data
+- Learn how to clean and separate data
+- Show the data you imported
 
 ## Prerequisites
 
 - Ability to write and run introductory Python programs
 - Visual Studio Code, Python Extension, and Jupyter Notebooks installed
+- Have artificial intelligence libraries installed

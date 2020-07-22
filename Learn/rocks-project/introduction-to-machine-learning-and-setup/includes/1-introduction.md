@@ -11,10 +11,10 @@ The data is provided by NASA and you can even view their [sample collection](htt
 In this module, you will:
 
 - Get an introduction to artificial intelligence
-- Learn about and install popular artificial intelligence libraries to assist you
-- Build a custom artificial intelligence model
-- Access the accuracy of the model you build
-- Test out your model
+- See how humans classify objects
+- See how machines classify objects
+- Learn about artificial intelligence libraries
+- Install artificial intelligence libraries
 
 ## Prerequisites
 

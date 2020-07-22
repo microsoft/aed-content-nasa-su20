@@ -1,11 +1,3 @@
-# Knowledge Check
+# Summary
 
-What is Artificial Intelligence
--A way for computers to take over the world
--Giving computers a b
-
-What is the purpose of anaconda?
-To download lots of libraries all at once
-
-Humans are better than computers at finding minute details of objects? True or False?
-False *
+In this module, you learned about what artificial intelligence is and some ways that it is used in day to day life. You also learned about different artificial intelligence libraries and downloaded them onto your computer.

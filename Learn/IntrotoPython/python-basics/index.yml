@@ -10,8 +10,17 @@ metadata:
   ms.prod: learning-azure
 title: Write Basic Python in Notebooks in Visual Studio Code
 summary: Learn the basics of Python
-abstract: ...
-prerequisites: ...
+abstract: |
+  In this module, you will learn:
+  - How and when to use comments
+  - How to use math in Python
+  - How to create variables
+  - How to use pre-made functions
+  - How to output data
+prerequisites: |
+  - Visual Studio Code installed
+  - Python installed
+  - Python Extension installed
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels:
 - beginner
