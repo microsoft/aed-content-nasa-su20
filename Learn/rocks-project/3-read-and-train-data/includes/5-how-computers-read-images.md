@@ -10,4 +10,4 @@ Images will look like the below after computers transform them into numbers:
 
 <img src="Media/pixels.png" width="500" align="center">
 
-The image is broken down into pixels and each pixel has a specific color that is identified by a code. The computer will break an image down into these code and then it can read and decipher the picture.
+The image is broken down into pixels and each pixel has a specific color that is identified by a code. The computer will break an image down into these codes and then it can read and decipher the picture.

@@ -9,12 +9,12 @@ In this lesson we will be classifying rocks into one of two types: Basalt and Cr
 > [!NOTE]
 > These rock types are also found on the Earth, but for this lesson we are only looking at the lunar variants or rocks that are from the moon.
 
-Basalt is the dark rock type that come from ancient volcanic eruptions on the moon. When you look up at the moon and see dark patches you are likely viewing Basalt.
+Basalt is the dark rock type that come from ancient volcanic eruptions on the moon. When you look up at the moon and see dark patches you are likely viewing Basalt. Nearly 26% of the near side of the Moon is basalt and only 2% of the far side is basalt. Most basalt in either hemisphere is found in areas of lowest elevation, particularly in the very large impact basins.
 
 <img src="Media/Basalt_Cristobalite_s69-45569.jpg" width="200" align="center">
 <img src="Media/Basalt_Cristobalite_s69-45583.jpg" width="200" align="center">
 
-Crustal are lighter rocks that form when there is a partial melt of mantle rocks.
+Crustal are lighter rocks that form when there is a partial melt of mantle rocks. These rocks are less common than Basalts.
 
 <img src="Media/Crustal_Anorthosite_s72-18182.jpg" width="150" align="center">
 <img src="Media/Crustal_Anorthosite_s72-46804.jpg" width="200" align="center">
