@@ -1,4 +1,4 @@
-# How to Teach Computer AI/ What is AI
+# Classify Space Rocks Like a Machine with AI
 
 The job of an AI scientist is to teach machines to do the same 3 steps.
 Below we will walk through each step for machines:

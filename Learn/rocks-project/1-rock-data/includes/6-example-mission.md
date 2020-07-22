@@ -1,4 +1,4 @@
-# Example of a Space Rock Mission
+# Explore an Example Space Rock Mission
 
 There are lots of missions that have taken astronauts and rovers to the moon to search for these rocks. One of which is the [OSIRIS-Rex mission](https://www.asteroidmission.org/objectives/).
 

@@ -1,4 +1,4 @@
-# The Human Classifying Process
+# Classify Space Rocks Like a Human
 
 Before we build an AI system to detect the rock types, lets see how we 'humans' do it.
 

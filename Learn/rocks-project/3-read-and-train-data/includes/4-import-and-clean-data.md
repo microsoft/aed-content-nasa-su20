@@ -1,4 +1,4 @@
-# Importing Data
+# Exercise - Import and Clean Space Rock Data
 
 Now that we know about cleaning and separating the data, we can actually apply these principles to our rock classification project.
 

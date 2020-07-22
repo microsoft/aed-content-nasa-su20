@@ -2,14 +2,14 @@
 uid: >-
   learn.student-evangelism.introduction-to-artificial-intelligence.6-common-ai-libraries
 metadata:
-  title: Common artificial intelligence libraries
+  title: Discover Common Python Libraries Useful in AI Projects
   description: Learn about some common ai libraries and what they do
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Common artificial intelligence libraries
+title: Discover Common Python Libraries Useful in AI Projects
 durationInMinutes: 3
 content: |
   [!include[](includes/6-common-ai-libraries.md)]

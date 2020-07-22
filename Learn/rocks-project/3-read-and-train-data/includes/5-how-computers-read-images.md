@@ -1,4 +1,4 @@
-# Viewing Images in Python
+# Discover how Computers Understand Images
 
 Now that we have our data cleaned and separated a question might arise to how the computer actually reads these images.
 

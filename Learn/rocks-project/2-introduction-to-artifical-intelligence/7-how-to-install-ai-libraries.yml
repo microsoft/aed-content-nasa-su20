@@ -2,14 +2,14 @@
 uid: >-
   learn.student-evangelism.introduction-to-artificial-intelligence.7-how-to-install-ai-libraries
 metadata:
-  title: Exercise - Install artificial intelligence libraries
+  title: Exercise - Prepare to Classify Space Rocks by Downloading AI Python Libraries
   description: Learn how to install the previously talked about libraries
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Exercise - Install artificial intelligence libraries
+title: Exercise - Prepare to Classify Space Rocks by Downloading AI Python Libraries
 durationInMinutes: 7
 content: |
   [!include[](includes/7-how-to-install-ai-libraries.md)]

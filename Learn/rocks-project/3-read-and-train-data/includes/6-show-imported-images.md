@@ -1,4 +1,4 @@
-# Showing images we've imported
+# Exercise - Display Space Rock Images in a Python Notebook
 
 Now that we have read the images let's check out a few of them.
 

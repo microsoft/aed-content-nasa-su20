@@ -2,14 +2,14 @@
 uid: >-
   learn.student-evangelism.introduction-to-artificial-intelligence.5-how-to-teach-machines
 metadata:
-  title: How to teach machines
+  title: Classify Space Rocks Like a Machine with AI
   description: Process to teach machines how to classify
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: How to teach machines
+title: Classify Space Rocks Like a Machine with AI
 durationInMinutes: 4
 content: |
   [!include[](includes/5-how-to-teach-machines.md)]

@@ -1,4 +1,4 @@
-# Downloading AI Libraries
+# Exercise - Prepare to Classify Space Rocks by Downloading AI Python Libraries
 
 It may seem like there are a lot of libraries that we must download for this project. Luckily, there is a software called Anaconda that lets us download all of the libraries very quickly. Microsoft has a [video about downloading and configuring a similar environment](https://www.youtube.com/watch?v=5E3WMb8_T3s&list=PLlrxD0HtieHjDop2DtiCmwTTcrlwKAVHE&index=8) to the one we need, but continue reading to download the right libraries for this project.
 

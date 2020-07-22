@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.student-evangelism.rock-data.4-struggles-of-gathering-space-rocks
 metadata:
-  title: Struggles of gathering space rocks
+  title: Discover the Struggles of Collecting Space Rocks
   description: Learn about the struggles of gathering space rocks
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Struggles of gathering space rocks
+title: Discover the Struggles of Collecting Space Rocks
 durationInMinutes: 4
 content: |
   [!include[](includes/4-struggles-of-gathering-space-rocks.md)]

@@ -1,4 +1,4 @@
-# A Solution to the Struggle
+# Imagine Ways to Improve Space Rock Research with AI
 
 Integrating Artificial Intelligence (AI)) into this process could improve the collection process for both humans and rovers. For example, we could send astronauts to the moon armed with a computer that can take pictures of rocks and tell the astronaut what type it likely is and the importance of that type for the general collection we have back here on Earth. This same computer could be placed in a rover that could autonomously drive around the moon and scan for rocks that we need.
 
