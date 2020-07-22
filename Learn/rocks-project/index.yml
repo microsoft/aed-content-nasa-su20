@@ -1,7 +1,7 @@
 ### YamlMime:LearningPath
 uid: learn.intro-to-python
 metadata:
-  title: Classify Space Rocks with Artificial Intelligence
+  title: Classify Moon Rocks using Python and Azure Cognitive Services
   description: In this learning path, you will touch the surface (pun intended) of how scientists begin to research the nuances of rocks, and the complexities that data science can begin to make simpler. These modules are designed to give you a sneak peak into the scientific discovery of space - what we can achieve is greater than we ever imagined.
   brand: vs-code
   ms.date: 07/22/2020
@@ -9,7 +9,7 @@ metadata:
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Classify Space Rocks with Artificial Intelligence
+title: Classify Moon Rocks using Python and Azure Cognitive Services
 summary: In this learning path, you will touch the surface (pun intended) of how scientists begin to research the nuances of rocks, and the complexities that data science can begin to make simpler. These modules are designed to give you a sneak peak into the scientific discovery of space - what we can achieve is greater than we ever imagined.
 prerequisites: A basic understanding of Python for Data Science (link to previous learning path)
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
@@ -21,9 +21,9 @@ roles:
 products:
 - vs-code
 modules:
-- learn.student-evangelism.rock-data
-- learn.student-evangelism.introduction-to-artificial-intelligence
-- learn.student-evangelism.read-and-train-data
-- learn.student-evangelism.test-ai-program
+- learn.student-evangelism.1-rock-data
+- learn.student-evangelism.2-introduction-to-artifical-intelligence
+- learn.student-evangelism.3-read-and-train-data
+- learn.student-evangelism.4-test-model
 trophy:
   uid: https://docs.microsoft.com/media/learn/module.svg

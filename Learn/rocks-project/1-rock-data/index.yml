@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.student-evangelism.rock-data
 metadata:
-  title: Rock Data
+  title: Explore the Research of Space Rocks Through AI
   description: Learn about space rocks
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tools
   ms.prod: learning-azure
-title: Rock Data
+title: Explore the Research of Space Rocks Through AI
 summary: Learn about space rocks
 abstract: |
   In this module, you will learn:

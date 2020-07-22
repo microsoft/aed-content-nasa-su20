@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.student-evangelism.introduction-to-artificial-intelligence
 metadata:
-  title: Introduction to artificial intelligence
+  title: Prepare to Research Space Rocks with AI
   description: Learn about artificial intelligence with a NASA context
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Introduction to artificial intelligence
+title: Prepare to Research Space Rocks with AI
 summary: Learn about artificial intelligence with a NASA context
 abstract: |
  In this module, you will:

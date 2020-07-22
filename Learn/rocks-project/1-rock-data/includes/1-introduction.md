@@ -1,4 +1,4 @@
-# The Role of Artificial Intelligence in Space Exploration
+# Introduction
 
 As technology advances, many disciplines outside of Computer Science have found ways to introduce these technologies into their work. One newer piece of technology that is being applied to many tasks is artificial intelligence (AI).
 

@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.student-evangelism.test-ai-program
 metadata:
-  title: Test Artificial Intelligence Program
+  title: Predict Types of Space Rocks Using AI
   description: Train an artificial intelligence model to predict rock types
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Test Artificial Intelligence Program
+title: Predict Types of Space Rocks Using AI
 summary: Train an artificial intelligence model to predict rock types
 abstract: |
  In this module, you will:
