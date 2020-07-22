@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: >-
-  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.2-what-is-artificial-intelligence
+  learn.student-evangelism.introduction-to-artificial-intelligence.2-what-is-artificial-intelligence
 metadata:
-  title: 2-what-is-artificial-intelligence
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: What is artificial intelligence
+  description: Learn about what artificial intelligence is
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
+  ms.prod: learning-azure
 title: 2-what-is-artificial-intelligence
-durationInMinutes: 1
+durationInMinutes: 4
 content: |
   [!include[](includes/2-what-is-artificial-intelligence.md)]

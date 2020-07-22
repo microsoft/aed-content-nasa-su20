@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: ClassifyingSpaceRocks.test-ai-program.8-summary
+uid: learn.student-evangelism.test-ai-program.8-summary
 metadata:
-  title: 8-summary
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Summary
+  description: Summary
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 8-summary
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Summary
+durationInMinutes: 4
 content: |
   [!include[](includes/8-summary.md)]

@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: ClassifyingSpaceRocks.read-and-train-data.6-show-imported-images
+uid: learn.student-evangelism.read-and-train-data.6-show-imported-images
 metadata:
-  title: 6-show-imported-images
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Exercise - Show imported images
+  description: Show the images that we just imported
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 6-show-imported-images
-durationInMinutes: 1
+  ms.prod: learning.azure
+title: Exercise - Show imported images
+durationInMinutes: 4
 content: |
   [!include[](includes/6-show-imported-images.md)]

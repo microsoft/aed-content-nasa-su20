@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: >-
-  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.7-how-to-install-ai-libraries
+  learn.student-evangelism.introduction-to-artificial-intelligence.7-how-to-install-ai-libraries
 metadata:
-  title: 7-how-to-install-AI-libraries
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Exercise - Install artificial intelligence libraries
+  description: Learn how to install the previously talked about libraries
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 7-how-to-install-AI-libraries
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Exercise - Install artificial intelligence libraries
+durationInMinutes: 7
 content: |
   [!include[](includes/7-how-to-install-ai-libraries.md)]

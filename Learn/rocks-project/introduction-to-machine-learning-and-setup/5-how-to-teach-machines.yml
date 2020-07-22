@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: >-
-  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.5-how-to-teach-machines
+  learn.student-evangelism.introduction-to-artificial-intelligence.5-how-to-teach-machines
 metadata:
-  title: 5-how-to-teach-machines
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: How to teach machines
+  description: Process to teach machines how to classify
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 5-how-to-teach-machines
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: How to teach machines
+durationInMinutes: 4
 content: |
   [!include[](includes/5-how-to-teach-machines.md)]

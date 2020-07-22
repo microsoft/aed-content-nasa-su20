@@ -11,19 +11,19 @@ In this lesson we will be classifying rocks into one of two types: Basalt and Cr
 
 Basalt is the dark rock type that come from ancient volcanic eruptions on the moon. When you look up at the moon and see dark patches you are likely viewing Basalt.
 
-<img src="../Media/Basalt_Cristobalite_s69-45569.jpg" width="200" align="center">
-<img src="../Media/Basalt_Cristobalite_s69-45583.jpg" width="200" align="center">
+<img src="Media/Basalt_Cristobalite_s69-45569.jpg" width="200" align="center">
+<img src="Media/Basalt_Cristobalite_s69-45583.jpg" width="200" align="center">
 
 Crustal are lighter rocks that form when there is a partial melt of mantle rocks.
 
-<img src="../Media/Crustal_Anorthosite_s72-18182.jpg" width="150" align="center">
-<img src="../Media/Crustal_Anorthosite_s72-46804.jpg" width="200" align="center">
+<img src="Media/Crustal_Anorthosite_s72-18182.jpg" width="150" align="center">
+<img src="Media/Crustal_Anorthosite_s72-46804.jpg" width="200" align="center">
 
 Look carefully at the sample images for each rock type to learn how to classify a new rock that just arrived from Space.
 
 What type of rock do you think this newly arrived rock is?
 
-<img src="../Media/Basalt_Cristobalite_s75-31692.jpg" width="200" align="center">
+<img src="Media/Basalt_Cristobalite_s75-31692.jpg" width="200" align="center">
 
 This new rock that we just received is a Basalt rock. Did you get it right?
 

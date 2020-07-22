@@ -22,7 +22,7 @@ Size of the rock
 
 Our brains subconsciously do all of these without us noticing. We call these 'Features' in AI.
 
-<img src="../Media/features.png" width="350" align="center">  
+<img src="Media/features.png" width="350" align="center">  
 
 ### Step 2
 

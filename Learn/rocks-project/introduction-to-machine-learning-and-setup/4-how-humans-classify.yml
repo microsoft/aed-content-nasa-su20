@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: >-
-  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.4-how-humans-classify
+  learn.student-evangelism.introduction-to-artificial-intelligence.4-how-humans-classify
 metadata:
-  title: 4-how-humans-classify
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: How humans classify
+  description: Learn about how humans classify things
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 4-how-humans-classify
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: How humans classify
+durationInMinutes: 3
 content: |
   [!include[](includes/4-how-humans-classify.md)]

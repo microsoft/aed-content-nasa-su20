@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: >-
-  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.3-space-rock-information
+  learn.student-evangelism.introduction-to-artificial-intelligence.3-space-rock-information
 metadata:
-  title: 3-space-rock-information
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Space rock information
+  description: Learn a little about space rocks
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 3-space-rock-information
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Space rock information
+durationInMinutes: 3
 content: |
   [!include[](includes/3-space-rock-information.md)]

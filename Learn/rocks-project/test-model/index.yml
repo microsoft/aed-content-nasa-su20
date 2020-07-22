@@ -1,29 +1,33 @@
 ### YamlMime:Module
-uid: ClassifyingSpaceRocks.test-ai-program
+uid: learn.student-evangelism.test-ai-program
 metadata:
-  title: test-AI-program
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
-title: test-AI-program
-summary: ...
+  title: Test Artificial Intelligence Program
+  description: Train an artificial intelligence model to predict rock types
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Test Artificial Intelligence Program
+summary: Train an artificial intelligence model to predict rock types
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles:
+- student
+- data-scientist
+products:
+- vs-code
 units:
-- ClassifyingSpaceRocks.test-ai-program.1-introduction
-- ClassifyingSpaceRocks.test-ai-program.2-extracting-features
-- ClassifyingSpaceRocks.test-ai-program.3-build-neural-network
-- ClassifyingSpaceRocks.test-ai-program.4-train-program
-- ClassifyingSpaceRocks.test-ai-program.5-accuracy
-- ClassifyingSpaceRocks.test-ai-program.6-predict-rock-types
-- ClassifyingSpaceRocks.test-ai-program.7-analyze-predictions
-- ClassifyingSpaceRocks.test-ai-program.8-summary
+- learn.student-evangelism.test-ai-program.1-introduction
+- learn.student-evangelism.test-ai-program.2-extracting-features
+- learn.student-evangelism.test-ai-program.3-build-neural-network
+- learn.student-evangelism.test-ai-program.4-train-program
+- learn.student-evangelism.test-ai-program.5-accuracy
+- learn.student-evangelism.test-ai-program.6-predict-rock-types
+- learn.student-evangelism.test-ai-program.7-analyze-predictions
+- learn.student-evangelism.test-ai-program.8-summary
 badge:
-  uid: ClassifyingSpaceRocks.test-ai-program.badge
+  uid: learn.student-evangelism.test-ai-program.badge

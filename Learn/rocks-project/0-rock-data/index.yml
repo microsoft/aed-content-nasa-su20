@@ -1,28 +1,32 @@
 ### YamlMime:Module
 uid: ClassifyingSpaceRocks.rock-data
 metadata:
-  title: rock-data
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
-title: rock-data
-summary: ...
+  title: Rock Data
+  description: Learn about space rocks
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tools
+  ms.prod: learning-azure
+title: Rock Data
+summary: Learn about space rocks
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles:
+- student
+- data-scientist
+products:
+- vs-code
 units:
-- ClassifyingSpaceRocks.rock-data.1-introduction
-- ClassifyingSpaceRocks.rock-data.2-space-rocks
-- ClassifyingSpaceRocks.rock-data.3-space-rocks-earth
-- ClassifyingSpaceRocks.rock-data.4-struggles-of-gathering-space-rocks
-- ClassifyingSpaceRocks.rock-data.5-solution
-- ClassifyingSpaceRocks.rock-data.6-example-mission
-- ClassifyingSpaceRocks.rock-data.7-summary
+- learn.student-evangelism.rock-data.1-introduction
+- learn.student-evangelism.rock-data.2-space-rocks
+- learn.student-evangelism.rock-data.3-space-rocks-earth
+- learn.student-evangelism.rock-data.4-struggles-of-gathering-space-rocks
+- learn.student-evangelism.rock-data.5-solution
+- learn.student-evangelism.rock-data.6-example-mission
+- learn.student-evangelism.rock-data.7-summary
 badge:
-  uid: ClassifyingSpaceRocks.rock-data.badge
+  uid: learn.student-evangelism.rock-data.badge

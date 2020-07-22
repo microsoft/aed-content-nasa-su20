@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: ClassifyingSpaceRocks.rock-data.4-struggles-of-gathering-space-rocks
+uid: learn.student-evangelism.rock-data.4-struggles-of-gathering-space-rocks
 metadata:
-  title: 4-struggles-of-gathering-space-rocks
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Struggles of gathering space rocks
+  description: Learn about the struggles of gathering space rocks
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 4-struggles-of-gathering-space-rocks
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Struggles of gathering space rocks
+durationInMinutes: 4
 content: |
   [!include[](includes/4-struggles-of-gathering-space-rocks.md)]

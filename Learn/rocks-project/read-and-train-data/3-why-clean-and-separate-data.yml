@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: ClassifyingSpaceRocks.read-and-train-data.3-why-clean-and-separate-data
+uid: learn.student-evangelism.read-and-train-data.3-why-clean-and-separate-data
 metadata:
-  title: 3-why-clean-and-separate-data
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Why clean and separate data
+  description: learn why you need to clean and separate data
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 3-why-clean-and-separate-data
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Why clean and separate data
+durationInMinutes: 4
 content: |
   [!include[](includes/3-why-clean-and-separate-data.md)]

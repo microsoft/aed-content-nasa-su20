@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: >-
-  ClassifyingSpaceRocks.introduction-to-artificial-intelligence.6-common-ai-libraries
+  learn.student-evangelism.introduction-to-artificial-intelligence.6-common-ai-libraries
 metadata:
-  title: 6-common-AI-libraries
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Common artificial intelligence libraries
+  description: Learn about some common ai libraries and what they do
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 6-common-AI-libraries
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Common artificial intelligence libraries
+durationInMinutes: 3
 content: |
   [!include[](includes/6-common-ai-libraries.md)]

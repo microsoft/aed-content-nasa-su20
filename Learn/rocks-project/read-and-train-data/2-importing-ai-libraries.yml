@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: ClassifyingSpaceRocks.read-and-train-data.2-importing-ai-libraries
+uid: learn.student-evangelism.read-and-train-data.2-importing-ai-libraries
 metadata:
-  title: 2-importing-AI-libraries
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Exercise- Importing artificial intelligence libraries
+  description: Import all of the needed libraries
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 2-importing-AI-libraries
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Exercise - Importing artificial intelligence libraries
+durationInMinutes: 3
 content: |
   [!include[](includes/2-importing-ai-libraries.md)]

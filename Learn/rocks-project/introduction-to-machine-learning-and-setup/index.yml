@@ -1,35 +1,39 @@
 ### YamlMime:Module
-uid: ClassifyingSpaceRocks.introduction-to-artificial-intelligence
+uid: learn.student-evangelism.introduction-to-artificial-intelligence
 metadata:
-  title: introduction-to-artificial-intelligence
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
-title: introduction-to-artificial-intelligence
-summary: ...
+  title: Introduction to artificial intelligence
+  description: Learn about artificial intelligence with a NASA context
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Introduction to artificial intelligence
+summary: Learn about artificial intelligence with a NASA context
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles: 
+- student
+- data-scientist
+products: 
+- vs-code
 units:
-- ClassifyingSpaceRocks.introduction-to-artificial-intelligence.1-introduction
+- learn.student-evangelism.introduction-to-artificial-intelligence.1-introduction
 - >-
-    ClassifyingSpaceRocks.introduction-to-artificial-intelligence.2-what-is-artificial-intelligence
+    learn.student-evangelism.introduction-to-artificial-intelligence.2-what-is-artificial-intelligence
 - >-
-    ClassifyingSpaceRocks.introduction-to-artificial-intelligence.3-space-rock-information
+    learn.student-evangelism.introduction-to-artificial-intelligence.3-space-rock-information
 - >-
-    ClassifyingSpaceRocks.introduction-to-artificial-intelligence.4-how-humans-classify
+    learn.student-evangelism.introduction-to-artificial-intelligence.4-how-humans-classify
 - >-
-    ClassifyingSpaceRocks.introduction-to-artificial-intelligence.5-how-to-teach-machines
+    learn.student-evangelism.introduction-to-artificial-intelligence.5-how-to-teach-machines
 - >-
-    ClassifyingSpaceRocks.introduction-to-artificial-intelligence.6-common-ai-libraries
+    learn.student-evangelism.introduction-to-artificial-intelligence.6-common-ai-libraries
 - >-
-    ClassifyingSpaceRocks.introduction-to-artificial-intelligence.7-how-to-install-ai-libraries
-- ClassifyingSpaceRocks.introduction-to-artificial-intelligence.8-summary
+    learn.student-evangelism.introduction-to-artificial-intelligence.7-how-to-install-ai-libraries
+- learn.student-evangelism.introduction-to-artificial-intelligence.8-summary
 badge:
-  uid: ClassifyingSpaceRocks.introduction-to-artificial-intelligence.badge
+  uid: learn.student-evangelism.introduction-to-artificial-intelligence.badge

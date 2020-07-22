@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: ClassifyingSpaceRocks.test-ai-program.6-predict-rock-types
+uid: learn.student-evangelism.test-ai-program.6-predict-rock-types
 metadata:
-  title: 6-predict-rock-types
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Exercise - Predict rock types
+  description: Put the Ai model to use and predict rock types
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 6-predict-rock-types
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Exercise - Predict rock types
+durationInMinutes: 5
 content: |
   [!include[](includes/6-predict-rock-types.md)]

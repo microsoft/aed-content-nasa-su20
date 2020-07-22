@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: ClassifyingSpaceRocks.test-ai-program.4-train-program
+uid: learn.student-evangelism.test-ai-program.4-train-program
 metadata:
-  title: 4-train-program
-  description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  title: Exercise - Train model
+  description: Train the artificial intelligence model 
+  ms.date: 07/22/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 4-train-program
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Exercise - Train model
+durationInMinutes: 6
 content: |
   [!include[](includes/4-train-program.md)]
