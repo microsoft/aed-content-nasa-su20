@@ -1,7 +1,3 @@
-# Knowledge Check
+# Summary
 
-What is the point of separating data into training and testing data?
-
-How do computers view images?
-
-How did we clean the data in our project?
+In this module, you learned about how to import data and how to get it ready to train a artificial intelligence model with.

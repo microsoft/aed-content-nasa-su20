@@ -10,8 +10,16 @@ metadata:
   ms.prod: learning-azure
 title: Introduction to artificial intelligence
 summary: Learn about artificial intelligence with a NASA context
-abstract: ...
-prerequisites: ...
+abstract: |
+ In this module, you will:
+ - Get an introduction to artificial intelligence
+ - See how humans classify objects
+ - See how machines classify objects
+ - Learn about artificial intelligence libraries
+ - Install artificial intelligence libraries
+prerequisites: |
+ - Ability to write and run introductory Python programs
+ - Visual Studio Code, Python Extension, and Jupyter Notebooks installed
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels:
 - beginner

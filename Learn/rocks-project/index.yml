@@ -21,10 +21,9 @@ roles:
 products:
 - vs-code
 modules:
-- learn.student-evangelism.introduction
-- learn.student-evangelism.introduction-installation
-- learn.student-evangelism.python-basics
-- learn.student-evangelism.python-intermediate
-- learn.student-evangelism.python-rock-project
+- learn.student-evangelism.rock-data
+- learn.student-evangelism.introduction-to-artificial-intelligence
+- learn.student-evangelism.read-and-train-data
+- learn.student-evangelism.test-ai-program
 trophy:
   uid: https://docs.microsoft.com/media/learn/module.svg

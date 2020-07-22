@@ -10,8 +10,14 @@ metadata:
   ms.prod: learning-azure
 title: Test Artificial Intelligence Program
 summary: Train an artificial intelligence model to predict rock types
-abstract: ...
-prerequisites: ...
+abstract: |
+ In this module, you will:
+ - Train an artificial intelligence model
+ - Test the model by having it classify different space rocks
+prerequisites: |
+ - Ability to write and run introductory Python programs
+ - Visual Studio Code, Python Extension, and Jupyter Notebooks installed
+ - Have artificial intelligence libraries installed
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels:
 - beginner
