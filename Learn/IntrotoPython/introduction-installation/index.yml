@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.student-evangelism.introduction-installation
 metadata:
-  title: Introduction Installation
+  title: Install Coding Tools for Python Development
   description: Learn about what coding is and install tools to help code
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: introduction-installation
+title: Install Coding Tools for Python Development
 summary: Learn about what coding is and install tools to help code
 abstract: ...
 prerequisites: ...

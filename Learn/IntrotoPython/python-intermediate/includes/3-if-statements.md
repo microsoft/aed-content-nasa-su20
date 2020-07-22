@@ -1,4 +1,4 @@
-# If, Else, and ElseIf Statements
+# Exercise - Control the Flow of Code Using Conditional Statements
 
 These statements are the actual programming we use to tell the computer if some condition is met, do this, if not do something else.
 

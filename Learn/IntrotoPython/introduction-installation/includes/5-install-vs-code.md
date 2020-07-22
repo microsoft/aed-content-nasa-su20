@@ -1,4 +1,4 @@
-# Installing and Configuring Visual Studio Code
+# Exercise - Install and Configure Visual Studio Code for Data Exploration
 
 While it was great reading about these technologies, a much more exciting way to learn about them is to install them and begin playing around. This unit will teach you how to install Visual Studio Code.
 

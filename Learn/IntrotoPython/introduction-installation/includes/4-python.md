@@ -1,4 +1,4 @@
-# Introduction to Python
+# Understand the Importance of Python in Solving Big Data Problems
 
 [Python](https://www.python.org/) is the programming language you will be using throughout this learning path. Although it may seem that you are only learning about one programming language, the concepts learned here can be applied to numerous other languages.
 

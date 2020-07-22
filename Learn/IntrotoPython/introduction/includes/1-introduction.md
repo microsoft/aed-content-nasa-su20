@@ -1,4 +1,4 @@
-# The Role of Data in Space Exploration
+# Introduction
 
 In almost every scientific area of study in today's world, data plays a huge role. Even moreso than it did in the past because we have massive amounts of data that is often publicly available. 
 

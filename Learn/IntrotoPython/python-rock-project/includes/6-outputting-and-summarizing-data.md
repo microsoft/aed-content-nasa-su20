@@ -1,4 +1,4 @@
-# Analyzing summary data
+# Exercise - Analyze and Summarize Data in Python
 
 Let's start by printing the number of each type of rock we found. For example, to do this for Basalt rocks, paste in the following code:
 

@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.student-evangelism.python-basics
 metadata:
-  title: Python Basics
+  title: Write Basic Python in Notebooks in Visual Studio Code
   description: Learn the basics of Python
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Python Basics
+title: Write Basic Python in Notebooks in Visual Studio Code
 summary: Learn the basics of Python
 abstract: ...
 prerequisites: ...

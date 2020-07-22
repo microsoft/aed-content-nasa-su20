@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.student-evangelism.python-intermediate
 metadata:
-  title: Python Intermediate
+  title: Code Control Statements in Python
   description: Learn more advanced topics of Python
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: python-intermediate
+title: Code Control Statements in Python
 summary: Learn more advanced topics of Python
 abstract: ...
 prerequisites: ...

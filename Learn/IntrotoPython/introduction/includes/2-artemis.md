@@ -1,4 +1,4 @@
-# The Artemis Program
+# Discover the Opportunities of the Artemis Program
 
 [Artemis](https://www.nasa.gov/specials/artemis/) is NASA's program to land the first woman and the next man on the Moon by 2024. The specific goal of this program is to begin to understand what infrastructure and preparation is needed to eventually send an astronaut to step foot on Mars.
 

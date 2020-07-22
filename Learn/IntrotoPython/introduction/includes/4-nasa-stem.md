@@ -1,4 +1,4 @@
-# NASA STEM Inspiration
+# Dive into STEM through the Opportunities of NASA
 
 In the summer of 2020, [the NASA STEM team gave a 3-hour webinar](https://www.youtube.com/watch?v=jmSXxbR5WnU) introducing some of the unique ways that they are inspiring collaboration with other government agencies, industry partners, and individuals like you who are excited and interested in the exploration of space.
 

@@ -1,4 +1,4 @@
-# Why Focus on Code and Data
+# Use Code and Data Science Practices to Solve Space Exploration Problems
 
 The scientific areas of interest for NASA research is vast. So why are we focusing on how code can play a role?
 

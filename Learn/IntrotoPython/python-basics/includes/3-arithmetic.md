@@ -1,4 +1,4 @@
-# Arithmetic
+# Exercise - Code Basic Arithmetic in Python for Future Data Analysis
 
 Math is used frequently in computer science and the concepts you will learn will be great tools to add to your coding arsenal. Python has many features that allow you to perform many different mathematical computations.
 

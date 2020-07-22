@@ -1,4 +1,4 @@
-# Downloading and reading text files
+# Exercise - Read in Moon Rock Data from a Text File for Exploration
 
 Now that we have some variables made, we will want to start giving these variables values. We want to count the number of times that we see a certain type of rock in the rocks.txt file and add that number to the corresponding variable. For example, if there are 12 basalt rocks that Artemis saved to the text file, then we will want the basalt variable to be set to 12.
 

@@ -1,4 +1,4 @@
-# How to Install Extensions
+# Exercise - Install Visual Studio Code Extensions needed for Data Exploration
 
 In this unit, you will learn about the extension tab in Visual Studio Code and how to install the Python and IntelliCode extension.
 

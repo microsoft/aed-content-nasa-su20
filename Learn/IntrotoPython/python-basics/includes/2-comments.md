@@ -1,4 +1,4 @@
-# Using comments in Python
+# Exercise - Add Comments to Python Notebooks to Add Clarity to Your Code
 
 Over the course of this module, we will be using comments in our code. Learning how to use comments efficiently will greatly improve the readability of your code and help you learn programming topics faster.
 

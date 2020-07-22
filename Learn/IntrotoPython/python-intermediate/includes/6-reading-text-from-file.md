@@ -1,4 +1,4 @@
-# Importing Data with Python
+# Exercise - Import Data from Text Files with Python
 
 In many applications of Python, you will need to use data that comes from some other source. This could come in the form of reading an Excel file with data tracking the various parts of a rocket or a text file to read the rocks that a moon rover sees. In this unit we will learn how to read data from a text file using a pre-made Python function.
 

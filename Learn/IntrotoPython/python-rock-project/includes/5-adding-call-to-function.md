@@ -1,4 +1,4 @@
-# Adding a call to the function
+# Exercise - Count the Number of Moon Rocks by Calling a Python Function
 
 Now that we have the function made, we will need to include a call to it so it will used. To do this, we will create a for loop to go through every value in our rock list and call the function with each rock.
 

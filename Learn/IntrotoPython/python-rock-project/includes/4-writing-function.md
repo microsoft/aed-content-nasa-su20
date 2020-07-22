@@ -1,4 +1,4 @@
-# Creating a function to classify the words
+# Exercise - Create a Function to Count Types of Moon Rocks Found
 
 The next step in our application is to add a function that will look at a line of text and tell us which type of rock it is and then increment the corresponding variable. To start, copy this code:
 

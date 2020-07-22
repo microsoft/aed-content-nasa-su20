@@ -1,4 +1,4 @@
-# Variables
+# Exercise - Create Variables in Python Notebooks for Future Data Analysis
 
 In this unit, you will learn about variables in Python. Variables are containers that you can store data within and use at a different time.
 

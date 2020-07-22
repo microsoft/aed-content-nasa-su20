@@ -1,4 +1,4 @@
-# Conditionals and Conditions
+# Exercise - Compare Values of Data with Python Code
 
 In the real world, we sometimes will only perform some action if a certain condition is met. This is the gist of conditionals in coding. For example we may only want to launch a rocket if the temperature is above 32 degrees. Let's start by learning about the different conditions we can check to decide whether to perform an action or not.
 

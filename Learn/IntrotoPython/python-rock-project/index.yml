@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn.student-evangelism.python-rock-project
 metadata:
-  title: Build a rock project with Python
-  description: Use Python and Visual Studio Code to make a simple program to read space rocks
+  title: Count the Number of Moon Rocks by Type using Python
+  description: Use Python and Visual Studio Code to make a simple program to count the number of each type of space rock
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: python-rock-project
-summary: Use Python and Visual Studio Code to make a simple program to read space rocks
+title: Count the Number of Moon Rocks by Type using Python
+summary: Use Python and Visual Studio Code to make a simple program to count the number of each type of space rock
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg

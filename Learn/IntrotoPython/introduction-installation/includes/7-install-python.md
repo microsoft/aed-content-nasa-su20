@@ -1,4 +1,4 @@
-# Installing Python
+# Exercise - Install Python to use in Visual Studio Code for Data Exploration
 
 With Visual Studio Code installed, you will need to download Python so your computer knows how to run and interpret the code we write.
 

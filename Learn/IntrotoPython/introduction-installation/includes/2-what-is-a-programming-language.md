@@ -1,4 +1,4 @@
-# What is a Programming Language
+# Understand What Defines a Programming Language
 
 In the previous unit, we talked about how learning to code is a great skill. But - What Is Coding?
 

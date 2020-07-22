@@ -1,4 +1,4 @@
-# Understanding Visual Studio Code
+# Discover the Power to Solve Problems using Visual Studio Code
 
 With a brief introduction to code, you can move on to learning about tools developers use to assist them in coding. Specifically, in this unit, you will learn about code editors and Visual Studio Code.
 

@@ -1,4 +1,4 @@
-# Scope of Functions and Parameters
+# Exercise - Use Parameters to Specify Variability in Functions
 
 Another interesting aspect of functions is that variables created inside of them only exist inside of the function. For example this code would fail because we create the rocketNumber variable in the function and then try to use it outside of the function. Python does not know about that variable outside of the function so it will produce an error.
 

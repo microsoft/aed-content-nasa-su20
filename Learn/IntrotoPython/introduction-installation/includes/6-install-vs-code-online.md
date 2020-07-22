@@ -1,4 +1,4 @@
-# Running Visual Studio Code in your browser
+# (Optional) Exercise - Run Visual Studio Code in your Browser for Data Exploration
 
 > [!NOTE]
 > This is an optional section that you should only follow if you want to use Visual Studio Code in the browser and not downloaded onto your computer. The rest of the module will depict the instructions using a downloaded version of Visual Studio Code.

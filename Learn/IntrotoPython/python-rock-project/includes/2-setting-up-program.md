@@ -1,4 +1,4 @@
-# Setting up program and variables
+# Exercise - Create a Jupyter Notebook to Explore Data About Moon Rocks
 
 To start creating this program make a folder somewhere on your computer that you will be able to easily access. You can call this something like SpaceRockProject. After this is created, save this [rock.txt](..\Media/rocks.txt) file in this folder. Use the `file -> save as` to save a copy in your folder. This file has all of the data about that rocks that we are going to be reading in Python.
 

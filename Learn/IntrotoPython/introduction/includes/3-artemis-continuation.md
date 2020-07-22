@@ -1,4 +1,4 @@
-# Continuation of Existing Research
+# Understand Continued Research Goals of Space Exploration
 
 Beyond the innovations that are happening for this program to support future missions, there is still research happening that will benefit from this mission. 
 

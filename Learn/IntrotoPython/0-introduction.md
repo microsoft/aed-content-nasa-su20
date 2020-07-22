@@ -1,4 +1,4 @@
-# Learning Path Introduction
+# Discover the role of Python in Space Exploration
 
 The technological world around us thrives on innovation, passion, and persistance. When first learning to code, it is important that you identify all three along your journey.
 

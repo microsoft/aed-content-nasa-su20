@@ -1,4 +1,4 @@
-# Strings
+# Exercise: Create and Manipulate Text in Python Code
 
 Out of all of the variables, strings are one of the most unique. This is because they can take on pretty much any key from your keyboard. Python also has a lot of pre-made code (functions) that you can call to manipulate your strings in various ways.
 

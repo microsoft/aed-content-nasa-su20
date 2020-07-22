@@ -1,4 +1,4 @@
-# Functions
+# Exercise - Chunk Code into Functions for Easy Reusability and Readability
 
 Functions are ways that we can make our code easier to read and easier to reuse. For example, if you wrote code to count the number of basalt rocks, it would probably be almost identical to the code need to count highland rocks. Instead of making an if statement to check the type of every single space rock, we can just give a function the space rocks and it can run the same code to check which type of rock it is each time. `Print()` is an example of a function where the code to display output to the screen is the same, and the only difference is what you want to display. In this unit, you will learn how to write your own function.
 

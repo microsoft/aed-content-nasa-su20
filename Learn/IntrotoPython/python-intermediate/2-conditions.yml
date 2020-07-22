@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.student-evangelism.python-intermediate.2-conditions
 metadata:
-  title: Conditions
+  title: Exercise - Compare Values of Data with Python Code
   description: Learn about conditions in Python
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Conditions
+title: Exercise - Compare Values of Data with Python Code
 durationInMinutes: 6
 content: |
   [!include[](includes/2-conditions.md)]

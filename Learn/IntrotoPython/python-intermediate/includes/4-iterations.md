@@ -1,4 +1,4 @@
-# Iterations
+# Exercise - Repeat Code with While and For Loops
 
 Iterations, in programming, allows coders to repeat a set of instructions until a condition is met. Another way to think is that you are stuck in a loop that will continue to go around until something tells you to break out.
 

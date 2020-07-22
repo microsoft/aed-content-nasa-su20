@@ -1,4 +1,4 @@
-# Creating a Jupyter Notebook File and Running a Simple Program
+# Exercise - Create a Jupyter Notebook File in Visual Studio Code and Run a Simple Program
 
 Now that we have installed everything that we need, we can create our own Jupyter Notebook file and begin coding.
 
