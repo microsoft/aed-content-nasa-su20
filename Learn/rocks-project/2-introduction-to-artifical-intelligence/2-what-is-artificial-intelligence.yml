@@ -2,14 +2,14 @@
 uid: >-
   learn.student-evangelism.introduction-to-artificial-intelligence.2-what-is-artificial-intelligence
 metadata:
-  title: What is artificial intelligence
+  title: Define the Role of AI in Space Rock Research
   description: Learn about what artificial intelligence is
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: 2-what-is-artificial-intelligence
+title: Define the Role of AI in Space Rock Research
 durationInMinutes: 4
 content: |
   [!include[](includes/2-what-is-artificial-intelligence.md)]

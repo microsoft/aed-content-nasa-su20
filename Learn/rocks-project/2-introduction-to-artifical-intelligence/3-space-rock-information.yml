@@ -2,14 +2,14 @@
 uid: >-
   learn.student-evangelism.introduction-to-artificial-intelligence.3-space-rock-information
 metadata:
-  title: Space rock information
+  title: Understand the Different Space Rock Types Used for Research
   description: Learn a little about space rocks
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Space rock information
+title: Understand the Different Space Rock Types Used for Research
 durationInMinutes: 3
 content: |
   [!include[](includes/3-space-rock-information.md)]

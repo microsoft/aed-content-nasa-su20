@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.student-evangelism.read-and-train-data.4-import-and-clean-data
 metadata:
-  title: Exercise - Import and clean data
+  title: Exercise - Import and Clean Space Rock Data
   description: Import and clean the data that we will be using
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Exercise - Import and clean data
+title: Exercise - Import and Clean Space Rock Data
 durationInMinutes: 6
 content: |
   [!include[](includes/4-import-and-clean-data.md)]

@@ -1,4 +1,4 @@
-# Common AI Libraries in Python
+# Discover Common Python Libraries Useful in AI Projects
 
 Over the course of the project, we will be using the libraries listed below. They are all free and commonly used in real life artificial intelligence projects. Theses are just a few of the many libraries out there that may assist you in creating an artificial intelligence program.
 

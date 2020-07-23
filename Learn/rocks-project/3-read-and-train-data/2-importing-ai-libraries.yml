@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.student-evangelism.read-and-train-data.2-importing-ai-libraries
 metadata:
-  title: Exercise- Importing artificial intelligence libraries
+  title: Exercise - Import Python Libraries For Analyzing Space Rock Images
   description: Import all of the needed libraries
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Exercise - Importing artificial intelligence libraries
+title: Exercise - Import Python Libraries For Analyzing Space Rock Images
 durationInMinutes: 3
 content: |
   [!include[](includes/2-importing-ai-libraries.md)]

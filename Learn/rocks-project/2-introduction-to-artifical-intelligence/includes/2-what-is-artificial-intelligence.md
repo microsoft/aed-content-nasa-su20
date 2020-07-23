@@ -1,4 +1,4 @@
-# What is Artificial Intelligence
+# Define the Role of AI in Space Rock Research
 
 Artificial Intelligence, also known as AI, is a fairly new and prominent topic in Computer Science and more specifically data science. The basis of AI is teaching a computer how to have intelligence and make basic decisions.
 

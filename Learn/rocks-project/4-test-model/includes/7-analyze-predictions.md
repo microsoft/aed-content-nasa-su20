@@ -1,4 +1,4 @@
-# Analyze Prediction
+# Exercise - Test a Neural Network that Classifies Images of Space Rocks
 
 Lets pick 5 random images and see if our model can tell what type of rock it is:
 

@@ -2,14 +2,14 @@
 uid: >-
   learn.student-evangelism.introduction-to-artificial-intelligence.4-how-humans-classify
 metadata:
-  title: How humans classify
+  title: Classify Space Rocks Like a Human
   description: Learn about how humans classify things
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: How humans classify
+title: Classify Space Rocks Like a Human
 durationInMinutes: 3
 content: |
   [!include[](includes/4-how-humans-classify.md)]

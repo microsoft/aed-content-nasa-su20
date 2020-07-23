@@ -1,4 +1,4 @@
-# Accuracy
+# Exercise - Determine the Accuracy of a Neural Network at Classifying Space Rocks
 
 A big aspect of Artificial Intelligence is the accuracy that our program predicts the right outcome. In our case, accuracy is how likely the computer is to correctly identify a rock as being its true type. For Example 0.96 means 96% of rock types are predicted correctly and 4% are miss-classified.
 

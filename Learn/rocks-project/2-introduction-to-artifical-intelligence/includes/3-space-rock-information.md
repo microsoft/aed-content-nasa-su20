@@ -1,4 +1,4 @@
-# Introduction to Space Rocks
+# Understand the Different Space Rock Types Used for Research
 
 Before we begin learning about how Artificial Intelligence can classify rocks, let's start by learning about the different types of rocks that we will be classifying and see how well *you* can do at classifying rocks.
 

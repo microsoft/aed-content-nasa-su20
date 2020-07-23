@@ -1,4 +1,4 @@
-# Analyzing Data the Day of Launch
+# Analyze Weather the Day of Rocket Launches to Determine Safety
 
 While historical and prediction data are critical, and are often correct because of the care NASA scientists take to make the choice, there are also a number of factors analyzed the day of a launch.
 

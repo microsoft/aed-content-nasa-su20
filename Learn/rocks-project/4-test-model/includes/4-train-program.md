@@ -1,4 +1,4 @@
-# Training Artificial Intelligence Model
+# Exercise - Train a Neural Network to Accurately Classify Space Rocks
 
 Now that we have built a neural network and introduced the program to the different features of the rocks, we must now train the program. This will use our training data and make our program very accurate at classifying the rocks.
 

@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.student-evangelism.test-ai-program.7-analyze-predictions
 metadata:
-  title: Exercise - Analyze predictions
+  title: Exercise - Test a Neural Network that Classifies Images of Space Rocks
   description: See if the predictions are correct or not
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Exercise - Analyze predictions
+title: Exercise - Test a Neural Network that Classifies Images of Space Rocks
 durationInMinutes: 4
 content: |
   [!include[](includes/7-analyze-predictions.md)]

@@ -1,4 +1,4 @@
-# The Importance of Rocks and Soil
+# Discover the Importance of Space Rocks
 
 The application of artificial intelligence (AI) that we will be focusing on in this learning path is having a computer classify Moon rocks. While you may be wondering why we are learning about something as commonplace as rocks, there are many amazing things that we can learn from and do with Moon rocks.
 

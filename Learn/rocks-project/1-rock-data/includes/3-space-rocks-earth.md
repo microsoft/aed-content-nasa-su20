@@ -1,4 +1,4 @@
-# Space Rocks on Earth
+# Learn About Where Space Rocks are Found on Earth
 
 As previously mentioned, a prominent place to gather space rocks is actually on our Earth. However, while planned missions target specific types of space rocks, on Earth we are at the mercy of what type of meteorite decides to crash onto our surface. Furthermore, meteorites are covered with a fusion crust - an ash-like crust surrounding the rock preventing those who collect them from being able to properly identify them, until they are brought to the lab to be cleaned and analyzed.
 

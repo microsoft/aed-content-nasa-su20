@@ -1,4 +1,4 @@
-# Import the Libraries we Need
+# Exercise - Import Python Libraries For Analyzing Space Rock Images
 
 Now that we have all of the libraries downloaded, we can begin importing them into a Jupyter Notebooks file. Start by opening or creating a Jupyter Notebooks file.
 
