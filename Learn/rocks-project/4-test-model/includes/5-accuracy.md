@@ -10,6 +10,11 @@ print(accuracy/len(testloader))
 
 As you can see, the accuracy of this model is very high. This is what we want because it means the model will be able to make predictions fairly well.
 
+Even though it is pretty high, there are a few other ways to increase the accuracy:
+
+1. Adding more images for training the AI models
+2. Increasing the epoch (number of training iterations for deep learning)
+
 Now that we have created the neural network and tested the accuracy, let's save it.
 
 ```python

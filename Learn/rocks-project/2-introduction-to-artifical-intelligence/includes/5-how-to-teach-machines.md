@@ -1,11 +1,11 @@
-# How to Teach Computer AI/ What is AI
+# How to Teach Computer Artificial Intelligence
 
 The job of an AI scientist is to teach machines to do the same 3 steps.
 Below we will walk through each step for machines:
 
 ### Step 0
 
-Import the image data and pre-made libraries that help us process images
+Import the image data and pre-made libraries that help us process images. We will also have the computer transform the images so they are in a format that it can read.
 
 1. Import Libraries
 2. Import data
@@ -24,7 +24,7 @@ Scientists decide on what features should be used based on their intuition
 
 Make associations between the image features and rock types
 
-1. Build a deep learning network capable of keeping track of millions of associations
+1. Build a network capable of keeping track of millions of associations
 
 ### Step 3
 

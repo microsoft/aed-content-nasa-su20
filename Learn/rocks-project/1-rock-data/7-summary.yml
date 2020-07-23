@@ -42,12 +42,12 @@ quiz:
     - content: "Find out about our history"
       isCorrect: true
       explanation: "Correct! This is what the mission's goal is"
-    - content: "Find an asteroid suitable to inhabit "
+    - content: "Find an asteroid suitable to inhabit"
       isCorrect: false
       explanation: "Not quite the goal"
     - content: "Test out a new rocket"
       isCorrect: false
       explanation: "Not quite the goal"
-    - content: "Test out a new camera  "
+    - content: "Test out a new camera "
       isCorrect: false
       explanation: "Not quite the goal"

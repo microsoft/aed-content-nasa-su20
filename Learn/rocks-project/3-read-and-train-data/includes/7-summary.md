@@ -1,3 +1,3 @@
 # Summary
 
-In this module, you learned about how to import data and how to get it ready to train a artificial intelligence model with.
+In this module, you learned about how to import data and how to get the data ready to train an artificial intelligence model with.

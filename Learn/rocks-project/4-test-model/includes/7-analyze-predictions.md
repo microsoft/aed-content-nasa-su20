@@ -2,13 +2,15 @@
 
 Lets pick 5 random images and see if our model can tell what type of rock it is:
 
+The code below will get 5 random images and store their data in variables. We choose 5 for this example, but you could have any number in there. It just says how many images we are going to test. After you run the code, try to switch the number to 10.
+
 ```python
-# Set to 5 but can be adjusted to any number- for example if you want to test if for 10 rock images, use 10 in the code line below
 images, labels = get_random_images(5)
 ```
 
+This code will visualize the new images and add captions for what type of rock the model thinks the picture is.
+
 ```python
-# code to visualize the new new images and add captions for image types
 to_pil = transforms.ToPILImage()
 images, labels = get_random_images(5)
 fig=plt.figure(figsize=(20,10))

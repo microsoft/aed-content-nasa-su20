@@ -2,9 +2,9 @@
 
 Now that we have built a neural network and introduced the program to the different features of the rocks, we must now train the program. This will use our training data and make our program very accurate at classifying the rocks.
 
+Copy the code below into a cell and run it. Some things to look for in this code are the `epochs` variable. This tells the program how many times to search for associations in features. It is initially at 5, but you could increase it to increase the accuracy. However, increasing it will make the code run a lot slower.
+
 ```python
-# how many times do you want to back propagate to find the best associations, initial setting 10 but can be changed
-## increasing epochs will increase the accuracy most of the time but will take more time to build the neural network
 epochs = 5
 steps = 0
 running_loss = 0

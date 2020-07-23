@@ -4,9 +4,9 @@ Now that we know about cleaning and separating the data, we can actually apply t
 
 Let's start by downloading all of the rock image data and putting it into the same folder that your Jupyter Notebooks file is in. Go to [this Azure Blob storage](https://portal.azure.com/#blade/Microsoft_Azure_Storage/ContainerMenuBlade/overview/storageAccountId/%2Fsubscriptions%2F4c3c2dd8-b391-4b47-9ba2-57f760bf278c%2FresourceGroups%2FNASA-Learn%2Fproviders%2FMicrosoft.Storage%2FstorageAccounts%2Fnasadata/path/nasarocks/etag/%220x8D817FE9313AD8B%22/defaultEncryptionScope/%24account-encryption-key/denyEncryptionScopeOverride//defaultId//publicAccessVal/Container) and download the `Data.zip` folder. Unzip it and put it in the same folder as your Jupyter Notebooks file.
 
-Since the the rock images come in different sizes (small, medium, large), we will crop all images to transform them into the same size (224*224 pixels).
+Since the the rock images come in different sizes (small, medium, large), we will crop all images to transform them into the same size (224*224 pixels). We need to resize all the images because computers expect images to be all same size, otherwise they get confused about differences in sizes.
 
-Additionally, at the bottom of this code block you can see that are separating the data into a training variable and a testing variable.
+Additionally, at the bottom of this code you can see that are separating the data into a training variable and a testing variable.
 
 ```python
 # telling the machine what folder contains the image data

@@ -2,6 +2,8 @@
 
 Now that we have read the images let's check out a few of them.
 
+This code block will read the images and then assign each image with its corresponding rock type. The code looks long, but this is just because it needs to match each rock picture with what type of rock it is from which folder it comes from.
+
 ```python
 #transform the new image into numbers and resize it
 test_transforms = transforms.Compose([transforms.RandomResizedCrop(224),
@@ -39,3 +41,5 @@ for ii in range(len(images)):
     plt.imshow(image)
 plt.show()
 ```
+
+We are using the PIL library here to manipulate the images so they look pretty when we print them out. We use the `plt.show` to actually output the images.
