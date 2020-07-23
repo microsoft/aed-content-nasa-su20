@@ -2,7 +2,7 @@
 
 Now that we have all of the libraries downloaded, we can begin importing them into a Jupyter Notebooks file. Start by opening or creating a Jupyter Notebooks file.
 
-First, we will import matplotlib to help us plot our data.
+First, we will import matplotlib to help us plot our data
 
 ```python
 import matplotlib.pyplot as plt

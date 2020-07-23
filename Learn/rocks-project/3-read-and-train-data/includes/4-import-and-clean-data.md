@@ -6,7 +6,7 @@ Let's start by downloading all of the rock image data and putting it into the sa
 
 Since the the rock images come in different sizes (small, medium, large), we will crop all images to transform them into the same size (224*224 pixels). We need to resize all the images because computers expect images to be all same size, otherwise they get confused about differences in sizes.
 
-Additionally, at the bottom of this code you can see that are separating the data into a training variable and a testing variable.
+We resize the images in the first part of the code and at the bottom of the code you can see that we separate the data into a training variable and a testing variable.
 
 ```python
 # telling the machine what folder contains the image data

@@ -2,7 +2,7 @@
 
 Now lets Build a neural network / deep network to learn the associations between features (curves, edges, texture, ...) and each rock type.
 
-The idea of neural networks is very similar to how our brains work. The human brain consists of neurons or nerve cells which transmit and process the information received from our senses. Many such nerve cells are arranged together in our brain to form a network of nerves. These nerves pass electrical impulses i.e the excitation from one neuron to the other. 
+The idea of neural networks is very similar to how our brains work. The human brain consists of neurons or nerve cells which transmit and process the information received from our senses. Many such nerve cells are arranged together in our brain to form a network of nerves. These nerves pass electrical impulses i.e the excitation from one neuron to the other. Copy the code below to tell your computer the most efficient way to create this network.
 
 ```python
 # Determine if you are using a CPU or GPU for building the deep learning network

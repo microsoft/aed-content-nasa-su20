@@ -42,9 +42,9 @@ quiz:
       explanation: "The program should run every time."
   - content: "How can you increase the accuracy of an artificial intelligence model?"
     choices:
-    - content: "Train the model 10 more times"
+    - content: "Train the model 3 times instead of 5 times"
       isCorrect: false
-      explanation: "Training the model more times with the same data, will not necessarily increase accuracy"
+      explanation: "This will not necessarily increase accuracy"
     - content: "Decrease the epoch number"
       isCorrect: false
       explanation: "This will not necessarily increase the accuracy"

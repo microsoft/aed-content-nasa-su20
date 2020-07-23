@@ -1,6 +1,6 @@
 # Exercise - Display Space Rock Images in a Python Notebook
 
-Now that we have read the images let's check out a few of them.
+Now that we have read the images into the computer, let's check out a few of them and give them labels as to what type of rock they are.
 
 This code block will read the images and then assign each image with its corresponding rock type. The code looks long, but this is just because it needs to match each rock picture with what type of rock it is from which folder it comes from.
 

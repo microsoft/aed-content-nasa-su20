@@ -22,7 +22,7 @@ Scientists decide on what features should be used based on their intuition
 
 ### Step 2
 
-Make associations between the image features and rock types
+Make associations between the image features and rock types. This is where computers can be better than humans at picking out minute details because there are so many associations.
 
 1. Build a network capable of keeping track of millions of associations
 
