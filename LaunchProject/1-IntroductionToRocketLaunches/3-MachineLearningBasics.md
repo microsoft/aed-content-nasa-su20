@@ -1,4 +1,4 @@
-# Machine Learning Basics
+# Explore the Basic Machine Learning Process
 
 Machine learning is essentially using the information you have (data) to create knowledge. Machine learning is a part of the broader data science field. It takes a significant amount of work to move from raw date (even prior to being collected) to knowledge. 
 
@@ -7,6 +7,12 @@ For example, let's imagine you have a garden where you're trying to plant lettuc
 The [Data Science Lifecyle](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle) can help guide us through the journey to using data to create new knowledge. 
 
 ![Data Science Lifecyle](LaunchProject\images\datasciencelifecyle.png)
+
+The four steps, discussed throughout these units are:
+1. Define a business goal using subject matter expertise
+2. Collect, clean, and manipulate your data
+3. Choose a machine learning algorithm and train and test your model
+4. Deploy your model to be used with other applications
 
 ## Step 1: Business Goal and Subject Matter Expertise
 

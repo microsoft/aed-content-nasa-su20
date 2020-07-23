@@ -1,14 +1,14 @@
-# The Data Part of Machine Learning
+# Discover the Role Data Plays in Machine Learning
 
 With a clear understanding of what you want to know, you can start to look at the data that you have, or the data that you want to start collecting. From there, you can prepare your data in a way that supports the discovery you're interested in.
 
-## Step 2: Gathering the Data
+## Step 2: Gather the Data
 
 With constraints, scopes, and prioritazation of data based on subject matter expertise, the actual data can being to be collected. This can present it's own challenges. In the case of growing lettuce, you could have 10 heads of lettuce that you are trying to grow at the same time with slightly different conditions, and then determine which changes in conditions yielded the best results. 
 
 In the case of rocket launches, comparison experiments are not as easy. While simulations can be made, simulations are based on data and data implies that there are rocket launches that are attempted under negative circumstances that failed (otherwise how would we *really* know that they are negative circumstances?). We can use other information (like from airplanes or basic physics) to determine constraints, but the issue is that it isn't ethical or economical to attempt under each unique circumstance to be able to determine with certainty what "good" circumstances are. Furthermore, the conditions are not able to be controlled because it is just natural weather. 
 
-## Step 3: Cleaning and Manipulating the Data
+## Step 2.5: Clean and Manipulate the Data
 
 The first time I heard that a step in machine learning was to "manipulate" the data I became suspicious, but it doesn't mean that the data is modified to get a desireable outcome. It means that the data is made to be the most accurate representation of the truth. 
 
