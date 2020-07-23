@@ -1,4 +1,4 @@
-# Predict Rock Types
+# Exercise - Predict the Type of Space Rock in an Image
 
 Lets predict the rock types
 To predict the type of a new rock image, we need to the following:

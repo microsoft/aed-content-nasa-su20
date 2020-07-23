@@ -1,4 +1,4 @@
-# Building Neural Network
+# Exercise - Build a Neural Network to Classify Space Rocks
 
 Now lets Build a neural network / deep network to learn the associations between features (curves, edges, texture, ...) and each rock type.
 

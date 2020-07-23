@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.student-evangelism.test-ai-program.2-extracting-features
 metadata:
-  title: Exercise - Extracting Features
+  title: Extract Features from an Image for AI Processing
   description: Learn how to extract the features of images
   ms.date: 07/22/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Exercise - Extracting Features
+title: Extract Features from an Image for AI Processing
 durationInMinutes: 5
 content: |
   [!include[](includes/2-extracting-features.md)]

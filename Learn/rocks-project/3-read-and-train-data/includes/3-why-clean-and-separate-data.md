@@ -1,4 +1,4 @@
-# Disover the Importance of Cleaning and Separating Data for AI Projects
+# Discover the Importance of Cleaning and Separating Data for AI Projects
 
 Now that we have all of the correct libraries imported, the next step is to import the data of existing rock images to teach our computer to recognize different types of rocks.
 
