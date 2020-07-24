@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: LaunchProject.2-data-collection-and-manipulation.1-introduction
+uid: learn.student-evangelism.2-data-collection-and-manipulation.1-introduction
 metadata:
-  title: 1-introduction
+  title: Introduction
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 1-introduction
+  ms.prod: learning-azure
+title: Introduction
 durationInMinutes: 1
 content: |
   [!include[](includes/1-introduction.md)]

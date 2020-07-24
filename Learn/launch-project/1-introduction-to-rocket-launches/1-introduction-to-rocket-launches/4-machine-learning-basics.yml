@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: LaunchProject.1-introduction-to-rocket-launches.4-machine-learning-basics
+uid: learn.student-evangelism.1-introduction-to-rocket-launches.4-machine-learning-basics
 metadata:
-  title: 4-machine-learning-basics
+  title: Machine Learning Basics
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 4-machine-learning-basics
+  ms.prod: learning-azure
+title: Machine Learning Basics
 durationInMinutes: 1
 content: |
   [!include[](includes/4-machine-learning-basics.md)]

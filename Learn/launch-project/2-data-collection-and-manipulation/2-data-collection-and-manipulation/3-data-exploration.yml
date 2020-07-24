@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: LaunchProject.2-data-collection-and-manipulation.3-data-exploration
+uid: learn.student-evangelism.2-data-collection-and-manipulation.3-data-exploration
 metadata:
-  title: 3-data-exploration
+  title: Data (includes/3-data-exploration.md)n
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 3-data-exploration
+  ms.prod: learning-azure
+title: Data Exploration
 durationInMinutes: 1
 content: |
   [!include[](includes/3-data-exploration.md)]

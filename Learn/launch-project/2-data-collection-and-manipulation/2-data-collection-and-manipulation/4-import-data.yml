@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: LaunchProject.2-data-collection-and-manipulation.4-import-data
+uid: learn.student-evangelism.2-data-collection-and-manipulation.4-import-data
 metadata:
-  title: 4-import-data
+  title: Import Data
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 4-import-data
+  ms.prod: learning-azure
+title: Import Data
 durationInMinutes: 1
 content: |
   [!include[](includes/4-import-data.md)]

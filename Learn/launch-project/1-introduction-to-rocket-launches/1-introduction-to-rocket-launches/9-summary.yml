@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: LaunchProject.1-introduction-to-rocket-launches.9-summary
+uid: learn.student-evangelism.1-introduction-to-rocket-launches.9-summary
 metadata:
-  title: 9-summary
-  description: ...
+  title: Summary
+  description: Summary
   ms.date: ...
-  author: ...
-  ms.author: ...
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 9-summary
-durationInMinutes: 1
+  ms.prod: learning-azure
+title: Summary
+durationInMinutes: 4
 content: |
   [!include[](includes/9-summary.md)]

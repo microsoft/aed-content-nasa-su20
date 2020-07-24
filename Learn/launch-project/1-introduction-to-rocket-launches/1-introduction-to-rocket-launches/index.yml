@@ -1,30 +1,33 @@
 ### YamlMime:Module
-uid: LaunchProject.1-introduction-to-rocket-launches
+uid: learn.student-evangelism.1-introduction-to-rocket-launches
 metadata:
-  title: 1-introduction-to-rocket-launches
+  title: Introduction to Rocket Launches
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
 title: 1-introduction-to-rocket-launches
 summary: ...
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles:
+- student
+products:
+- vs-code
 units:
-- LaunchProject.1-introduction-to-rocket-launches.1-introduction
-- LaunchProject.1-introduction-to-rocket-launches.2-weather-predictions
-- LaunchProject.1-introduction-to-rocket-launches.3-analyzing-data
-- LaunchProject.1-introduction-to-rocket-launches.4-machine-learning-basics
-- LaunchProject.1-introduction-to-rocket-launches.5-gathering-the-data
-- LaunchProject.1-introduction-to-rocket-launches.6-machine-learning-model
-- LaunchProject.1-introduction-to-rocket-launches.7-train-and-test
-- LaunchProject.1-introduction-to-rocket-launches.8-ethics-in-ml
-- LaunchProject.1-introduction-to-rocket-launches.9-summary
+- learn.student-evangelism.1-introduction-to-rocket-launches.1-introduction
+- learn.student-evangelism.1-introduction-to-rocket-launches.2-weather-predictions
+- learn.student-evangelism.1-introduction-to-rocket-launches.3-analyzing-data
+- learn.student-evangelism.1-introduction-to-rocket-launches.4-machine-learning-basics
+- learn.student-evangelism.1-introduction-to-rocket-launches.5-gathering-the-data
+- learn.student-evangelism.1-introduction-to-rocket-launches.6-machine-learning-model
+- learn.student-evangelism.1-introduction-to-rocket-launches.7-train-and-test
+- learn.student-evangelism.1-introduction-to-rocket-launches.8-ethics-in-ml
+- learn.student-evangelism.1-introduction-to-rocket-launches.9-summary
 badge:
-  uid: LaunchProject.1-introduction-to-rocket-launches.badge
+  uid: learn.student-evangelism.1-introduction-to-rocket-launches.badge

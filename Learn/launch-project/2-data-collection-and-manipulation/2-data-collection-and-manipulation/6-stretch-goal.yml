@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: LaunchProject.2-data-collection-and-manipulation.6-stretch-goal
+uid: learn.student-evangelism.2-data-collection-and-manipulation.6-stretch-goal
 metadata:
-  title: 6-stretch-goal
+  title: Stretch Goal
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 6-stretch-goal
+  ms.prod: learning-azure
+title: Stretch Goals
 durationInMinutes: 1
 content: |
   [!include[](includes/6-stretch-goal.md)]

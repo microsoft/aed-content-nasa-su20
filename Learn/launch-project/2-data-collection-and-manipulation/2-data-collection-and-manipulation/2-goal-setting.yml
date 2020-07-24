@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: LaunchProject.2-data-collection-and-manipulation.2-goal-setting
+uid: learn.student-evangelism.2-data-collection-and-manipulation.2-goal-setting
 metadata:
-  title: 2-goal-setting
+  title: Goal Setting
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 2-goal-setting
+  ms.prod: learning-azure
+title: Goal Setting
 durationInMinutes: 1
 content: |
   [!include[](includes/2-goal-setting.md)]

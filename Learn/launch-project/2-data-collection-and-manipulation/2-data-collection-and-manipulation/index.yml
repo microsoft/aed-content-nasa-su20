@@ -1,28 +1,31 @@
 ### YamlMime:Module
-uid: LaunchProject.2-data-collection-and-manipulation
+uid: learn.student-evangelism.2-data-collection-and-manipulation
 metadata:
-  title: 2-data-collection-and-manipulation
+  title: Data Collection and Manipulation
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
-  ms.topic: ...
-  ms.prod: ...
-title: 2-data-collection-and-manipulation
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Data Collection and Manipulation
 summary: ...
 abstract: ...
 prerequisites: ...
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
-levels: ...
-roles: ...
-products: ...
+levels:
+- beginner
+roles:
+- student
+products:
+- vs-code
 units:
-- LaunchProject.2-data-collection-and-manipulation.1-introduction
-- LaunchProject.2-data-collection-and-manipulation.2-goal-setting
-- LaunchProject.2-data-collection-and-manipulation.3-data-exploration
-- LaunchProject.2-data-collection-and-manipulation.4-import-data
-- LaunchProject.2-data-collection-and-manipulation.5-clean-data
-- LaunchProject.2-data-collection-and-manipulation.6-stretch-goal
-- LaunchProject.2-data-collection-and-manipulation.7-summary
+- learn.student-evangelism.2-data-collection-and-manipulation.1-introduction
+- learn.student-evangelism.2-data-collection-and-manipulation.2-goal-setting
+- learn.student-evangelism.2-data-collection-and-manipulation.3-data-exploration
+- learn.student-evangelism.2-data-collection-and-manipulation.4-import-data
+- learn.student-evangelism.2-data-collection-and-manipulation.5-clean-data
+- learn.student-evangelism.2-data-collection-and-manipulation.6-stretch-goal
+- learn.student-evangelism.2-data-collection-and-manipulation.7-summary
 badge:
-  uid: LaunchProject.2-data-collection-and-manipulation.badge
+  uid: learn.student-evangelism.2-data-collection-and-manipulation.badge

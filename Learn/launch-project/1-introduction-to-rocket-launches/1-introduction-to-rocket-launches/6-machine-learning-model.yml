@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: LaunchProject.1-introduction-to-rocket-launches.6-machine-learning-model
+uid: learn.student-evangelism.1-introduction-to-rocket-launches.6-machine-learning-model
 metadata:
-  title: 6-machine-learning-model
+  title: Machine Learning Model
   description: ...
-  ms.date: ...
-  author: ...
-  ms.author: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
   ms.topic: interactive-tutorial
-  ms.prod: ...
-  ROBOTS: NOINDEX
-title: 6-machine-learning-model
+  ms.prod: learning-azure
+title: Machine Learning Model
 durationInMinutes: 1
 content: |
   [!include[](includes/6-machine-learning-model.md)]
