@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.student-evangelism.4-deploy-machine-learning-model.6-deploy-model
+metadata:
+  title: Deploy Model
+  description: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Deploy Model
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-deploy-model.md)]

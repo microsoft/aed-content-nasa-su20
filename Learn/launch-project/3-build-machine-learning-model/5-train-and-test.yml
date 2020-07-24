@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.student-evangelism.3-build-machine-learning-model.5-train-and-test
+metadata:
+  title: Train and Test
+  description: ..
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Train and Test
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-train-and-test.md)]

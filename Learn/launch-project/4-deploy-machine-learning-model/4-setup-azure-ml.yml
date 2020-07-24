@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.student-evangelism.4-deploy-machine-learning-model.4-setup-azure-ml
+metadata:
+  title: Setup Azure ML
+  description: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Setup Azure ML
+durationInMinutes: 1
+content: |
+  [!include[](includes/4-setup-azure-ml.md)]

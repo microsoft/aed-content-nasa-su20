@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn.student-evangelism.4-deploy-machine-learning-model
+metadata:
+  title: Deploy Machine Learning Model
+  description: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Deploy Machine Learning Model
+summary: ...
+abstract: ...
+prerequisites: ...
+iconUrl: https://docs.microsoft.com/media/learn/module.svg
+levels:
+- beginner
+roles:
+- student
+- data-scientist
+products:
+- vs-code
+units:
+- learn.student-evangelism.4-deploy-machine-learning-model.1-introduction
+- learn.student-evangelism.4-deploy-machine-learning-model.2-predict-launch
+- learn.student-evangelism.4-deploy-machine-learning-model.3-iterate
+- learn.student-evangelism.4-deploy-machine-learning-model.4-setup-azure-ml
+- learn.student-evangelism.4-deploy-machine-learning-model.5-explore-azure-ml
+- learn.student-evangelism.4-deploy-machine-learning-model.6-deploy-model
+- learn.student-evangelism.4-deploy-machine-learning-model.7-integrate-model
+- learn.student-evangelism.4-deploy-machine-learning-model.8-summary
+badge:
+  uid: learn.student-evangelism.4-deploy-machine-learning-model.badge

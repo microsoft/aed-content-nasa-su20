@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.student-evangelism.3-build-machine-learning-model.6-score-model
+metadata:
+  title: Score Model
+  description: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Score Model
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-score-model.md)]
