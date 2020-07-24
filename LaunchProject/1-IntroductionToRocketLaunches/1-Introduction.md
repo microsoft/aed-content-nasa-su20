@@ -1,4 +1,4 @@
-# NASA and Data: Where to Start
+# Introduction
 
 Specifically for launches, NASA collects data from a lot of different sources to help determine if the conditions are safe for a launch. Whether crewed or uncrewed, it's important that the weather conditions are such that the trajectory and speed of the rocket are not disrupted as it attempts to enters and passes through the atmosphere. 
 
@@ -11,3 +11,16 @@ Cape Canaveral, Florida, USA is on the East coast of the Florida peninsula in th
 
 With so many potential factors at play, NASA has to take into account many different data sources to get the most accurate picture of what the rocket will have to endure on it's 100 kilometer (62 mile) journey into space.
 
+## Learning Objectives
+
+In this module, you will begin to discover: 
+
+- The challenges weather can pose on rocket launches
+- The data science lifecycle
+- How machine learning works
+- What role ethics plays in machine learning
+
+## Prerequisites
+
+- A Windows, Mac, or Linux computer
+- Some Python skills
