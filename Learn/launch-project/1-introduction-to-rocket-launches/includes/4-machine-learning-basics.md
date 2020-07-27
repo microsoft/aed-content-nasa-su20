@@ -6,7 +6,7 @@ For example, let's imagine you have a garden where you're trying to plant lettuc
 
 The [Data Science Lifecyle](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle) can help guide us through the journey to using data to create new knowledge. 
 
-![Data Science Lifecyle](LaunchProject\images\datasciencelifecyle.png)
+![Data Science Lifecyle](..\Media\datasciencelifecyle.png)
 
 The four steps, discussed throughout these units are:
 1. Define a business goal using subject matter expertise
@@ -16,7 +16,7 @@ The four steps, discussed throughout these units are:
 
 ## Step 1: Business Goal and Subject Matter Expertise
 
-This is the first step - you have a clear goal: get as much lettuce as fast as possible, but these are not abosolute conditions. If you're able to get 1 pound of lettuce in 14 days, but if you modify your entire setup to have classical music played at 50 decibles for 30 minutes every 3 hours and you could have 1 pound of lettuce in 13.5 days, it's probably not worth that hassle. Furthermore, while it's *possible* that sound could effect plant growth, the *likelihood* of it effecting plant growth to the point where it would effect your outcome at all might be so small it's not even worth considering. Having subject matter expertise (some knowledge of how plants grow) would be important so that you don't spend too much time modifying variables in your setup that won't yield major changes. 
+This is the first step - you have a clear goal: get as much lettuce as fast as possible, but these are not absolute conditions. If you're able to get 1 pound of lettuce in 14 days, but if you modify your entire setup to have classical music played at 50 decibles for 30 minutes every 3 hours and you could have 1 pound of lettuce in 13.5 days, it's probably not worth that hassle. Furthermore, while it's *possible* that sound could effect plant growth, the *likelihood* of it effecting plant growth to the point where it would effect your outcome at all might be so small it's not even worth considering. Having subject matter expertise (some knowledge of how plants grow) would be important so that you don't spend too much time modifying variables in your setup that won't yield major changes. 
 
 If we look at rocket launches and weather patterns with that same lens we can see that the goal really has two parts:
 1. Increase the likelihood that the day chosen for launch will be a good day

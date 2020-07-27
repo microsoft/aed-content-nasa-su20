@@ -8,7 +8,7 @@ This isn't far off from what humans do. If you had never seen berries before, an
 
 Then, you are asked to go into a new field of berries, which have the same 5 types, and only collect the raspberries. You're pretty such you know what raspberries look like:
 
-![Raspberry Picture](LaunchProject/images/raspberry.jpg)
+![Raspberry Picture](../Media/raspberry.jpg)
 *Picture is shared by [Pro2 on Wikipedia](https://commons.wikimedia.org/wiki/File:Raspberry.jpg)*
 
 So you are successful at this. You collect 10 raspberries successfully!
@@ -19,7 +19,7 @@ Then, you were given a test: given any input, identify the type of berry, and on
 
 **But then**, la new berry bush was added without you knowing, and when you went out to find more raspeberries you also collected some of these:
 
-![Thimbleberry Picture](LaunchProject/images/thimbleberry.jpeg)
+![Thimbleberry Picture](../Media/thimbleberry.jpeg)
 *Picture is shared by [Jesse Taylor on Wikipedia](https://commons.wikimedia.org/wiki/File:Thimbleberry_(Rubus_parviflorus)_--_fruits.JPG)*
 
 While they look similar, and they both look different from the other four types of berries (blueberries, blackberries, strawberries, and huckleberries), they are **not** the same berry. The one you just brought back was a thimbleberry. (Dun dun duuuuuuuuuuun *cue dramatic music*)
