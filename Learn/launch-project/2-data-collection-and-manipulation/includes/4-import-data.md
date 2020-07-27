@@ -1,4 +1,4 @@
-# Exercise - Import Python Libraries and Rocket Launch Data 
+# Exercise - Import Python Libraries and Rocket Launch Data
 
 Now that we know a little bit about what we want to accomplish, let's start creating the machine learning model. The first step is to import some libraries that will help us create the model and import the weather data.
 
@@ -26,7 +26,6 @@ from IPython.display import Image
 ```
 
 Now that we have all of the libraries imported, we can use the pandas library to import our data. Use the command `pd.read_excel` to read the data and save it in a variable. Then, we will use the `.head()` function to print out the first 5 rows of the data. This will ensure that we have read everything correctly.
-
 
 ```Python
 lanch_data = pd.read_excel('../Media/weather/RocketLaunchDataCompleted.xlsx')

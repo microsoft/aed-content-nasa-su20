@@ -1,5 +1,7 @@
 # Exercise - Visualize the Machine Learning Model 
 
+In this unit, we will use some of the libraries to visualize this prediction data.
+
 ```Python
 # lets import a library for visualizing our decision tree
 from sklearn.tree import export_graphviz

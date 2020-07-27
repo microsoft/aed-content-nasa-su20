@@ -19,7 +19,7 @@ lanch_data.fillna(0,inplace=True)
 lanch_data.head()
  ```
 
-Next, since computers only know how to read numbers, we will convert the text into numbers. As an example, we will use a "1" if a rocket is crewed and a "0" if a rocket is uncrewed.
+Next, since computers only know how to read numbers, we will convert the text into numbers. As an example, we will use a "1" if a rocket is crewed and a "0" if a rocket is un-crewed.
 
  ```Python
 ## As part of the data cleaning process we have to convert text data to numerical because computers only understand numbers
