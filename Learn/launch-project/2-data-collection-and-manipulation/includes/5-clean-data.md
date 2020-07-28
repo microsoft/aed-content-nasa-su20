@@ -4,35 +4,91 @@ Now that we have the data imported, will we need to apply a machine learning pra
 
 We do this because computers will get confused if they look at inconsistent data or if lots of values in the data are null.
 
- - AI and Machine Learning systems need data to learn, without data they cannot learn anything!
- Therefore we first have to collect as much as data about launches as possible. For this learning path we have collected and used Microsoft excel to store them, here is a screenshot of the data collected. 
+## Data Cleansing
 
-The first step that we will take to clean our data is to replaces all the missing values with something. Replacing these values usually requires your best judgement because you might now know what the data should be. In our case, we have some blank values where we are missing some weather data. To not mess with our real data that much, we will replace this missing data with weather for a normal day (ie fair weather).
+The first step that we will take to clean our data is to replaces all the missing values with something. Replacing these values usually requires subject matter expertise, but in this case you will use your best judgement. In our case, we have some rows (remember, rows represent days) where we are missing some weather or launch data. 
+
+To get started, first get an overview of the launch data by typing this into a cell:
+```Python
+launch_data.info()
+```
+
+This gives an overview of the data, showing us that of 300 rows, there are some columns with missing information:  
+```Output
+RangeIndex: 300 entries, 0 to 299
+Data columns (total 26 columns):
+ #   Column                        Non-Null Count  Dtype         
+---  ------                        --------------  -----         
+ 0   Name                          60 non-null     object        
+ 1   Date                          300 non-null    datetime64[ns]
+ 2   Time (East Coast)             59 non-null     object        
+ 3   Location                      300 non-null    object        
+ 4   Crewed or Uncrewed            60 non-null     object        
+ 5   Launched?                     60 non-null     object        
+ 6   High Temp                     299 non-null    float64       
+ 7   Low Temp                      299 non-null    float64       
+ 8   Ave Temp                      299 non-null    float64       
+ 9   Temp at Launch Time           59 non-null     float64       
+ 10  Hist High Temp                299 non-null    float64       
+ 11  Hist Low Temp                 299 non-null    float64       
+ 12  Hist Ave Temp                 299 non-null    float64       
+ 13  Percipitation at Launch Time  299 non-null    float64       
+ 14  Hist Ave Percipitation        299 non-null    float64       
+ 15  Wind Direction                299 non-null    object        
+ 16  Max Wind Speed                299 non-null    float64       
+ 17  Visibility                    299 non-null    float64       
+ 18  Wind Speed at Launch Time     59 non-null     float64       
+ 19  Hist Ave Max Wind Speed       0 non-null      float64       
+ 20  Hist Ave Visibility           0 non-null      float64       
+ 21  Sea Level Pressure            299 non-null    object        
+ 22  Hist Ave Sea Level Pressure   0 non-null      float64       
+ 23  Day Length                    298 non-null    object        
+ 24  Condition                     298 non-null    object        
+ 25  Notes                         3 non-null      object 
+```
+Most notably, we can see that `Hist Ave Max Wind Speed`, `Hist Ave Visibility`, and `Hist Ave Sea Level Pressure` have no data. 
+
+It makes sense that `Wind Speed at Launch Time`, `Temp at Launch Time`, `Launched`, `Crewed or Uncrewed`, `Time`, and `Name` only have 60 values, since we only have 60 launches in our data, the rest are the days preceeding and proceeding the launch. 
+
+Here are a few ways to cleanse the data: 
+- We know that the rows that do not have a Y in the Launched column did not have a rocket launch, so we will make those missing values 'N'
+- For rows missing information on whether the rocket was crewed or uncrewed we will assume uncrewed. There were fewer crewed missions so it is likely it was uncrewed.
+- For missing wind direction we will just mark them as "unknown"
+- For missing Condition data we will just assume it was a typical day and put "fair"
+- For any other data, just put the value as 0
+
+In the next cell, paste and run this code:
 
  ```Python
 ## To handle missing values, we will fill the missing values with appropriate values 
-lanch_data['Launched?'].fillna('N',inplace=True)
-lanch_data['Crewed or Uncrewed'].fillna('Uncrewed',inplace=True)
-lanch_data['Wind Direction'].fillna('unknown',inplace=True)
-lanch_data['Condition'].fillna('Fair',inplace=True)
-lanch_data.fillna(0,inplace=True)
-lanch_data.head()
+launch_data['Launched?'].fillna('N',inplace=True)
+launch_data['Crewed or Uncrewed'].fillna('Uncrewed',inplace=True)
+launch_data['Wind Direction'].fillna('unknown',inplace=True)
+launch_data['Condition'].fillna('Fair',inplace=True)
+launch_data.fillna(0,inplace=True)
+launch_data.head()
  ```
 
-Next, since computers only know how to read numbers, we will convert the text into numbers. As an example, we will use a "1" if a rocket is crewed and a "0" if a rocket is un-crewed.
+Try running `launch_data.info()` again to see the changes to the data you just made.
+
+*NOTE*: You are changing the data that is stored in the launch_data variable, *not* the data saved in the Excel doc. So if you find that you can modified or removed any data that you didn't mean to, you can always re-run your notebook to bring the original data back in.
+
+## Data Manipulation
+
+Next, since computations are best suited for numerical inputs, we will convert all text into numbers. As an example, we will use a "1" if a rocket is crewed and a "0" if a rocket is uncrewed.
 
  ```Python
 ## As part of the data cleaning process we have to convert text data to numerical because computers only understand numbers
 label_encoder = preprocessing.LabelEncoder()
 
 # There are 3 columns that have categorical text info and we convert them to numbers
-lanch_data['Crewed or Uncrewed'] = label_encoder.fit_transform(lanch_data['Crewed or Uncrewed'])
-lanch_data['Wind Direction'] = label_encoder.fit_transform(lanch_data['Wind Direction'])
-lanch_data['Condition'] = label_encoder.fit_transform(lanch_data['Condition'])
+launch_data['Crewed or Uncrewed'] = label_encoder.fit_transform(launch_data['Crewed or Uncrewed'])
+launch_data['Wind Direction'] = label_encoder.fit_transform(launch_data['Wind Direction'])
+launch_data['Condition'] = label_encoder.fit_transform(launch_data['Condition'])
 ```
 
 Now let's look at all the data again after it has been cleaned. Looking all nice and fresh!
 
 ```Python
-lanch_data.head()
+launch_data.head()
 ```

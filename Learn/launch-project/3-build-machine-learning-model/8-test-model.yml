@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.student-evangelism.3-build-machine-learning-model.7-visualize-model
+metadata:
+  title: Exercise - Predict the Success of a Rocket Launch using Machine Learning
+  description: ...
+  ms.date: 07/24/2020
+  author: angevin17
+  ms.author: sguthals
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Exercise - Predict the Success of a Rocket Launch using Machine Learning
+durationInMinutes: 1
+content: |
+  [!include[](includes/7-visualize-model.md)]

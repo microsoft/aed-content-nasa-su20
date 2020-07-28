@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.student-evangelism.3-build-machine-learning-model.2-featurization
 metadata:
-  title: Featurization
+  title: Exercise - Determine Columns to Include in a Machine Learning Model
   description: ...
   ms.date: 07/24/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Featurization
+title: Exercise - Determine Columns to Include in a Machine Learning Model
 durationInMinutes: 1
 content: |
   [!include[](includes/2-featurization.md)]
