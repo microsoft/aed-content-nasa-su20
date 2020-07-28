@@ -7,4 +7,4 @@ Module Titles:
 - Discover Key Weather Factors that Make Rocket Launches Safe
 - Prepare Weather Data for Machine Learning Analysis on Rocket Launches
 - Train, Test, and Score a Machine Learning Model to Predict Rocket Launch Success
-- Deploy a Machine Learning Model that Predicts Rocket Launch Success
+- Deploy a Machine Learning Model that Predicts Rocket Launch Success (Coming Soon)
