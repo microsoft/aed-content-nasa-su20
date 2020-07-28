@@ -2,13 +2,13 @@
 uid: learn.student-evangelism.3-build-machine-learning-model.3-choose-algorithm
 metadata:
   title: Exercise - Choose the Machine Learning Algorithm to Predict Rocket Launch Success
-  description: ...
+  description: Learn about machine learning algorithms and choose the one we will use for this project
   ms.date: 07/24/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Exercise - Choose the Machine Learning Algorithm to Predict Rocket Launch Success
-durationInMinutes: 1
+durationInMinutes: 4
 content: |
   [!include[](includes/3-choose-algorithm.md)]

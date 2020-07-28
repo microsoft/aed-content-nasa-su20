@@ -12,7 +12,7 @@ title: Data Collection and Manipulation
 summary: Learn about the steps to import data into Python and clean the data for use in creating machine learning models.
 abstract: |
  In this module, you will:
- - Explore weather data on days crewed and uncrewed rockets were launched
+ - Explore weather data on days crewed and un-crewed rockets were launched
  - Explore weather data on the days surrounding launch days
  - Clean the data in preparation for training the machine learning model
 prerequisites: |

@@ -12,7 +12,7 @@ As described in the Introduction to Rocket Launches module (link to unit 7), mac
 
 ## Missing Data
 
-What we find in this Excel doc is extensive data about each launch. However, are you start to exlore this data you might find one big issue:
+What we find in this Excel doc is extensive data about each launch. However, are you start to explore this data you might find one big issue:
 There is only one row that represents a rocket launch that was supposed to happen, but was pushed due to weather concerns:  
 Row 294 - Space X Dragon - May 27, 2020  
 

@@ -35,7 +35,7 @@ tree_graph_to_png(tree=tree_model, feature_names=X.columns.values,class_names=['
 ```
 
 This will create this image:  
-![Visualization of decision tree](Learn\launch-project\3-build-machine-learning-model\media\decision_tree.jpg)
+![Visualization of decision tree](..\media\decision_tree.jpg)
 
 ## Understanding the Visualization
 
@@ -45,7 +45,7 @@ This isn't very good insight, however, since in LP3M2U5 we set all values to 0 t
 
 Continuing to look at the tree you can see that `Max Wind Speed` is the next most important feature of the data. Here you can see that of the remaining 49 days when the max wind speed was greater than 30.5, 48 of them yielded a correct "no launch" output and one of them yielded a "yes launch" output. 
 
-This might be more interesting because there was only one day where a launch was planned and the `Max Wind Speed` was greater than 30.5, which was May 27, 2020 - the Space X Dragon launch that was then post-poned to May 30, 2020. 
+This might be more interesting because there was only one day where a launch was planned and the `Max Wind Speed` was greater than 30.5, which was May 27, 2020 - the Space X Dragon launch that was then postponed to May 30, 2020. 
 
 ## Improving the Results
 

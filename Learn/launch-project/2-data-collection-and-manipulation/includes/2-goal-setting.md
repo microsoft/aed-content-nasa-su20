@@ -7,7 +7,7 @@ The questions that NASA scientists have to ask when a new mission is being plann
 In this module, we don't have all of the data or expertise that NASA has on the day of a launch, but we do have simple weather data that is publicly available to leverage. This module will look at:
 - Conditions (Cloudy, partly cloudy, fair, rain, thunder, heavy storm)
 - Temperature 
-- Tumidity 
+- Humidity 
 - Wind speed 
 - Wind direction
 - Precipitation

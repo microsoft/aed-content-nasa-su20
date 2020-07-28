@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.student-evangelism.3-build-machine-learning-model.5-train-and-test
 metadata:
-  title: Train and Test
-  description: ..
+  title: Exercise - Train and Test the Machine Learning Model to Predict Rocket Launch Success
+  description: Use the concepts of training and testing data to train your own model
   ms.date: 07/24/2020
   author: angevin17
   ms.author: sguthals
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-title: Train and Test
-durationInMinutes: 1
+title: Exercise - Train and Test the Machine Learning Model to Predict Rocket Launch Success
+durationInMinutes: 3
 content: |
   [!include[](includes/5-train-and-test.md)]

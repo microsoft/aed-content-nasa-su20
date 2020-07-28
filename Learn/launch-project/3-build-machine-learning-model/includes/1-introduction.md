@@ -5,7 +5,6 @@ Previously you imported 300 rows of weather data representing 60 rocket launches
 
 In this module, you will use a decision tree classifier to gain knowledge from raw weather and rocket launch data. This module will focus on a local analysis of your data using scikit-learn.
 
-
 ## Learning Objectives
 
 In this module, you will begin to discover: 

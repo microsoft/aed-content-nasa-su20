@@ -10,8 +10,15 @@ metadata:
   ms.prod: learning-azure
 title: Build Machine Learning Model
 summary: ...
-abstract: ...
-prerequisites: ...
+abstract: |
+ In this module, you will begin to discover: 
+ - The importance of column choosing
+ - How to split data to effectively train and test a machine learning algorithm
+ - How to train, test, and score a machine learning algorithm
+ - How to visualize a tree classification model
+prerequisites: |
+ - Basic Python experience
+ - Have clean data about rocket launches
 iconUrl: https://docs.microsoft.com/media/learn/module.svg
 levels:
 - beginner
@@ -21,12 +28,13 @@ products:
 - vs-code
 units:
 - learn.student-evangelism.3-build-machine-learning-model.1-introduction
-- learn.student-evangelism.3-build-machine-learning-model.2-featurization
+- learn.student-evangelism.3-build-machine-learning-model.2-data-prep
 - learn.student-evangelism.3-build-machine-learning-model.3-choose-algorithm
 - learn.student-evangelism.3-build-machine-learning-model.4-split-data
 - learn.student-evangelism.3-build-machine-learning-model.5-train-and-test
 - learn.student-evangelism.3-build-machine-learning-model.6-score-model
 - learn.student-evangelism.3-build-machine-learning-model.7-visualize-model
-- learn.student-evangelism.3-build-machine-learning-model.8-summary
+- learn.student-evangelism.3-build-machine-learning-model.8-test-model
+- learn.student-evangelism.3-build-machine-learning-model.9-summary
 badge:
   uid: learn.student-evangelism.3-build-machine-learning-model.badge

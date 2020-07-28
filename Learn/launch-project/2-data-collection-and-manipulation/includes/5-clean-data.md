@@ -1,4 +1,4 @@
-# Excerise - Clean Weather Data to Analyze Rocket Launch Criteria
+# Exercise - Clean Weather Data to Analyze Rocket Launch Criteria
 
 Now that we have the data imported, will we need to apply a machine learning practice known as "cleaning the data". This pretty much means what you think it means: take data that looks incorrect or messy and clean it up by changing the value or deleting it altogether. Some common examples of cleaning data are ensuring that there are no null values or making every value in a column look the same. 
 
