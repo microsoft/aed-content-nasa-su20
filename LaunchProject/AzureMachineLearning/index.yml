@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: ""
+metadata:
+  title: Predict Rocket-Launch Delays with Azure Machine Learning and Visual Studio Code
+  description: With historical and synthesized data, predict the probability of rocket-launch delays from NASA's Kenney Space Center using local weather data.
+  ms.date: 
+  author: sguthals
+  ms.author: shanama 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Predict Rocket-Launch Delays with Azure Machine Learning and Visual Studio Code
+summary: With historical and synthesized data, predict the probability of rocket-launch delays from NASA's Kenney Space Center using local weather data.
+abstract:  |
+  In this module, you will begin to discover: 
+  - Python, Pandas, and Visual Studio Code
+  - The benefits of using cloud-based data-science services such as Azure Machine Learning
+  - Data cleansing and manipulation that requires critical analysis
+  - Using maching learning to classify data 
+  - Preparing data with specific machine-learning algorithms in mind
+prerequisites: | # Fill in a detailed list of prerequisites in this form
+  - [Visual Studio Code, with the Python Extension](https://aka.ms/LearnOnVSCode)
+  - An Azure subscription
+  - A local Python environment set up, as seen in [Discover the role of Python in space exploration](https://docs.microsoft.com/en-us/learn/paths/introduction-python-space-exploration-nasa/)
+iconUrl: /learn/achievements/generic-badge.svg # TODO change
+levels:
+- beginner # TODO change?
+roles:
+- data scientist
+- student
+products:
+- vs-code
+units:
+- ""
+badge:
+  uid: ""

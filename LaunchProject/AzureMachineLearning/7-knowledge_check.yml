@@ -1,0 +1,59 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: Knowledge Check
+  description: Answer the multiple choice questions to check your understanding of data cleansing and manipulation.
+  ms.date: 12/14/20
+  author: sguthals
+  ms.author: shanama 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Knowledge Check
+durationInMinutes:
+content: |
+  [!include[](includes/7-knowledge_check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "What is an advantage of using a cloud-based data science service such as Azure Machine Learning?"
+    choices:
+    - content: "You don't have to worry about data preparation when using services such as Azure Machine Learning."
+      isCorrect: false
+      explanation: "Incorrect. While services like Azure Machine Learning require much less preprossesing that manual data science, you must still prepare your data to deal with things like missing values."
+    - content: "It is faster than running data science experiments locally."
+      isCorrect: false
+      explanation: "Incorrect. Individual machine-learning runs within an experiment can be quite fast in Azure Machine Learning, but it must run many different algorithms to optimize to your data, which can take several minutes in the aggregate."
+    - content: "It is easier than running data science experiments locally."
+      isCorrect: false
+      explanation: "Only partially correct. While you might have fewer decisions to make about things like algorithms and hyperparameters, you still need to know what kinds of algorithms you need to use (and not use) as well as what metrics to focus on."
+    - content: "It can be more comprehensive and straightforward than running data science experiments locally."
+      isCorrect: true
+      explanation: "Correct. Services like Azure Machine Learning will often check many more algorithms than you might locally in order to build the best model for you data. They will also handle some of the trickier tasks in data science, such as feature engineering."
+  - content: "How is an important tool for turning categorical data into numeric data during data preparation?"
+    choices:
+    - content: "Data Imputation"
+      isCorrect: false
+      explanation: "Incorrect. Data imputation is a valuable tool for handline missing observations in your data but will not transform categorical data into a form that machine-learning algorithms can use."
+    - content: "Dummy Variables"
+      isCorrect: true
+      explanation: "Correct. Dummy variables enable you to turn lists of categories (such as 'Cloudy', 'Fair', etc.) into a 1 or 0 value for each category that can be used by machine-learning algorithms."
+    - content: "Averaging"
+      isCorrect: false
+      explanation: "Incorrect. Using mean values can be a method for imputing missing values in your data, but it is impossible to average categorical features."
+    - content: "Linear Regression"
+      isCorrect: false
+      explanation: "Incorrect. Linear regression is a machine-learning algorith and not a tool for data preparation (although it can be used in some cases to fill in missing values)."
+  - content: "Why is it important to check for multicollinearity among features when preparing data for regression analysis?"
+    choices:
+    - content: "Multicollinearity among features will impact model accuracy."
+      isCorrect: false
+      explanation: "Incorrect. Collinear features will not affect the accuracy of a regression model built using them."
+    - content: "Multicollinearity among features will impact coefficient accuracy."
+      isCorrect: true
+      explanation: "Incorrect. While a regression model built using collinear features can still be accurate, the coefficients in that model (which can provide insights into which features are most important in a model) will not be."
+    - content: "Multicollinearity among features will make the model more sensitive initial conditions."
+      isCorrect: false
+      explanation: "Incorrect. Collinear features will not affect the accuracy of a regression model fitted using them."
+    - content: "Multicollinearity among features will make the model give more false positives."
+      isCorrect: false
+      explanation: "Incorrect. Collinear features will not affect the accuracy of a regression model built using them."

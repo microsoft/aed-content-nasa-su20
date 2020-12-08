@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: Local Data Science Part 3 - Extra Random Trees
+  description: Use the Extra Random Trees algorithm to predict the probability of rocket-launch delays.
+  ms.date: 12/14/20
+  author: sguthals
+  ms.author: shanama 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Local Data Science Part 3 - Extra Random Trees
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-local_ml_extra_trees.md)]

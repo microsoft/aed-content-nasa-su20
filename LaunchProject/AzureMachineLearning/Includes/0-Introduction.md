@@ -11,6 +11,7 @@ Through this module, you will have an opportunity to explore different ways of p
 In this module, you will begin to discover: 
 
 - Python, Pandas, and Visual Studio Code
+- The benefits of using cloud-based data-science services such as Azure Machine Learning
 - Data cleansing and manipulation that requires critical analysis
 - Using maching learning to classify data 
 - Preparing data with specific machine-learning algorithms in mind

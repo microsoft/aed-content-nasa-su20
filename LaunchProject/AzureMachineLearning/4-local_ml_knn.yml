@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: Local Data Science Part 2 - k-Nearest Neighbors
+  description: Use the k-Nearest Neighbors algorithm to predict the probability of rocket-launch delays.
+  ms.date: 12/14/20
+  author: sguthals
+  ms.author: shanama 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Local Data Science Part 2 - k-Nearest Neighbors
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-local_ml_knn.md)]

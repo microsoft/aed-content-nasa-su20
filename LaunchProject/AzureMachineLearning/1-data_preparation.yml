@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: Prepare Data for Local and Azure-based Data Science
+  description: Download and prepare data for local and Azure-based data science.
+  ms.date: 12/14/20
+  author: sguthals
+  ms.author: shanama 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Prepare Data for Local and Azure-based Data Science
+durationInMinutes: 8
+content: |
+  [!include[](includes/1-data-preparation.md)]
