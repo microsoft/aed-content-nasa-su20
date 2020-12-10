@@ -46,7 +46,6 @@ df = df_backup.copy(deep=False)
 df.head()
 ```
 
-```output
 | <br>Name | Day of Year | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|									
 | Pioneer 3 | 340 | 105 | 1 | 62.00 | 0.00 | 11.00 | 10 | 625 | Cloudy |
@@ -54,7 +53,6 @@ df.head()
 | Ranger 1 | 235 | 664 | 1 | 90.00 | 0.00 | 9.00 | 10 | 776 | Partly Cloudy |
 | Ranger 2 | 322 | 549 | 1 | 54.00 | 0.00 | 6.00 | 15 | 641 | Fair |
 | Ranger 3 | 26 | 1290 | 1 | 53.00 | 0.00 | 17.00 | 10 | 645 | Fair |
-```
 
 Re-create the dummy variables, this time dropping the first one (Cloudy); cloudy days can be deduced as those rows that are a 0 for each of the other dummy columns.
 
@@ -70,7 +68,6 @@ df = df[column_list]
 df.head()
 ```
 
-```output
 | <br>Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|												
 | Pioneer 3 | 340 | 105 | 62.00 | 0.00 | 11.00 | 10 | 625 | 0 | 0 | 0 | 0 | 1 |
@@ -78,7 +75,7 @@ df.head()
 | Ranger 1 | 235 | 664 | 90.00 | 0.00 | 9.00 | 10 | 776 | 0 | 0 | 1 | 0 | 1 |
 | Ranger 2 | 322 | 549 | 54.00 | 0.00 | 6.00 | 15 | 641| 1 | 0 | 0 | 0 | 1 |
 | Ranger 3 | 26 | 1290 | 53.00 | 0.00 | 17.00 | 10 | 645 | 1  | 0 | 0 | 0 | 1 |
-```
+
 Now check for multicollinearity again.
 
 ```python
@@ -107,7 +104,6 @@ df.drop(columns=['Temp', 'Day Length'], inplace=True)
 df.head()
 ```
 
-```output
 | <br>Name | Day of Year | Time | Percipitation | Wind Speed | Visibility | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|										
 | Pioneer 3 | 340 | 105 | 0.00 | 11.00 | 10 | 0 | 0 | 0 | 0 | 1 |
@@ -115,7 +111,6 @@ df.head()
 | Ranger 1 | 235 | 664 | 0.00 | 9.00 | 10 | 0 | 0 | 1 | 0 | 1 |
 | Ranger 2 | 322 | 549 | 0.00 | 6.00 | 15 | 1 | 0 | 0 | 0 | 1 |
 |Ranger 3 | 26 | 1290 | 0.00 | 17.00 | 10 | 1 | 0 | 0 | 0 | 1 |
-```
 
 And a final check for collinearity. Everything should check out and be ready for fitting the logistic regression model.
 
@@ -170,7 +165,6 @@ test_df.set_index('Name', inplace=True)
 test_df
 ```
 
-```output
 | <br>Name | Day of Year | Time | Percipitation | Wind Speed | Visibility | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Kerbal 1 | 338 | 1203 | 0.00 | 72 | 10 | 0 | 0 | 0 | 0 | 0 |
@@ -178,7 +172,6 @@ test_df
 | 2 | Kerbal 3 | 154 | 879 | 0.28 | 6 | 15 | 0 | 0 | 0 | 1 | 1 |
 | 3 | Kerbal 4 | 155 | 781 | 16.00 | 6 | 15 | 0 | 1 | 0 | 0 | 0 |
 | 4 | Kerbal 5 | 140 | 993 | 0.00 | 25 | 10 | 1 | 0 | 0 | 0 | 1 |
-```
 
 ## Predict Delays
 

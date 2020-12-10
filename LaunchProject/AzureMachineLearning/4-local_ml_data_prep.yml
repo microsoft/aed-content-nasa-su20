@@ -11,4 +11,4 @@ metadata:
 title: Local Data Science Part 1 - Additional Data Preparation
 durationInMinutes: 10
 content: |
-  [!include[](includes/3-local_ml_data_prep.md)]
+  [!include[](includes/4-local_ml_data_prep.md)]

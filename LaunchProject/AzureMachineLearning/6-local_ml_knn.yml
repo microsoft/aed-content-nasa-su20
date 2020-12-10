@@ -11,4 +11,4 @@ metadata:
 title: Local Data Science Part 2 - k-Nearest Neighbors
 durationInMinutes: 7
 content: |
-  [!include[](includes/4-local_ml_knn.md)]
+  [!include[](includes/6-local_ml_knn.md)]

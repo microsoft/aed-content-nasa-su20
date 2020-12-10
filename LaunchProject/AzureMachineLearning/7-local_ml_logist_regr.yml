@@ -11,4 +11,4 @@ metadata:
 title: Local Data Science Part 4 - Logistic Regression
 durationInMinutes: 8
 content: |
-  [!include[](includes/6-local_ml_logist_regr.md)]
+  [!include[](includes/7-local_ml_logist_regr.md)]

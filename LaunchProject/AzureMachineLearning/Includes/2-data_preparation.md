@@ -18,7 +18,6 @@ data_df = pd.read_csv('RocketLaunchDataCompleted.csv')
 data_df.head()
 ```
 
-```output
 | | Name | Date | Time (East Coast) | Location | Crewed or Uncrewed | Launched? | High Temp | Low Temp | Ave Temp | Temp at Launch Time | ... | Max Wind Speed | Visibility | Wind Speed at Launch Time | Hist Ave Max Wind Speed | Hist Ave Visibility | Sea Level Pressure | Hist Ave Sea Level Pressure | Day Length | Condition | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | NaN | 4-Dec-58 | NaN | Cape Canaveral | NaN | NaN | 75 | 68 | 71.00 | NaN | ... | 16 | 15 | NaN | NaN | NaN | 30.22 | NaN | 10:26 | Cloudy | NaN |
@@ -26,7 +25,6 @@ data_df.head()
 | 2 | Pioneer 3 | 6-Dec-58 | 1:45 | Cape Canaveral | Uncrewed | Y | 73 | 0 | 60.21 | 62.0 | ... | 15 | 10 | 11.0 | NaN | NaN | 30.25 | NaN | 10:25 | Cloudy | NaN |
 | 3 | NaN | 7-Dec-58 | NaN | Cape Canaveral | NaN | NaN | 76 | 57 | 66.04 | NaN | ... | 10 | 10 | NaN | NaN | NaN | 30.28 | NaN | 10:25 | Partly Cloudy | NaN |
 | 4 | NaN | 8-Dec-58 | NaN | Cape Canaveral | NaN | NaN | 79 | 60 | 70.52 | NaN | ... | 12 | 10 | NaN | NaN | NaN | 30.23 | NaN | 12:24 | Partly Cloudy | NaN |
-```
 
 ## Check for missing data and conduct basic data cleansing
 
@@ -178,8 +176,6 @@ launch_df = data_df.loc[mask]
 launch_df.tail()
 ```
 
-```output
-
 | | Name | Date | Time (East Coast) | Location | Crewed or Uncrewed | Launched? | High Temp | Low Temp | Ave Temp | Temp at Launch Time | ... | Hist Ave Temp | Percipitation at Launch Time | Hist Ave Percipitation | Wind Direction | Max Wind Speed | Visibility | Wind Speed at Launch Time | Sea Level Pressure | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 276 | Gemini 7 | 4-Dec-65 | 20:03 | Cape Canaveral | Crewed | Y | 77 | 67 | 71.52 | 71.0 | ... | 65.0 | 0.00 | 0.08 | E | 15 | 10 | 12.0 | 30.19 | 10:27 | Cloudy |
@@ -188,7 +184,6 @@ launch_df.tail()
 | 291 | Space X Dragon | 27-May-20 | 16:33 | Cape Canaveral | Crewed | N | 86 | 70 | 75.02 | 74.0 | ... | 79.0 | 0.28 | 0.15 | S | 32 | 10 | 25.0 | 29.98 | 13:44 | Heavy T-Storm |
 | 296 | Space X Dragon | 30-May-20 | 20:22 | Cape Canaveral | Crewed | Y | 87 | 75 | 79.69 | 80.0 | ... | 79.0 | 0.00 | 0.16 | SE | 16 | 10 | 7.0 | 30.03 | 13:47 | Fair |
 5 rows × 22 columns
-```
 
 We now have a DataFrame with just valid entries in the `Launched?` column. You can double-check this by using the DataFrame's `isna()` and `sum()` methods again.
 
@@ -256,7 +251,6 @@ df = launch_df[['Name',
 df.head()
 ```
 
-```output
 | | Name | Date | Time (East Coast) | Launched? | Temp at Launch Time | Percipitation at Launch Time | Wind Speed at Launch Time | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2 | Pioneer 3 | 6-Dec-58 | 1:45 | Y | 62.00 | 0.00 | 11.00 | 10 | 10:25 | Cloudy |
@@ -264,7 +258,6 @@ df.head()
 | 12 | Ranger 1 | 23-Aug-61 | 11:04 | Y | 90.00 | 0.00 | 9.00 | 10 | 12:56 | Partly Cloudy |
 | 17 | Ranger 2 | 18-Nov-61 | 9:09 | Y | 54.00 | 0.00 | 6.00 | 15 | 10:41 | Fair |
 | 22 | Ranger 3 | 26-Jan-62 | 21:30 | Y | 53.00 | 0.00 | 17.00 | 10 | 10:45 | Fair |
-```
 
 We retained the names of the missions that launched as a convenient way to identify them. Given that they are unique, we can use them as the index for this new DataFrame in place of the default integer index assigned by pandas (which is in tatters after we deleted so many rows anyway). We do this with the `set_index()` methode, in which we supply the name of the column to use as the new index. You should also set the `inplace` parameter to `True`.
 
@@ -273,7 +266,6 @@ df.set_index('Name', inplace=True)
 df.head()
 ```
 
-```output
 | <br>Name | Date | Time (East Coast) | Launched? | Temp at Launch Time  Percipitation at Launch Time | Wind Speed at Launch Time | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|
 | Pioneer 3 | 6-Dec-58 | 1:45 | Y | 62.00 | 0.00 | 11.00 | 10 | 10:25 | Cloudy |
@@ -281,7 +273,6 @@ df.head()
 | Ranger 1 | 23-Aug-61 | 11:04 | Y | 90.00 | 0.00 | 9.00 | 10 | 12:56 | Partly Cloudy |
 | Ranger 2 | 18-Nov-61 | 9:09 | Y | 54.00 | 0.00 | 6.00 | 15 | 10:41 | Fair |
 | Ranger 3 | 26-Jan-62 | 21:30 | Y | 53.00 | 0.00 | 17.00 | 10 | 10:45 | Fair |
-```
 
 Many of our column names are too long to conveniently work with. We can rename them using the DataFrame `rename()` method (again, using the `inplace=True` parameter).
 
@@ -295,7 +286,6 @@ df.rename(columns={'Time (East Coast)': 'Time',
 df.head()
 ```
 
-```output
 | <br>Name | Date | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|								
 | Pioneer 3 | 6-Dec-58 | 1:45 | Y | 62.00 | 0.00 | 11.00 | 10 | 10:25 | Cloudy |
@@ -303,7 +293,6 @@ df.head()
 | Ranger 1 | 23-Aug-61 | 11:04 | Y | 90.00 | 0.00 | 9.00 | 10 | 12:56 | Partly Cloudy |
 | Ranger 2 | 18-Nov-61 | 9:09 | Y | 54.00 | 0.00 | 6.00 | 15 | 10:41 | Fair |
 | Ranger 3 | 26-Jan-62 | 21:30 | Y | 53.00 | 0.00 | 17.00 | 10 | 10:45 | Fair |
-```
 
 Take a quick check for any lingering `NaN` values in the DataFrame:
 

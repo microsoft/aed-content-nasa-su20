@@ -90,7 +90,6 @@ train = Dataset.Tabular.from_delimited_files(path=[(datastore, 'dataset/prepped_
 train.take(5).to_pandas_dataframe().reset_index(drop=True)
 ```
 
-```output
 | | Name | Date | Time | Launched | Temp	Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|
 | 0 | Pioneer 3 | 2058-12-06 | 1:45 | True | 62.00 | 0.00 | 11.00 | 10 | 10:25 | Cloudy |
@@ -98,7 +97,6 @@ train.take(5).to_pandas_dataframe().reset_index(drop=True)
 | 2 | Ranger 1 | 2061-08-23 | 11:04 | True | 90.00 | 0.00 | 9.00 | 10 | 12:56 | Partly Cloudy |
 | 3 | Ranger 2 | 2061-11-18 | 9:09 | True | 54.00 | 0.00 | 6.00 | 15 | 10:41 | Fair |
 | 4 | Ranger 3 | 2062-01-26 | 21:30 | True | 53.00 | 0.00 | 17.00 | 10 | 10:45 | Fair |
-```
 
 You designate the test data in similar fashion.
 
@@ -107,7 +105,6 @@ test = Dataset.Tabular.from_delimited_files(path=[(datastore, 'dataset/test_data
 test.take(5).to_pandas_dataframe().reset_index(drop=True)
 ```
 
-```output
 | | Name | Date | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Kerbal 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -115,7 +112,6 @@ test.take(5).to_pandas_dataframe().reset_index(drop=True)
 | 2 | Kerbal 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
 | 3 | Kerbal 4 | 155 | 781 | 69 | 16.00 | 6 | 15 802 | 0 | 0 | 1 | 0 | 0 | 0 |
 | 4 | Kerbal 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
-```
 
 You will also need to tell AzureML which metrics to optimize for in training the model. While want to make predictions about launch delays, we are not really extrapolating continuous data about future trends from our data, which is the hallmark of classical predictive ML. Instead, we are merely checking to see if a launch is likely to be delayed based on available data, which is a binary classification ML task. To view the list of available metrics, import and use the `get_primary_metrics` function for `'classification'`.
 
@@ -179,7 +175,7 @@ nasa_data_exploration	AutoML_e7f148b1-2375-476e-a6df-3d0dab303fd5	automl	NotStar
 
 (Note that `Link to Azure Machine Learning studio` will point to your own Azure Machine Learning subscription when you run this code.)
 
-Now use the `wait_for_completion()` method to actually run the experiment in Azure Machine Learning.
+Now use the `wait_for_completion()` method to actually run the experiment in Azure Machine Learning. (Note that a large chunk of the output is redacted below for brevity.)
 
 ```python
 remote_run.wait_for_completion()
@@ -199,8 +195,8 @@ remote_run.wait_for_completion()
   'acquisition_parameter': '0',
   'num_cross_validation': '5',
   'target': 'cpu-cluster',
-  'AMLSettingsJsonString': '{"path":null,"name":"nasa_data_exploration","subscription_id":"c819623b-1397-47f6-aa43-4635420ecead","resource_group":"DevIntroDS_RG","workspace_name":"DevIntroDS","region":"westus2","compute_target":"cpu-cluster","spark_service":null,"azure_service":"remote","_local_managed_run_id":null,"many_models":false,"pipeline_fetch_max_batch_size":1,"iterations":1000,"primary_metric":"precision_score_weighted","task_type":"classification","data_script":null,"validation_size":0.0,"n_cross_validations":5,"y_min":null,"y_max":null,"num_classes":null,"featurization":"auto","_ignore_package_version_incompatibilities":false,"is_timeseries":false,"max_cores_per_iteration":-1,"max_concurrent_iterations":4,"iteration_timeout_minutes":null,"mem_in_mb":null,"enforce_time_on_windows":true,"experiment_timeout_minutes":30,"experiment_exit_score":null,"whitelist_models":null,"blacklist_algos":["TensorFlowLinearClassifier","TensorFlowDNN"],"supported_models":["RandomForest","ExtremeRandomTrees","GradientBoosting","MultinomialNaiveBayes","DecisionTree","TensorFlowDNN","LinearSVM","LightGBM","KNN","SVM","TensorFlowLinearClassifier","XGBoostClassifier","LogisticRegression","AveragedPerceptronClassifier","SGD","BernoulliNaiveBayes"],"auto_blacklist":true,"blacklist_samples_reached":false,"exclude_nan_labels":true,"verbosity":20,"_debug_log":"azureml_automl.log","show_warnings":false,"model_explainability":true,"service_url":null,"sdk_url":null,"sdk_packages":null,"enable_onnx_compatible_models":false,"enable_split_onnx_featurizer_estimator_models":false,"vm_type":"STANDARD_D2_V2","telemetry_verbosity":20,"send_telemetry":true,"enable_dnn":false,"scenario":"SDK-1.13.0","environment_label":null,"force_text_dnn":false,"enable_feature_sweeping":true,"enable_early_stopping":true,"early_stopping_n_iters":10,"metrics":null,"enable_ensembling":true,"enable_stack_ensembling":true,"ensemble_iterations":15,"enable_tf":false,"enable_subsampling":null,"subsample_seed":null,"enable_nimbusml":false,"enable_streaming":false,"force_streaming":false,"track_child_runs":true,"allowed_private_models":[],"label_column_name":"Launched","weight_column_name":null,"cv_split_column_names":null,"enable_local_managed":false,"cost_mode":1,"lag_length":0,"metric_operation":"maximize","preprocess":true}',
-  'DataPrepJsonString': '{\\"training_data\\": \\"{\\\\\\"blocks\\\\\\": [{\\\\\\"id\\\\\\": \\\\\\"aebc881d-17ca-4a63-8e0a-8017aebc9451\\\\\\", \\\\\\"type\\\\\\": \\\\\\"Microsoft.DPrep.GetDatastoreFilesBlock\\\\\\", \\\\\\"arguments\\\\\\": {\\\\\\"datastores\\\\\\": [{\\\\\\"datastoreName\\\\\\": \\\\\\"workspaceblobstore\\\\\\", \\\\\\"path\\\\\\": \\\\\\"dataset/prepped_launch_data_raw.csv\\\\\\", \\\\\\"resourceGroup\\\\\\": \\\\\\"DevIntroDS_RG\\\\\\", \\\\\\"subscription\\\\\\": \\\\\\"c819623b-1397-47f6-aa43-4635420ecead\\\\\\", \\\\\\"workspaceName\\\\\\": \\\\\\"DevIntroDS\\\\\\"}]}, \\\\\\"localData\\\\\\": {}, \\\\\\"isEnabled\\\\\\": true, \\\\\\"name\\\\\\": null, \\\\\\"annotation\\\\\\": null}, {\\\\\\"id\\\\\\": \\\\\\"317e53ee-22ed-4875-90fa-a21990a8da0a\\\\\\", \\\\\\"type\\\\\\": \\\\\\"Microsoft.DPrep.ParseDelimitedBlock\\\\\\", \\\\\\"arguments\\\\\\": {\\\\\\"columnHeadersMode\\\\\\": 3, \\\\\\"fileEncoding\\\\\\": 0, \\\\\\"handleQuotedLineBreaks\\\\\\": false, \\\\\\"preview\\\\\\": false, \\\\\\"separator\\\\\\": \\\\\\",\\\\\\", \\\\\\"skipRows\\\\\\": 0, \\\\\\"skipRowsMode\\\\\\": 0}, \\\\\\"localData\\\\\\": {}, \\\\\\"isEnabled\\\\\\": true, \\\\\\"name\\\\\\": null, \\\\\\"annotation\\\\\\": null}, {\\\\\\"id\\\\\\": \\\\\\"4d2b8947-7eaa-4bcc-9194-a0b276b70867\\\\\\", \\\\\\"type\\\\\\": \\\\\\"Microsoft.DPrep.DropColumnsBlock\\\\\\", \\\\\\"arguments\\\\\\": {\\\\\\"columns\\\\\\": {\\\\\\"type\\\\\\": 0, \\\\\\"details\\\\\\": {\\\\\\"selectedColumns\\\\\\": [\\\\\\"Path\\\\\\"]}}}, \\\\\\"localData\\\\\\": {}, \\\\\\"isEnabled\\\\\\": true, \\\\\\"name\\\\\\": null, \\\\\\"annotation\\\\\\": null}, {\\\\\\"id\\\\\\": \\\\\\"fef8a6b2-77ac-48cb-96c5-a059b5e4ea5f\\\\\\", \\\\\\"type\\\\\\": \\\\\\"Microsoft.DPrep.SetColumnTypesBlock\\\\\\", \\\\\\"arguments\\\\\\": {\\\\\\"columnConversion\\\\\\": [{\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Name\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 0}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Date\\\\\\"}}, \\\\\\"typeArguments\\\\\\": {\\\\\\"dateTimeFormats\\\\\\": [\\\\\\"%d-%b-%y\\\\\\"]}, \\\\\\"typeProperty\\\\\\": 4}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Time\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 0}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Launched\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 1}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Temp\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 3}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Percipitation\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 3}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Wind Speed\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 3}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Visibility\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 2}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Day Length\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 0}, {\\\\\\"column\\\\\\": {\\\\\\"type\\\\\\": 2, \\\\\\"details\\\\\\": {\\\\\\"selectedColumn\\\\\\": \\\\\\"Condition\\\\\\"}}, \\\\\\"typeProperty\\\\\\": 0}]}, \\\\\\"localData\\\\\\": {}, \\\\\\"isEnabled\\\\\\": true, \\\\\\"name\\\\\\": null, \\\\\\"annotation\\\\\\": null}], \\\\\\"inspectors\\\\\\": [], \\\\\\"meta\\\\\\": {\\\\\\"savedDatasetId\\\\\\": \\\\\\"da36f1f0-0192-472e-b360-4fff030b620e\\\\\\", \\\\\\"datasetType\\\\\\": \\\\\\"tabular\\\\\\", \\\\\\"subscriptionId\\\\\\": \\\\\\"c819623b-1397-47f6-aa43-4635420ecead\\\\\\", \\\\\\"workspaceId\\\\\\": \\\\\\"c400addd-d1ce-4945-b06f-0d1df14600d9\\\\\\", \\\\\\"workspaceLocation\\\\\\": \\\\\\"westus2\\\\\\"}}\\", \\"activities\\": 0}',
+  'AMLSettingsJsonString': 
+  ⋮
   'EnableSubsampling': None,
   'runTemplate': 'AutoML',
   'azureml.runsource': 'automl',
@@ -285,7 +281,6 @@ featurization_summary = fitted_model.named_steps['datatransformer'].get_featuriz
 pd.DataFrame.from_records(featurization_summary)
 ```
 
-```output
 | | RawFeatureName | TypeDetected | Dropped | EngineeredFeatureCount | Transformations |
 |--:|--:|--:|--:|--:|--:|
 | 0 | Name | Hashes | Yes | 0 | [] |
@@ -297,7 +292,6 @@ pd.DataFrame.from_records(featurization_summary)
 | 6 | Visibility | Numeric | No | 1 | \[MeanImputer\] |
 | 7 | Day Length | Ignore | Yes | 0 | [] |
 | 8 | Condition | CategoricalHash | No | 4 | \[StringCast-HashOneHotEncoder\] |
-```
 
 ## Test the Model
 

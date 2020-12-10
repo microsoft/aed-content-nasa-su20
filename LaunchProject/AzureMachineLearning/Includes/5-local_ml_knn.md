@@ -37,7 +37,6 @@ test_df = pd.read_csv('test_data_full.csv')
 test_df
 ```
 
-```output
 | Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Kerbal 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0| 0 | 0 | 0 |
@@ -45,7 +44,6 @@ test_df
 | 2 | Kerbal 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
 | 3 | Kerbal 4 | 155 | 781 | 69 | 16.00 | 6 | 15 | 802 | 0 | 0 | 1 | 0 | 0 |
 | 4 | Kerbal 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
-```
 
 Before proceding, make sure to make `Name` the index for this DataFrame so as to match up with the training data.
 
@@ -54,7 +52,6 @@ test_df.set_index('Name', inplace=True)
 test_df.head()
 ```
 
-```output
 | <br>Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|													
 | Kerbal 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -62,7 +59,6 @@ test_df.head()
 | Kerbal 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
 | Kerbal 4 | 155 | 781 | 69	16.00 | 6 | 15 | 802 | 0 | 0 | 1 | 0 | 0 | 0 |
 | Kerbal 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
-```
 
 ## Predict Delays
 
