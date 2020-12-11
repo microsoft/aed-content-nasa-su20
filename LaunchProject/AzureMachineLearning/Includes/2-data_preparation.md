@@ -18,6 +18,8 @@ data_df = pd.read_csv('RocketLaunchDataCompleted.csv')
 data_df.head()
 ```
 
+**output**
+
 | | Name | Date | Time (East Coast) | Location | Crewed or Uncrewed | Launched? | High Temp | Low Temp | Ave Temp | Temp at Launch Time | ... | Max Wind Speed | Visibility | Wind Speed at Launch Time | Hist Ave Max Wind Speed | Hist Ave Visibility | Sea Level Pressure | Hist Ave Sea Level Pressure | Day Length | Condition | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | NaN | 4-Dec-58 | NaN | Cape Canaveral | NaN | NaN | 75 | 68 | 71.00 | NaN | ... | 16 | 15 | NaN | NaN | NaN | 30.22 | NaN | 10:26 | Cloudy | NaN |
@@ -176,6 +178,8 @@ launch_df = data_df.loc[mask]
 launch_df.tail()
 ```
 
+**output**
+
 | | Name | Date | Time (East Coast) | Location | Crewed or Uncrewed | Launched? | High Temp | Low Temp | Ave Temp | Temp at Launch Time | ... | Hist Ave Temp | Percipitation at Launch Time | Hist Ave Percipitation | Wind Direction | Max Wind Speed | Visibility | Wind Speed at Launch Time | Sea Level Pressure | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 276 | Gemini 7 | 4-Dec-65 | 20:03 | Cape Canaveral | Crewed | Y | 77 | 67 | 71.52 | 71.0 | ... | 65.0 | 0.00 | 0.08 | E | 15 | 10 | 12.0 | 30.19 | 10:27 | Cloudy |
@@ -251,6 +255,8 @@ df = launch_df[['Name',
 df.head()
 ```
 
+**output**
+
 | | Name | Date | Time (East Coast) | Launched? | Temp at Launch Time | Percipitation at Launch Time | Wind Speed at Launch Time | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2 | Pioneer 3 | 6-Dec-58 | 1:45 | Y | 62.00 | 0.00 | 11.00 | 10 | 10:25 | Cloudy |
@@ -265,6 +271,8 @@ We retained the names of the missions that launched as a convenient way to ident
 df.set_index('Name', inplace=True)
 df.head()
 ```
+
+**output**
 
 | <br>Name | Date | Time (East Coast) | Launched? | Temp at Launch Time  Percipitation at Launch Time | Wind Speed at Launch Time | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|
@@ -286,8 +294,10 @@ df.rename(columns={'Time (East Coast)': 'Time',
 df.head()
 ```
 
+**output**
+
 | <br>Name | Date | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
-|---|---|---|---|---|---|---|---|---|								
+|---|---|---|---|---|---|---|---|---|---|	
 | Pioneer 3 | 6-Dec-58 | 1:45 | Y | 62.00 | 0.00 | 11.00 | 10 | 10:25 | Cloudy |
 | Pioneer 4 | 3-Mar-59 | 13:10 | Y | 78.00 | 0.00 | 12.00 | 7 | 11:38 | Cloudy |
 | Ranger 1 | 23-Aug-61 | 11:04 | Y | 90.00 | 0.00 | 9.00 | 10 | 12:56 | Partly Cloudy |

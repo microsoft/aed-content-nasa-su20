@@ -90,6 +90,8 @@ train = Dataset.Tabular.from_delimited_files(path=[(datastore, 'dataset/prepped_
 train.take(5).to_pandas_dataframe().reset_index(drop=True)
 ```
 
+**output**
+
 | | Name | Date | Time | Launched | Temp	Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|
 | 0 | Pioneer 3 | 2058-12-06 | 1:45 | True | 62.00 | 0.00 | 11.00 | 10 | 10:25 | Cloudy |
@@ -104,6 +106,8 @@ You designate the test data in similar fashion.
 test = Dataset.Tabular.from_delimited_files(path=[(datastore, 'dataset/test_data_full.csv')])
 test.take(5).to_pandas_dataframe().reset_index(drop=True)
 ```
+
+**output**
 
 | | Name | Date | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -280,6 +284,8 @@ We can also see which features Azure Machine Learning ended up using to build th
 featurization_summary = fitted_model.named_steps['datatransformer'].get_featurization_summary()
 pd.DataFrame.from_records(featurization_summary)
 ```
+
+**output**
 
 | | RawFeatureName | TypeDetected | Dropped | EngineeredFeatureCount | Transformations |
 |--:|--:|--:|--:|--:|--:|

@@ -37,6 +37,8 @@ test_df = pd.read_csv('test_data_full.csv')
 test_df
 ```
 
+**output**
+
 | Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | Kerbal 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0| 0 | 0 | 0 |
@@ -51,6 +53,8 @@ Before proceding, make sure to make `Name` the index for this DataFrame so as to
 test_df.set_index('Name', inplace=True)
 test_df.head()
 ```
+
+**output**
 
 | <br>Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|													

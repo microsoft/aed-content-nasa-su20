@@ -39,6 +39,8 @@ df.loc[df['Date'].dt.year >= int(date.today().strftime('%Y')), 'Date'] -= pd.Dat
 df.head()
 ```
 
+**output**
+
 | <br>Name  | Date | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|									
 | Pioneer 3 | 1958-12-06 | 1:45 | Y | 62.0 | 0.0 | 11.0 | 10 | 10:25 | Cloudy |
@@ -55,6 +57,8 @@ df.rename(columns={'Date': 'Day of Year'}, inplace=True)
 df.head()
 ```
 
+**output**
+
 | <br>Name | Day of Year | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|							
 | Pioneer 3 | 340 | 1:45 | Y | 62.0 | 0.0 | 11.0 | 10 | 10:25 | Cloudy |
@@ -70,6 +74,8 @@ df['Time'] = [str(x) + ':00' for x in list(df['Time'])]
 df['Day Length'] = [str(x) + ':00' for x in list(df['Day Length'])]
 df.head()
 ```
+
+**output**
 
 | <br>Name | Day of Year | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|								
@@ -89,6 +95,8 @@ df['Day Length'] = pd.to_timedelta(df['Day Length']).dt.total_seconds().div(60).
 df.head()
 ```
 
+**output**
+
 | <br>Name | Day of Year | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|										
 | Pioneer 3 | 340 | 105 | Y | 62.00 | 0.00 | 11.00 | 10 | 625 | Cloudy |
@@ -103,6 +111,8 @@ We also need to address the string values in the `Launched` column. Scikit-learn
 df['Launched'] = df['Launched'].replace(to_replace=['N', 'Y'], value=[0, 1])
 df.head()
 ```
+
+**output**
 
 | <br>Name | Day of Year | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|								
@@ -129,6 +139,8 @@ dummy = pd.get_dummies(df['Condition'])
 dummy.head()
 ```
 
+**output**
+
 | <br>Name | Cloudy | Fair | Heavy T-Storm | Partly Cloudly | Partly Cloudy | Rain |
 |---|---|---|---|---|---|---|						
 | Pioneer 3 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -146,6 +158,8 @@ dummy = pd.get_dummies(df['Condition'])
 dummy.head()
 ```
 
+**output**
+
 | <br>Name | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain |
 |---|---|---|---|---|---|						
 | Pioneer 3 | 1 | 0 | 0 | 0 | 0 |
@@ -160,6 +174,8 @@ Much better! Now we just have to concatenate the dummy variables with the origin
 df = pd.concat([df.iloc[:, :-1], dummy], axis=1)
 df.head()
 ```
+
+**output**
 
 | <br>Name | Day of Year | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|													
@@ -180,6 +196,8 @@ column_list.append(launched)
 df = df[column_list]
 df.head()
 ```
+
+**output**
 
 | <br>Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|														

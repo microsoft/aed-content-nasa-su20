@@ -46,6 +46,8 @@ df = df_backup.copy(deep=False)
 df.head()
 ```
 
+**output**
+
 | <br>Name | Day of Year | Time | Launched | Temp | Percipitation | Wind Speed | Visibility | Day Length | Condition |
 |---|---|---|---|---|---|---|---|---|---|									
 | Pioneer 3 | 340 | 105 | 1 | 62.00 | 0.00 | 11.00 | 10 | 625 | Cloudy |
@@ -67,6 +69,8 @@ column_list.append(launched)
 df = df[column_list]
 df.head()
 ```
+
+**output**
 
 | <br>Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|												
@@ -103,6 +107,8 @@ The dummy variables are no longer collinear, but two other features now register
 df.drop(columns=['Temp', 'Day Length'], inplace=True)
 df.head()
 ```
+
+**output**
 
 | <br>Name | Day of Year | Time | Percipitation | Wind Speed | Visibility | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|										
@@ -164,6 +170,8 @@ test_df = pd.read_csv('test_data.csv')
 test_df.set_index('Name', inplace=True)
 test_df
 ```
+
+**output**
 
 | <br>Name | Day of Year | Time | Percipitation | Wind Speed | Visibility | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|
