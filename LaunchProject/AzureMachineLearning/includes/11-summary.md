@@ -1,0 +1,9 @@
+# Summary
+
+Machine learning is one of the most powerful computational tools available right now. ML can discern patterns in data that are impossible for unaided human analysts and scientists, which makes new services, capabilities, and discoveries possible. But like any tool, we can only get the most out of it if we undertand what it is doing and how it is doing it. 
+
+Throughout this module you have prepared and analyzed rocket data in multiple ways. But this module isn't really about the intracacies of predicting rocket-launch delays. These same processes of selecting data, identifying algorithms to use, preparing data to be used by those techniques, and examining the output of machine learning is critical in every field. Data science is really a mindset rather than a set of tools and skills.
+
+No single algorithm will generally provide all of the answers that you need from your data. After you have questioned your data several different ways using different algorithms, it is also good to question the results that you get from you machine learning to see what they tell and what they don't. As you saw across the units in this module, different alrogithms have different strengths and weaknesses that you should critically examine after use (even when using very comprehensive services like Azure Machine Learning). Similarly, you also saw that different avenues and algorithms of machine learning require your data to be prepared in different ways. 
+
+***Placeholder*** Remember, this module is a part of a multi-modal approach to learning, which means that you can also follow along with a video tutorial on the [Learn with Dr G video series](https://aka.ms/LearnWithDrG/SpaceJam).
