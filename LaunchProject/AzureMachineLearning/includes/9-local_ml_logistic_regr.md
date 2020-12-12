@@ -175,11 +175,11 @@ test_df
 
 | <br>Name | Day of Year | Time | Percipitation | Wind Speed | Visibility | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 0 | Kerbal 1 | 338 | 1203 | 0.00 | 72 | 10 | 0 | 0 | 0 | 0 | 0 |
-| 1 | Kerbal 2 | 75 | 1061 | 0.00 | 4 | 1 | 0 | 0 | 0 | 0 | 1 |
-| 2 | Kerbal 3 | 154 | 879 | 0.28 | 6 | 15 | 0 | 0 | 0 | 1 | 1 |
-| 3 | Kerbal 4 | 155 | 781 | 16.00 | 6 | 15 | 0 | 1 | 0 | 0 | 0 |
-| 4 | Kerbal 5 | 140 | 993 | 0.00 | 25 | 10 | 1 | 0 | 0 | 0 | 1 |
+| 0 | Test 1 | 338 | 1203 | 0.00 | 72 | 10 | 0 | 0 | 0 | 0 | 0 |
+| 1 | Test 2 | 75 | 1061 | 0.00 | 4 | 1 | 0 | 0 | 0 | 0 | 1 |
+| 2 | Test 3 | 154 | 879 | 0.28 | 6 | 15 | 0 | 0 | 0 | 1 | 1 |
+| 3 | Test 4 | 155 | 781 | 16.00 | 6 | 15 | 0 | 1 | 0 | 0 | 0 |
+| 4 | Test 5 | 140 | 993 | 0.00 | 25 | 10 | 1 | 0 | 0 | 0 | 1 |
 
 ## Predict Delays
 
@@ -220,11 +220,11 @@ for i in range(len(test_df.index)):
 ```
 
 ```output
-Kerbal 1 probability of delay is 100.00%
-Kerbal 2 probability of delay is 0.00%
-Kerbal 3 probability of delay is 0.00%
-Kerbal 4 probability of delay is 0.07%
-Kerbal 5 probability of delay is 45.91%
+Test 1 probability of delay is 100.00%
+Test 2 probability of delay is 0.00%
+Test 3 probability of delay is 0.00%
+Test 4 probability of delay is 0.07%
+Test 5 probability of delay is 45.91%
 ```
 
 Unlike extra random trees, we can't directly see how features are weighted, but we can see the actual coefficients of the regression model. (This is why we took so much time to eliminate collinearity among the features: so we can get accurate coefficients.) Use the first `coef_` attribute for the model to see this (and put it in a Series for readability).

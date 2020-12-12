@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: Data Preparation Part 2 - Intermediate Steps
+  description: Further prepare data for local and Azure-based data science.
+  ms.date: 12/14/20
+  author: sguthals
+  ms.author: shanama 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Data Preparation Part 2 - Intermediate Steps
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-data-prep_rows.md)]

@@ -1,12 +1,12 @@
 # Local Machine Learning: Data Preparation
 
-Now that you've seen what you can do with Azure Machine Learning, let's see how it compares with doing machine learning locally using Python.
+Now that you've seen what you can do with Azure Machine Learning, let's see how it compares with doing machine learning locally using Python. What you will hopefully take away from working with this data both locally and in the cloud is that methods have their own benefits and that both have a role to play in your work with data.
 
 ## Prepare DateTime Data
 
-One big difference in doing machine learning locally is that you have to clean you data much more thoroughly. How thorough is thorough enough depends on the machine learning you want to do. As stated in the last section, we are trying to classify between days of likely versus unlikely launch-delay. In this case, we want to know the date that on-time and delayed occured, but less because we want to place them on a timeline (such as for prediction, perhaps), but so we can judge if some seasons of the year are more conducive to on-time rocket launches from the central east coast of Florida. As such, what we really care about is the day of the year rather than the date.
+One big difference in doing machine learning locally is that you have to clean you data much more thoroughly. How thorough is thorough enough depends on the machine learning you want to do. As stated in the last section, we're trying to classify between days of likely versus unlikely launch-delay. In this case, we want to know the date that on-time and delayed occured, but less because we want to place them on a timeline (such as for prediction, for example), but so we can judge if some seasons of the year are more conducive to on-time rocket launches from the central east coast of Florida. As such, what we really care about is the day of the year rather than the date on a timeline.
 
-Before proceeding, let's check to see what datatypes are in each column. To do this, you can just loop over each column in the DataFrame and print out its name and datatype.
+Before proceeding, let's check to see what datatypes are in each column. We need to get a sense of which columns we need to prepare for the machine learning we want to conduct down the line. To do this, you can just loop over each column in the DataFrame and print out its name and datatype.
 
 ```python
 for col in df:

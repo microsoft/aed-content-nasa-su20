@@ -41,11 +41,11 @@ test_df
 
 | Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 0 | Kerbal 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0| 0 | 0 | 0 |
-| 1 | Kerbal 2 | 75 | 1061 | 79 | 0.00 | 4 | 1 | 702 | 1 | 0 | 0 | 0 | 0 | 1 |
-| 2 | Kerbal 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
-| 3 | Kerbal 4 | 155 | 781 | 69 | 16.00 | 6 | 15 | 802 | 0 | 0 | 1 | 0 | 0 |
-| 4 | Kerbal 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
+| 0 | Test 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0| 0 | 0 | 0 |
+| 1 | Test 2 | 75 | 1061 | 79 | 0.00 | 4 | 1 | 702 | 1 | 0 | 0 | 0 | 0 | 1 |
+| 2 | Test 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
+| 3 | Test 4 | 155 | 781 | 69 | 16.00 | 6 | 15 | 802 | 0 | 0 | 1 | 0 | 0 |
+| 4 | Test 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
 
 Before proceding, make sure to make `Name` the index for this DataFrame so as to match up with the training data.
 
@@ -58,11 +58,11 @@ test_df.head()
 
 | <br>Name | Day of Year | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|													
-| Kerbal 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Kerbal 2 | 75 | 1061 | 79 | 0.00 | 4 | 1 | 702 | 1 | 0 | 0 | 0 | 0 | 1 |
-| Kerbal 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
-| Kerbal 4 | 155 | 781 | 69	16.00 | 6 | 15 | 802 | 0 | 0 | 1 | 0 | 0 | 0 |
-| Kerbal 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
+| Test 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Test 2 | 75 | 1061 | 79 | 0.00 | 4 | 1 | 702 | 1 | 0 | 0 | 0 | 0 | 1 |
+| Test 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
+| Test 4 | 155 | 781 | 69	16.00 | 6 | 15 | 802 | 0 | 0 | 1 | 0 | 0 | 0 |
+| Test 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
 
 ## Predict Delays
 
@@ -101,11 +101,11 @@ for i in range(len(test_df.index)):
 ```
 
 ```output
-Kerbal 1 probability of delay is 0%
-Kerbal 2 probability of delay is 20%
-Kerbal 3 probability of delay is 0%
-Kerbal 4 probability of delay is 0%
-Kerbal 5 probability of delay is 20%
+Test 1 probability of delay is 0%
+Test 2 probability of delay is 20%
+Test 3 probability of delay is 0%
+Test 4 probability of delay is 0%
+Test 5 probability of delay is 20%
 ```
 
 Much easier to read. k-NN caught the two test missions that were delayed, but the probabilities seem low (and suspiciously regular).
@@ -113,21 +113,21 @@ Much easier to read. k-NN caught the two test missions that were delayed, but th
 With a little more coding, we can loop through different number of neighbors to looke for patterns (the default is `k=5`). To this, we will create a dictionary for each mission and then check the predicted probability for delay for each mission for 3 to 20 neighbors. We can then put those five dictionaries into a DataFrame to make final output easier to read.
 
 ```python
-kerbal_dict = {'Kerbal ' + str(x):[] for x in range(1, 6)}
+test_dict = {'Test ' + str(x):[] for x in range(1, 6)}
 idx_list = list(range(3, 21))
 
 for i in idx_list:
     ineigh = KNeighborsClassifier(n_neighbors=i)
     ineigh.fit(X, y)
-    for j in range(len(kerbal_dict)):
-        kerbal_dict['Kerbal ' + str(j + 1)].append(ineigh.predict_proba(test_X)[j][0])
+    for j in range(len(test_dict)):
+        test_dict['Test ' + str(j + 1)].append(ineigh.predict_proba(test_X)[j][0])
 
-kerbal_df = pd.DataFrame(kerbal_dict, index=idx_list)
-kerbal_df
+test_df = pd.DataFrame(test_dict, index=idx_list)
+test_df
 ```
 
 ```output
-Kerbal 1	Kerbal 2	Kerbal 3	Kerbal 4	Kerbal 5
+    Test 1	Test 2	Test 3	Test 4	Test 5
 3	0.00	0.00	0.00	0.00	0.33
 4	0.00	0.00	0.00	0.00	0.25
 5	0.00	0.20	0.00	0.00	0.20

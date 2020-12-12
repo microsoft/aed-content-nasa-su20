@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Local Data Science Part 1 - Additional Data Preparation
-durationInMinutes: 10
+durationInMinutes: 5
 content: |
-  [!include[](includes/4-local_ml_data_prep.md)]
+  [!include[](includes/6-local_ml_data_prep.md)]

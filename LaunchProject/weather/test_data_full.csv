@@ -1,0 +1,6 @@
+﻿Name,Day of Year,Time,Temp,Percipitation,Wind Speed,Visibility,Day Length,Cloudy,Fair,Heavy T-Storm,Partly Cloudy,Rain,Launched
+Test 1,338,1203,63,0,72,10,644,1,0,0,0,0,0
+Test 2,75,1061,79,0,4,1,702,1,0,0,0,0,1
+Test 3,154,879,83,0.28,6,15,801,0,0,0,0,1,1
+Test 4,155,781,69,16,6,15,802,0,0,1,0,0,0
+Test 5,140,993,78,0,25,10,778,0,1,0,0,0,1

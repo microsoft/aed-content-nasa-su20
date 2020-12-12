@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: 
+metadata:
+  title: Data Preparation Part 1 - Preliminary Steps
+  description: Download and prepare dataset columns for local and Azure-based data science.
+  ms.date: 12/14/20
+  author: sguthals
+  ms.author: shanama 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Data Preparation Part 1 - Preliminary Steps
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-data-prep_columns.md)]

@@ -45,11 +45,11 @@ for i in range(len(test_df.index)):
 ```
 
 ```output
-Kerbal 1 probability of delay is 4.00%
-Kerbal 2 probability of delay is 0.00%
-Kerbal 3 probability of delay is 4.00%
-Kerbal 4 probability of delay is 50.00%
-Kerbal 5 probability of delay is 24.00%
+Test 1 probability of delay is 4.00%
+Test 2 probability of delay is 0.00%
+Test 3 probability of delay is 4.00%
+Test 4 probability of delay is 50.00%
+Test 5 probability of delay is 24.00%
 ```
 
 Interestingly, while Extra Trees correctly flagged the launched delayed by heavy thunderstorms, it completely missed the delay due to high winds. Let's examine why.

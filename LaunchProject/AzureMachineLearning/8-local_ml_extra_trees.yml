@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Local Data Science Part 3 - Extra Random Trees
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
-  [!include[](includes/5-local_ml_extra_trees.md)]
+  [!include[](includes/8-local_ml_extra_trees.md)]

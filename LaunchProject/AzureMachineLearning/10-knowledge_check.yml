@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: Knowledge Check
-durationInMinutes:
+durationInMinutes: 
 content: |
-  [!include[](includes/7-knowledge_check.md)]
+  [!include[](includes/10-knowledge_check.md)]
 quiz:
   title: Check your knowledge
   questions:

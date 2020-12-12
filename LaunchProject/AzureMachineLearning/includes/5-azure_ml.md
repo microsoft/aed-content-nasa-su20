@@ -111,11 +111,11 @@ test.take(5).to_pandas_dataframe().reset_index(drop=True)
 
 | | Name | Date | Time | Temp | Percipitation | Wind Speed | Visibility | Day Length | Cloudy | Fair | Heavy T-Storm | Partly Cloudy | Rain | Launched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 0 | Kerbal 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 1 | Kerbal 2 | 75 | 1061 | 79 | 0.00 | 4 | 1 | 702 | 1 | 0 | 0 | 0 | 0 | 1 |
-| 2 | Kerbal 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
-| 3 | Kerbal 4 | 155 | 781 | 69 | 16.00 | 6 | 15 802 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 4 | Kerbal 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
+| 0 | Test 1 | 338 | 1203 | 63 | 0.00 | 72 | 10 | 644 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 1 | Test 2 | 75 | 1061 | 79 | 0.00 | 4 | 1 | 702 | 1 | 0 | 0 | 0 | 0 | 1 |
+| 2 | Test 3 | 154 | 879 | 83 | 0.28 | 6 | 15 | 801 | 0 | 0 | 0 | 0 | 1 | 1 |
+| 3 | Test 4 | 155 | 781 | 69 | 16.00 | 6 | 15 802 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 4 | Test 5 | 140 | 993 | 78 | 0.00 | 25 | 10 | 778 | 0 | 1 | 0 | 0 | 0 | 1 |
 
 You will also need to tell AzureML which metrics to optimize for in training the model. While want to make predictions about launch delays, we are not really extrapolating continuous data about future trends from our data, which is the hallmark of classical predictive ML. Instead, we are merely checking to see if a launch is likely to be delayed based on available data, which is a binary classification ML task. To view the list of available metrics, import and use the `get_primary_metrics` function for `'classification'`.
 
